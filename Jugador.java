@@ -1,5 +1,6 @@
 //INTELIROBOT ESCUELA DE ROBÓTICA SLP
 //intelirobot.com.mx
+//Programador por Yoalli y Diego
 import lejos.nxt.addon.*;
 import lejos.nxt.*;
 
