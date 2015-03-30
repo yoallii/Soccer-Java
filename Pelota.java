@@ -39,6 +39,23 @@ public class Pelota
 			LCD.drawInt(direccion, 1,3);
 			orientacion.resetCartesianZero();
 			LCD.drawInt(orientacion, 1,5);
+			LCD.clearDisplay();
+			LCD.drawInt((int)sensor.getDegreesCartesian(),1,1);
+			Delay.msDelay(100);			
+
+			if (sensor.getDegreesCartesian() < 30)
+			{
+			
+				m.frontAbackB(800);
+			
+			}
+			
+			if (sensor.getDegreesCartesian() > 120)
+			{
+			
+				m.avanzarAC(800);
+			
+			}
 
 
 			if (color.getColorID() == 1)
