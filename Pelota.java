@@ -31,6 +31,7 @@ public class Pelota
 
     public void buscaPelota()
     {
+
 		
 		while(!Button.ESCAPE.isDown())
 		{
@@ -61,6 +62,8 @@ public class Pelota
 
 			if (color.getColorID() == 1)
 		    {
+		    	if()
+
 			    
 			    m.detenerAB();
 			    m.retrocederAB(900);
@@ -78,8 +81,16 @@ public class Pelota
 		    
 		    else
 		    {
+		    	if(sensor.getDegreesCartesian() > 300 && sensor.getDegreesCartesian()<30)
+		    	{
+		    		m.avanzarAC(800);
+		    	}
+		    	else
+		    	{
+		    	if((sensor.getDegreesCartesian() < 30))
+		    	}
 
-            	if (direccion == 0)
+            	  m.frontAbackB(800);
             	{
             
             		m.detenerA();
