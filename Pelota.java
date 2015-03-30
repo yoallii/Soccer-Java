@@ -62,7 +62,6 @@ public class Pelota
 
 			if (color.getColorID() == 1)
 		    {
-		    	if()
 
 			    
 			    m.detenerAB();
@@ -87,11 +86,11 @@ public class Pelota
 		    	}
 		    	else
 		    	{
-		    	if((sensor.getDegreesCartesian() < 30))
-		    	}
+		    	if(sensor.getDegreesCartesian() < 30)
+		    	{
 
             	  m.frontAbackB(800);
-            	{
+            	}
             
             		m.detenerA();
             		m.frontCbackB(900);
