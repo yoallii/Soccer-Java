@@ -14,7 +14,7 @@ public class Jugador
 		IRSeekerV2 infra = new IRSeekerV2(SensorPort.S1 ,IRSeekerV2.Mode.AC);
 		CompassHTSensor brujula = new CompassHTSensor(SensorPort.S3);
 		Movimientos m = new Movimientos();
- 		Pelota buscar = new Pelota(infra, m, color);
+ 		Pelota buscar = new Pelota(infra, compas, m, color);
 		
 		buscar.buscaPelota();
 
