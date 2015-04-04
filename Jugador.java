@@ -17,13 +17,13 @@ public class Jugador
 		//Se instancia el sensor de color puerto 2..........
 		ColorSensor color = new ColorSensor(SensorPort.S2);
 		//Se instancia el sensor de infrarrojo puerto 1..........
-		IRSeekerV2 infra = new IRSeekerV2(SensorPort.S1 ,IRSeekerV2.Mode.AC);
+		IRSeekerV2 infra = new IRSeekerV2(SensorPort.S4 ,IRSeekerV2.Mode.AC);
 		//Se instancia el sensor de compas puerto 3..........
 		CompassHTSensor brujula = new CompassHTSensor(SensorPort.S3);
 		//Se instancea el objeto m de la clase de movimientos
 		Movimientos m = new Movimientos();
 		//Se instancea el objeto buscar de la clase Pelota
- 		Pelota buscar = new Pelota(infra, compas, m, color);//Se mandan los argumentos necesarios al constructor
+ 		Pelota buscar = new Pelota(infra, brujula , m, color);//Se mandan los argumentos necesarios al constructor
 		
 		//Se manda llamar el metodo buscarPelota de la clase Pelota
 		buscar.buscaPelota();
