@@ -59,18 +59,29 @@ public class Pelota
 				//.........................
 
 				//Si el sensor de color detecta un borde de la cancha
-				if (color.getColorID() == 6)
+				if (color.getColorID() == 6 )
 			    {
-	 				m.detenerABC();
-				    m.retrocederAB(900);
-				    Delay.msDelay(800);
+			    	if(direccion>=5)
+			    	{
+			    		m.detenerB();
+						m.frontAbackC(700);
+			    		Delay.msDelay(800);
+			    	}
+			    	else
+			    	{
+			    		m.detenerA();
+						m.frontCbackB(700);
+						Delay.msDelay(800);
+			    	}
+	 				
+	 				
 			    }
 			    
 			    //Si el sensor de color detecta la cancha
 			    else
 			    {
 			    	// si la brujula ve mayor de 30 y menor que 330 significa que esta chueco   
-					if (brujula.getDegreesCartesian() > 30 && brujula.getDegreesCartesian()<330 )
+					if (brujula.getDegreesCartesian() > 50 && brujula.getDegreesCartesian()<310 )
 					{
 						if(brujula.getDegreesCartesian() >= 180)// si la brujula ve mayor o igual a 180
 						{
@@ -88,8 +99,8 @@ public class Pelota
 			    		//DEPENDIENDO DEL IR SE VA A MOVER EL ROBOT
 			    		if(direccion==0)
 			    		{
-			    			m.detenerC();
-			    			m.frontBbackA(700);
+			    			m.frontBbackC(700);
+							m.detenerA();
 			    		}
 						if (direccion == 1)
 						{
