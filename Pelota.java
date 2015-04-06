@@ -13,7 +13,7 @@ public class Pelota
 {
     //Declaraciones necesarias...............
     //Sensor de color................
-   	private ColorSensor color;
+	private ColorSensor color;
    	//Sensor infrarrojo
     private IRSeekerV2 infra;
     //Sensor de tacto 
@@ -26,14 +26,14 @@ public class Pelota
     private int direccion, orientacion;
     
    //CONSTRUCTOR DE LA CLASE
-    public Pelota(IRSeekerV2 infrarrojo, CompassHTSensor compas, Movimientos m, ColorSensor c,TouchSensor tacto )
+    public Pelota(IRSeekerV2 infrarrojo, CompassHTSensor compas, Movimientos m, ColorSensor c,TouchSensor tacto)
     {
     
     	color = c;
 		infra = infrarrojo;
 		brujula = compas;
 		this.m = m;
-		touch=tacto;
+		touch = tacto;
 			 	  
     }
 
@@ -42,7 +42,7 @@ public class Pelota
     public void buscaPelota()
     {
     	//SE RESETEA EL SENSOR COMPAS EN 0
-    	brujula.resetCartesianZero();// Se inicializa en 0 ,fuera de ciclo s
+    	brujula.resetCartesianZero();//Se inicializa en 0 ,fuera de ciclo
     	    	
 		while(!Button.ESCAPE.isDown()) //mientras no se presione el boton ESCAPE
 		{
@@ -86,7 +86,8 @@ public class Pelota
 			    
 			    //Si el sensor de color detecta la cancha
 			    else
-			    {// si la brujula ve mayor de 30 y menor que 330 significa que esta chueco   
+			    {	
+			    	// si la brujula ve mayor de 30 y menor que 330 significa que esta chueco   
 					if (brujula.getDegreesCartesian() > 50 && brujula.getDegreesCartesian()<310)
 
 					//SE RESETEA EL SENSOR COMPAS EN 0
@@ -115,10 +116,10 @@ public class Pelota
 
 					}
 
-					if (color.getColorID() == 1)
+					if (color.getColorID() == 6)
 		    		{
  				
- 						m.detenerABC();
+ 						m.parar();
 			    		m.retrocederAB(900);
 			    		Delay.msDelay(900);
 		    
@@ -150,7 +151,7 @@ public class Pelota
 							if (direccion == 1)
 							{
 						
-								if(brujula.getDegreesCartesian() >= 180)// si la brujula ve mayor o igual a 180
+								if (brujula.getDegreesCartesian() >= 180)// si la brujula ve mayor o igual a 180
 								{
 						
 									m.retrocederAB(800); // Se  alineara
@@ -250,16 +251,16 @@ public class Pelota
 							}
 		    			}
 		    		}
-			    }	
-			}
-					
-			else
-			{
+				}				
+			}		    
+		}
+
+		else
+		{
 				
-				//DETENER MOTORES
-				m.parar();
+			//DETENER MOTORES
+			m.parar();
 				
-			}	    
 		}
     }
 }
