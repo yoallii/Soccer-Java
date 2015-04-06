@@ -257,11 +257,9 @@ public class Pelota
 			{
 				
 				//DETENER MOTORES
-				m.detenerABC();
+				m.parar();
 				
-			}
-			    
-
+			}	    
 		}
     }
 }
