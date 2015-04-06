@@ -27,7 +27,7 @@ public class Jugador
 		//Se instancea el objeto buscar de la clase Pelota
  		Pelota buscar = new Pelota(infra, brujula , m, color,tacto);//Se mandan los argumentos necesarios al constructor
 
-		//Se manda llamar el metodo buscarPelota de la clase Pelota
+		//Se manda llamar el metodo buscaPelota de la clase Pelota
 		buscar.buscaPelota();
 
 	}
