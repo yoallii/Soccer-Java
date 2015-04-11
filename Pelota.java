@@ -36,9 +36,8 @@ public class Pelota
 		touch = tacto;
 			 	  
     }
-
-
-    //Metodo para buscar la pelota...........................
+   	
+   	//Metodo para buscar la pelota...........................
     public void buscaPelota()
     {
     	//SE RESETEA EL SENSOR COMPAS EN 0
@@ -61,7 +60,7 @@ public class Pelota
 				//.........................
 
 				//Si el sensor de color detecta un borde de la cancha
-				if (color.getColorID() == 6 )
+				if (color.getColorID() == 6)
 			    {
 			    	
 			    	if (direccion >= 5)
@@ -128,7 +127,6 @@ public class Pelota
 		    		//Si el sensor de color detecta la cancha
 		    		else
 		    		{
-
 		    			//Y si detecta que la inclinacion es mayor de 30 grados
 						if (orientacion > 30)
 						{
@@ -168,7 +166,7 @@ public class Pelota
 							//Y si esta acomodado.........
 			    			else
 			    			{
-			    			//DEPENDIENDO DEL IR SE VA A MOVER EL ROBOT
+			    				//DEPENDIENDO DEL IR SE VA A MOVER EL ROBOT
 			    				if (direccion == 0)
 			    				{
 			    			
@@ -252,16 +250,18 @@ public class Pelota
 		    			}
 		    		}
 				}				
-			}	
+
+			}
+
 			else
-				{
-						
-					//DETENER MOTORES
-					m.parar();
-						
-				}	    
+			{
+				
+				//DETENER MOTORES
+				m.parar();
+				
+			}
+
 		}
 
-	
     }
 }
