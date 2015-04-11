@@ -23,7 +23,7 @@ public class Pelota
     //Clase programada por YOLO para motores
     private Movimientos m;
     //Atributos necesarios...............................
-    private int direccion, orientacion;
+    private int direccion, orientacion, formaMueve=0;
     
    //CONSTRUCTOR DE LA CLASE
     public Pelota(IRSeekerV2 infrarrojo, CompassHTSensor compas, Movimientos m, ColorSensor c,TouchSensor tacto)
@@ -62,193 +62,122 @@ public class Pelota
 				//Si el sensor de color detecta un borde de la cancha
 				if (color.getColorID() == 6)
 			    {
-			    	
-			    	if (direccion >= 5)
-			    	{
-			    		
-			    		m.detenerB();
-						m.frontAbackC(700);
-			    		Delay.msDelay(800);
-			    	
-			    	}
-			    	
-			    	else
-			    	{
-			    	
-			    		m.detenerA();
-						m.frontCbackB(700);
-						Delay.msDelay(800);
-			    	
-			    	}
+			    	noTeSalgas(formaMueve);
 
 			    }
 			    
-			    //Si el sensor de color detecta la cancha
+			      //Si el sensor de color detecta la cancha
 			    else
-			    {	
+			    {
 			    	// si la brujula ve mayor de 30 y menor que 330 significa que esta chueco   
-					if (brujula.getDegreesCartesian() > 50 && brujula.getDegreesCartesian()<310)
+					if (brujula.getDegreesCartesian() > 30 && brujula.getDegreesCartesian()<330 )
 					{
-						//SE RESETEA EL SENSOR COMPAS EN 0
-						brujula.resetCartesianZero();
-
-						//Imprimimos el id de color, IR, y grado de brujula
-						LCD.drawInt(color.getColorID(),1,1);
-						direccion = infra.getDirection(); //la direccion es lo que detecta el sensor IR
-						LCD.drawInt(direccion, 1,3);
-						orientacion =(int) brujula.getDegreesCartesian();//la orientacion es el grado que detecta el compas
-						LCD.drawInt(orientacion, 1,5);
-						LCD.clearDisplay();//LIMPIAMOS LA PANTALLA
-						Delay.msDelay(100);//hacemos una pausa de 100 milisegundos			
-						//.........................
-
-						//Si el sensor de color detecta un borde de la cancha
-						LCD.clearDisplay();
-						LCD.drawInt((int)brujula.getDegreesCartesian(),1,1);
-						Delay.msDelay(100);			
+						if(brujula.getDegreesCartesian() >= 180)// si la brujula ve mayor o igual a 180
+						{
+							do{
+								m.detenerC();
+								m.retrocederAB(500); // Se  alineara
+								
+								
+							}while(brujula.getDegreesCartesian() < 350);
+							
+						}
+						else
+						{
+							do{
+								 m.detenerC();
+								 m.avanzarAB(500);	//Se alineara
+							}while(brujula.getDegreesCartesian() > 7);
+						   
+						}
 					}
-					if (brujula.getDegreesCartesian() < 30 && brujula.getDegreesCartesian() > 300)
-					{
+		    
+		    		//Y si esta acomodado.........
+	    			else
+	    			{
+	    				//DEPENDIENDO DEL IR SE VA A MOVER EL ROBOT
+	    				if (direccion == 0)
+	    				{
+	    					formaMueve=4;
+	    					m.frontBbackC(700);
+							m.detenerA();
+	    		
+	    				}
+				
+						if (direccion == 1)
+						{
+							formaMueve=5;
+							m.frontBbackC(700);
+							m.detenerA();
+				
+						}
+ 
+						if (direccion == 2)
+						{
+							formaMueve=6;
+							m.detenerB();
+							m.frontAbackC(700);
+				
+						}
+         
+						if (direccion == 3)
+						{
+							formaMueve=6;
+							m.detenerB();
+							m.frontAbackC(700);
+				
+						}
+
+						if (direccion == 4)
+						{
+							formaMueve=6;
+							m.detenerB();
+							m.frontAbackC(700);
+   				
+   						}
 			
-						m.frontAbackB(800);
-						m.avanzarAC(800);
+						if (direccion == 5)
+						{
+							formaMueve=1;
+							m.detenerC();
+							m.frontAbackB(700);
+				
+						}
+        
+						if (direccion == 6)
+						{
+							formaMueve=2;
+							m.detenerA();
+							m.frontCbackB(700);
+				
+						}
+ 
+						if (direccion == 7)
+						{
+							formaMueve=2;
+							m.detenerA();
+							m.frontCbackB(700);
+				
+						}
+         
+						if (direccion == 8)
+						{
+							formaMueve=2;
+							m.detenerA();
+							m.frontCbackB(700);
+				
+						}
 
+						if (direccion == 9)
+						{
+							formaMueve=3;
+							m.detenerB();
+							m.frontCbackA(700);
+				
+						}
 					}
-
-					if (color.getColorID() == 6)
-		    		{
- 				
- 						m.parar();
-			    		m.retrocederAB(900);
-			    		Delay.msDelay(900);
-		    
-		    		}
-		    
-		    		//Si el sensor de color detecta la cancha
-		    		else
-		    		{
-		    			//Y si detecta que la inclinacion es mayor de 30 grados
-						if (orientacion > 30)
-						{
-					
-							m.frontAbackB(800); //Que se acomode
-				
-						}
-						//Y si detecta que la inclinacion es menor que 300 grados
-						if (orientacion < 300)
-						{
-					
-								m.avanzarAC(800);
-								//Se va a linear
-				
-						}
-						//Y si esta acomodado.........
-		    			if (orientacion >= 300 && orientacion<=30)
-		    			{
-		    			//DEPENDIENDO DEL IR SE VA A MOVER EL ROBOT
-							if (direccion == 1)
-							{
-						
-								if (brujula.getDegreesCartesian() >= 180)// si la brujula ve mayor o igual a 180
-								{
-						
-									m.retrocederAB(800); // Se  alineara
-						
-								}
-						
-								else
-								{
-						
-						    		m.avanzarAB(800);	//Se alineara
-						
-								}
-				    		}
-							//Y si esta acomodado.........
-			    			else
-			    			{
-			    				//DEPENDIENDO DEL IR SE VA A MOVER EL ROBOT
-			    				if (direccion == 0)
-			    				{
-			    			
-			    					m.frontBbackC(700);
-									m.detenerA();
-			    		
-			    				}
-						
-								if (direccion == 1)
-								{
-
-									m.frontBbackC(700);
-									m.detenerA();
-						
-								}
-		 
-								if (direccion == 2)
-								{
-						
-									m.detenerB();
-									m.frontAbackC(700);
-						
-								}
-		         
-								if (direccion == 3)
-								{
-						
-									m.detenerB();
-									m.frontAbackC(700);
-						
-								}
-
-								if (direccion == 4)
-								{
-						
-									m.detenerB();
-									m.frontAbackC(700);
-		   				
-		   						}
-					
-								if (direccion == 5)
-								{
-							
-									m.detenerC();
-									m.frontAbackB(700);
-						
-								}
-		        
-								if (direccion == 6)
-								{
-						
-									m.detenerA();
-									m.frontCbackB(700);
-						
-								}
-		 
-								if (direccion == 7)
-								{
-							
-									m.detenerA();
-									m.frontCbackB(700);
-						
-								}
-		         
-								if (direccion == 8)
-								{
-						
-									m.detenerA();
-									m.frontCbackB(700);
-						
-								}
-
-								if (direccion == 9)
-								{
-						
-									m.detenerB();
-									m.frontCbackA(700);
-						
-								}
-							}
-		    			}
-		    		}
+		    			
+		    		
 				}				
 
 			}
@@ -263,5 +192,42 @@ public class Pelota
 
 		}
 
+    }
+
+    public void noTeSalgas(int va)
+    {
+    	switch(va)
+    	{
+    		case 1:
+    			m.frontBbackC(700);
+				m.detenerA();
+				Delay.msDelay(900);
+    			break;
+    		case 2:
+    			m.detenerB();
+				m.frontAbackC(700);
+				Delay.msDelay(900);
+    			break;
+    		case 3:
+    			m.frontBbackC(700);
+				m.detenerA();
+				Delay.msDelay(900);
+    			break;
+    		case 4:
+    			m.detenerC();
+				m.frontAbackB(700);
+				Delay.msDelay(900);
+    			break;
+    		case 5:
+    			m.detenerB();
+				m.frontCbackA(700);
+				Delay.msDelay(900);
+    			break;
+    		case 6:
+    			m.detenerA();
+				m.frontCbackB(700);
+				Delay.msDelay(900);
+    			break;
+    	}
     }
 }
