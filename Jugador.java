@@ -14,7 +14,7 @@ public class Jugador
 	//MAIN...............................
 	public static void main(String[] args)
 	{
-		//Se instancia el sensor de color puerto 2..........
+		//Se instancia el sensor de color puerto 4..........
 		ColorSensor color = new ColorSensor(SensorPort.S4);
 		//Se instancia el sensor de infrarrojo puerto 1..........
 		IRSeekerV2 infra = new IRSeekerV2(SensorPort.S1 ,IRSeekerV2.Mode.AC);
@@ -22,7 +22,7 @@ public class Jugador
 		CompassHTSensor brujula = new CompassHTSensor(SensorPort.S3);
 		//Se instancea el objeto m de la clase de movimientos
 		Movimientos m = new Movimientos();
-		//Se instancia el sensor de tacto
+		//Se instancia el sensor de tacto puerto 2
 		TouchSensor tacto = new TouchSensor(SensorPort.S2);
 		//Se instancea el objeto buscar de la clase Pelota
  		Pelota buscar = new Pelota(infra, brujula , m, color, tacto);//Se mandan los argumentos necesarios al constructor
