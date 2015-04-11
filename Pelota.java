@@ -89,26 +89,26 @@ public class Pelota
 			    {	
 			    	// si la brujula ve mayor de 30 y menor que 330 significa que esta chueco   
 					if (brujula.getDegreesCartesian() > 50 && brujula.getDegreesCartesian()<310)
+					{
+						//SE RESETEA EL SENSOR COMPAS EN 0
+						brujula.resetCartesianZero();
 
-					//SE RESETEA EL SENSOR COMPAS EN 0
-					brujula.resetCartesianZero();
+						//Imprimimos el id de color, IR, y grado de brujula
+						LCD.drawInt(color.getColorID(),1,1);
+						direccion = infra.getDirection(); //la direccion es lo que detecta el sensor IR
+						LCD.drawInt(direccion, 1,3);
+						orientacion =(int) brujula.getDegreesCartesian();//la orientacion es el grado que detecta el compas
+						LCD.drawInt(orientacion, 1,5);
+						LCD.clearDisplay();//LIMPIAMOS LA PANTALLA
+						Delay.msDelay(100);//hacemos una pausa de 100 milisegundos			
+						//.........................
 
-					//Imprimimos el id de color, IR, y grado de brujula
-					LCD.drawInt(color.getColorID(),1,1);
-					direccion = infra.getDirection(); //la direccion es lo que detecta el sensor IR
-					LCD.drawInt(direccion, 1,3);
-					orientacion = brujula.getDegreesCartesian();//la orientacion es el grado que detecta el compas
-					LCD.drawInt(orientacion, 1,5);
-					LCD.clearDisplay();//LIMPIAMOS LA PANTALLA
-					Delay.msDelay(100);//hacemos una pausa de 100 milisegundos			
-					//.........................
-
-					//Si el sensor de color detecta un borde de la cancha
-					LCD.clearDisplay();
-					LCD.drawInt((int)sensor.getDegreesCartesian(),1,1);
-					Delay.msDelay(100);			
-
-					if (sensor.getDegreesCartesian() < 30 && sensor.getDegreesCartesian() > 300)
+						//Si el sensor de color detecta un borde de la cancha
+						LCD.clearDisplay();
+						LCD.drawInt((int)brujula.getDegreesCartesian(),1,1);
+						Delay.msDelay(100);			
+					}
+					if (brujula.getDegreesCartesian() < 30 && brujula.getDegreesCartesian() > 300)
 					{
 			
 						m.frontAbackB(800);
@@ -252,15 +252,16 @@ public class Pelota
 		    			}
 		    		}
 				}				
-			}		    
+			}	
+			else
+				{
+						
+					//DETENER MOTORES
+					m.parar();
+						
+				}	    
 		}
 
-		else
-		{
-				
-			//DETENER MOTORES
-			m.parar();
-				
-		}
+	
     }
 }
