@@ -43,7 +43,7 @@ public class Pelota
     	//SE RESETEA EL SENSOR COMPAS EN 0
     	brujula.resetCartesianZero();//Se inicializa en 0 ,fuera de ciclo
     	    	
-		while(!Button.ESCAPE.isDown()) //mientras no se presione el boton ESCAPE
+		while(true) //mientras no se presione el boton ESCAPE
 		{
 
 			if(!touch.isPressed())
@@ -70,7 +70,7 @@ public class Pelota
 			    else
 			    {
 			    	// si la brujula ve mayor de 30 y menor que 330 significa que esta chueco   
-					if (brujula.getDegreesCartesian() > 30 && brujula.getDegreesCartesian()<330 )
+					if (brujula.getDegreesCartesian() > 35 && brujula.getDegreesCartesian()<330 )
 					{
 						if(brujula.getDegreesCartesian() >= 180)// si la brujula ve mayor o igual a 180
 						{
@@ -79,7 +79,7 @@ public class Pelota
 								m.retrocederAB(500); // Se  alineara
 								
 								
-							}while(brujula.getDegreesCartesian() < 350);
+							}while(brujula.getDegreesCartesian() < 340);
 							
 						}
 						else
@@ -87,7 +87,7 @@ public class Pelota
 							do{
 								 m.detenerC();
 								 m.avanzarAB(500);	//Se alineara
-							}while(brujula.getDegreesCartesian() > 7);
+							}while(brujula.getDegreesCartesian() > 12);
 						   
 						}
 					}
@@ -99,16 +99,18 @@ public class Pelota
 	    				if (direccion == 0)
 	    				{
 	    					formaMueve=4;
-	    					m.frontBbackC(700);
-							m.detenerA();
+	    					m.detenerC();
+	    					m.frontBbackA(600);
+							
 	    		
 	    				}
 				
 						if (direccion == 1)
 						{
 							formaMueve=5;
-							m.frontBbackC(700);
 							m.detenerA();
+							m.frontBbackC(900);
+							
 				
 						}
  
@@ -116,7 +118,7 @@ public class Pelota
 						{
 							formaMueve=6;
 							m.detenerB();
-							m.frontAbackC(700);
+							m.frontAbackC(900);
 				
 						}
          
@@ -124,7 +126,7 @@ public class Pelota
 						{
 							formaMueve=6;
 							m.detenerB();
-							m.frontAbackC(700);
+							m.frontAbackC(800);
 				
 						}
 
@@ -132,7 +134,7 @@ public class Pelota
 						{
 							formaMueve=6;
 							m.detenerB();
-							m.frontAbackC(700);
+							m.frontAbackC(600);
    				
    						}
 			
@@ -140,7 +142,7 @@ public class Pelota
 						{
 							formaMueve=1;
 							m.detenerC();
-							m.frontAbackB(700);
+							m.frontAbackB(800);
 				
 						}
         
@@ -148,7 +150,7 @@ public class Pelota
 						{
 							formaMueve=2;
 							m.detenerA();
-							m.frontCbackB(700);
+							m.frontCbackB(900);
 				
 						}
  
@@ -156,7 +158,7 @@ public class Pelota
 						{
 							formaMueve=2;
 							m.detenerA();
-							m.frontCbackB(700);
+							m.frontCbackB(800);
 				
 						}
          
@@ -164,7 +166,9 @@ public class Pelota
 						{
 							formaMueve=2;
 							m.detenerA();
-							m.frontCbackB(700);
+							m.frontCbackB(600);
+				
+							
 				
 						}
 
@@ -172,7 +176,7 @@ public class Pelota
 						{
 							formaMueve=3;
 							m.detenerB();
-							m.frontCbackA(700);
+							m.frontCbackA(600);
 				
 						}
 					}
@@ -201,32 +205,32 @@ public class Pelota
     		case 1:
     			m.frontBbackC(700);
 				m.detenerA();
-				Delay.msDelay(900);
+				Delay.msDelay(450);
     			break;
     		case 2:
     			m.detenerB();
 				m.frontAbackC(700);
-				Delay.msDelay(900);
+				Delay.msDelay(450);
     			break;
     		case 3:
     			m.frontBbackC(700);
 				m.detenerA();
-				Delay.msDelay(900);
+				Delay.msDelay(450);
     			break;
     		case 4:
     			m.detenerC();
 				m.frontAbackB(700);
-				Delay.msDelay(900);
+				Delay.msDelay(450);
     			break;
     		case 5:
     			m.detenerB();
 				m.frontCbackA(700);
-				Delay.msDelay(900);
+				Delay.msDelay(450);
     			break;
     		case 6:
     			m.detenerA();
 				m.frontCbackB(700);
-				Delay.msDelay(900);
+				Delay.msDelay(450);
     			break;
     	}
     }
