@@ -223,27 +223,27 @@ public class Pelota
     			break;
     		case 2:
     			m.detenerB();
-				m.frontAbackC(700);
+				m.frontAbackC(800);
 				Delay.msDelay(350);
     			break;
     		case 3:
-    			m.frontBbackC(700);
-				m.detenerA();
+    			m.detenerA();
+				m.frontBbackC(800);
 				Delay.msDelay(350);
     			break;
     		case 4:
     			m.detenerC();
-				m.frontAbackB(700);
+				m.frontAbackB(800);
 				Delay.msDelay(350);
     			break;
     		case 5:
     			m.detenerB();
-				m.frontCbackA(700);
+				m.frontCbackA(800);
 				Delay.msDelay(350);
     			break;
     		case 6:
     			m.detenerA();
-				m.frontCbackB(700);
+				m.frontCbackB(800);
 				Delay.msDelay(350);
     			break;
     	}
