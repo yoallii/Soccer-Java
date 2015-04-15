@@ -57,159 +57,196 @@ public class Pelota
 			if(!touch.isPressed())
 			{
 
-				//Si el sensor de color detecta un borde de la cancha
-				if (color.getColorID() == 6)
-			    {
-			    	noTeSalgas(formaMueve);
-
-			    }
-			    
-			      //Si el sensor de color detecta la cancha
-			    else
-			    {
-			    	// si la brujula ve mayor de 30 y menor que 330 significa que esta chueco   
-					if (brujula.getDegreesCartesian() > 35 && brujula.getDegreesCartesian()<330 )
+			  	// si la brujula ve mayor de 30 y menor que 330 significa que esta chueco   
+				if (brujula.getDegreesCartesian() > 35 && brujula.getDegreesCartesian()<330 )
+				{
+					if(brujula.getDegreesCartesian() >= 180)// si la brujula ve mayor o igual a 180
 					{
-						if(brujula.getDegreesCartesian() >= 180)// si la brujula ve mayor o igual a 180
-						{
-							do{
-								m.detenerC();
-								m.retrocederAB(500); // Se  alineara
-								
-								
-							}while(brujula.getDegreesCartesian() < 340);
-							
-						}
-						else
-						{
-							do{
-								 m.detenerC();
-								 m.avanzarAB(500);	//Se alineara
-							}while(brujula.getDegreesCartesian() > 15);
-						   
-						}
-					}
-		    
-		    		//Y si esta acomodado.........
-	    			else
-	    			{
-	    				//DEPENDIENDO DEL IR SE VA A MOVER EL ROBOT
-	    				if (direccion == 0)
-	    				{
-	    					formaMueve=4;
-	    					m.detenerC();
-	    					m.frontBbackA(750);
-							
-	    		
-	    				}
-				
-						if (direccion == 1)
-						{
-							formaMueve=5;
-							m.detenerA();
-							m.frontBbackC(900);
-							
-				
-						}
- 
-						if (direccion == 2)
-						{
-							formaMueve=5;
-							m.detenerA();
-							m.frontBbackC(800);
-							//formaMueve=6;
-							//m.detenerB();
-							//m.frontAbackC(800);
-				
-						}
-         
-						if (direccion == 3)
-						{
-							formaMueve=6;
-							m.detenerB();
-							m.frontAbackC(800);
-				
-						}
-
-						if (direccion == 4)
-						{
-							
-							formaMueve=2;
-							m.detenerA();
-							m.frontCbackB(700);
-							//formaMueve=6;
-							//m.detenerB();
-							//m.frontAbackC(600);
-   				
-   						}
-			
-						if (direccion == 5)
-						{
-							formaMueve=6;
-							m.detenerB();
-							m.frontAbackC(700);
-							/*formaMueve=1;
+						do{
 							m.detenerC();
-							m.frontAbackB(600);
-							*/
-						}
-        
-						if (direccion == 6)
-						{	
-							formaMueve=6;
-							m.detenerB();
-							m.frontAbackC(500);
-							//formaMueve=2;
-							//m.detenerA();
-							//m.frontCbackB(600);
-				
-						}
- 
-						if (direccion == 7)
-						{
-							formaMueve=2;
-							m.detenerA();
-							m.frontCbackB(800);
-				
-						}
-         
-						if (direccion == 8)
-						{
-							formaMueve=3;
-							m.detenerB();
-							m.frontCbackA(800);
-							//formaMueve=2;
-							//m.detenerA();
-							//m.frontCbackB(800);
-				
+							m.retrocederAB(500); // Se  alineara
 							
-				
-						}
-
-						if (direccion == 9)
-						{
-							formaMueve=3;
-							m.detenerB();
-							m.frontCbackA(900);
-				
-						}
+							
+						}while(brujula.getDegreesCartesian() < 340);
+						
 					}
-		    			
-		    		
-				}				
+					else
+					{
+						do{
+							 m.detenerC();
+							 m.avanzarAB(500);	//Se alineara
+						}while(brujula.getDegreesCartesian() > 15);
+					   
+					}
+				}
+	    
+	    		//Y si esta acomodado.........
+    			else
+    			{
+    				//DEPENDIENDO DEL IR SE VA A MOVER EL ROBOT
+    				if (direccion == 0)
+    				{
+    					formaMueve=4;
+			    		//Si el sensor de color detecta un borde de la cancha
+						if (color.getColorID() == 6)
+					    {
+					    	noTeSalgas(formaMueve);
 
+					    }
+    					else
+    					{
+    					  m.detenerC();
+    					  m.frontBbackA(750);	
+    					}
+    					
+						
+    		
+    				}
+			
+					if (direccion == 1)
+					{
+						formaMueve=5;
+						//Si el sensor de color detecta un borde de la cancha
+						if (color.getColorID() == 6)
+					    {
+					    	noTeSalgas(formaMueve);
+					    }
+    					else
+    					{
+    					 m.detenerA();
+						 m.frontBbackC(900);
+    					}
+					}
+
+					if (direccion == 2)
+					{
+						formaMueve=5;
+						//Si el sensor de color detecta un borde de la cancha
+						if (color.getColorID() == 6)
+					    {
+					    	noTeSalgas(formaMueve);
+					    }
+    					else
+    					{
+	    					m.detenerA();
+							m.frontBbackC(800);
+    					}	
+					}
+     
+					if (direccion == 3)
+					{
+						formaMueve=6;
+						//Si el sensor de color detecta un borde de la cancha
+						if (color.getColorID() == 6)
+					    {
+					    	noTeSalgas(formaMueve);
+					    }
+    					else
+    					{
+	    					m.detenerB();
+							m.frontAbackC(800);
+    					}	
+					}
+
+					if (direccion == 4)
+					{
+						
+						formaMueve=2;
+						//Si el sensor de color detecta un borde de la cancha
+						if (color.getColorID() == 6)
+					    {
+					    	noTeSalgas(formaMueve);
+					    }
+    					else
+    					{
+	    					m.detenerA();
+							m.frontCbackB(700);
+    					}	
+					}
+		
+					if (direccion == 5)
+					{
+						formaMueve=6;
+						//Si el sensor de color detecta un borde de la cancha
+						if (color.getColorID() == 6)
+					    {
+					    	noTeSalgas(formaMueve);
+					    }
+    					else
+    					{
+	    					m.detenerB();
+							m.frontAbackC(700);
+    					}	
+					}
+    
+					if (direccion == 6)
+					{	
+						formaMueve=6;
+						//Si el sensor de color detecta un borde de la cancha
+						if (color.getColorID() == 6)
+					    {
+					    	noTeSalgas(formaMueve);
+					    }
+    					else
+    					{
+	    					m.detenerB();
+						  m.frontAbackC(500);
+    					}
+					}
+
+					if (direccion == 7)
+					{
+						formaMueve=2;
+						//Si el sensor de color detecta un borde de la cancha
+						if (color.getColorID() == 6)
+					    {
+					    	noTeSalgas(formaMueve);
+					    }
+    					else
+    					{
+	    					m.detenerA();
+							m.frontCbackB(800);
+    					}
+					}
+     
+					if (direccion == 8)
+					{
+						formaMueve=3;
+						//Si el sensor de color detecta un borde de la cancha
+						if (color.getColorID() == 6)
+					    {
+					    	noTeSalgas(formaMueve);
+					    }
+    					else
+    					{
+	    					m.detenerB();
+							m.frontCbackA(800);
+    					}
+ 					}
+
+					if (direccion == 9)
+					{
+						formaMueve=3;
+						//Si el sensor de color detecta un borde de la cancha
+						if (color.getColorID() == 6)
+					    {
+					    	noTeSalgas(formaMueve);
+					    }
+    					else
+    					{
+	    					m.detenerB();
+							m.frontCbackA(900);
+    					}
+					}
+				}	
 			}
-
 			else
 			{
 				
 				//DETENER MOTORES
-				m.parar();
-				
-			}
-
+				m.parar();	
+			}				
 		}
-
     }
 
     public void noTeSalgas(int va)
