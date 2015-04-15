@@ -98,7 +98,7 @@ public class Pelota
 	    				{
 	    					formaMueve=4;
 	    					m.detenerC();
-	    					m.frontBbackA(700);
+	    					m.frontBbackA(750);
 							
 	    		
 	    				}
@@ -114,9 +114,12 @@ public class Pelota
  
 						if (direccion == 2)
 						{
-							formaMueve=6;
-							m.detenerB();
-							m.frontAbackC(800);
+							formaMueve=5;
+							m.detenerA();
+							m.frontBbackC(800);
+							//formaMueve=6;
+							//m.detenerB();
+							//m.frontAbackC(800);
 				
 						}
          
@@ -124,31 +127,41 @@ public class Pelota
 						{
 							formaMueve=6;
 							m.detenerB();
-							m.frontAbackC(700);
+							m.frontAbackC(800);
 				
 						}
 
 						if (direccion == 4)
 						{
-							formaMueve=6;
-							m.detenerB();
-							m.frontAbackC(600);
+							
+							formaMueve=2;
+							m.detenerA();
+							m.frontCbackB(700);
+							//formaMueve=6;
+							//m.detenerB();
+							//m.frontAbackC(600);
    				
    						}
 			
 						if (direccion == 5)
 						{
-							formaMueve=1;
+							formaMueve=6;
+							m.detenerB();
+							m.frontAbackC(700);
+							/*formaMueve=1;
 							m.detenerC();
 							m.frontAbackB(600);
-				
+							*/
 						}
         
 						if (direccion == 6)
-						{
-							formaMueve=2;
-							m.detenerA();
-							m.frontCbackB(600);
+						{	
+							formaMueve=6;
+							m.detenerB();
+							m.frontAbackC(500);
+							//formaMueve=2;
+							//m.detenerA();
+							//m.frontCbackB(600);
 				
 						}
  
@@ -156,15 +169,18 @@ public class Pelota
 						{
 							formaMueve=2;
 							m.detenerA();
-							m.frontCbackB(700);
+							m.frontCbackB(800);
 				
 						}
          
 						if (direccion == 8)
 						{
-							formaMueve=2;
-							m.detenerA();
-							m.frontCbackB(800);
+							formaMueve=3;
+							m.detenerB();
+							m.frontCbackA(800);
+							//formaMueve=2;
+							//m.detenerA();
+							//m.frontCbackB(800);
 				
 							
 				
