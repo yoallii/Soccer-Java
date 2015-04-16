@@ -6,6 +6,7 @@
 import lejos.nxt.addon.*; 	//Para sensor infrarrojo y compas
 import lejos.util.*; // Para delay
 import lejos.nxt.*; // Para motores y sensores en general
+import java.util.*; //Para numeros RANDOM
 //..................................
 
 //Clase Pelota...................................
@@ -22,8 +23,10 @@ public class Pelota
     private CompassHTSensor brujula;
     //Clase programada por YOLO para motores
     private Movimientos m;
+    //Clase para numeros RANDOM......................
+    private Random rand;
     //Atributos necesarios...............................
-    private int direccion, orientacion, formaMueve=0;
+    private int direccion, orientacion,numeroAleatorio;
     
    //CONSTRUCTOR DE LA CLASE
     public Pelota(IRSeekerV2 infrarrojo, CompassHTSensor compas, Movimientos m, ColorSensor c,TouchSensor tacto)
@@ -34,7 +37,7 @@ public class Pelota
 		brujula = compas;
 		this.m = m;
 		touch = tacto;
-			 	  
+		rand = new Random();
     }
    	
    	//Metodo para buscar la pelota...........................
@@ -86,45 +89,54 @@ public class Pelota
     				//DEPENDIENDO DEL IR SE VA A MOVER EL ROBOT
     				if (direccion == 0)
     				{
-    					formaMueve=4;
-			    		//Si el sensor de color detecta un borde de la cancha
+    					numeroAleatorio=rand.nextInt(2);
+    					//Si el sensor de color detecta un borde de la cancha
 						if (color.getColorID() == 6)
 					    {
-					    	noTeSalgas(formaMueve);
-
+					    	m.detenerA();
+					    	m.frontBbackC(700);
+							Delay.msDelay(400);
 					    }
     					else
     					{
-    					  m.detenerC();
-    					  m.frontBbackA(750);	
+	    					if (numeroAleatorio==0) 
+	    					{
+	    						m.detenerB();
+								m.frontCbackA(900);
+	    					}
+	    					else
+	    					{
+	    						m.detenerA();
+								m.frontBbackC(900);
+	    					}
+    						
     					}
-    					
-						
-    		
     				}
 			
 					if (direccion == 1)
 					{
-						formaMueve=5;
 						//Si el sensor de color detecta un borde de la cancha
 						if (color.getColorID() == 6)
 					    {
-					    	noTeSalgas(formaMueve);
+					    	m.detenerB();
+							m.frontCbackA(850);
+							Delay.msDelay(400);
 					    }
     					else
     					{
-    					 m.detenerA();
-						 m.frontBbackC(900);
+	    					m.detenerA();
+							m.frontBbackC(900);
     					}
 					}
 
 					if (direccion == 2)
 					{
-						formaMueve=5;
 						//Si el sensor de color detecta un borde de la cancha
 						if (color.getColorID() == 6)
 					    {
-					    	noTeSalgas(formaMueve);
+					    	m.detenerB();
+							m.frontCbackA(850);
+							Delay.msDelay(400);
 					    }
     					else
     					{
@@ -135,11 +147,12 @@ public class Pelota
      
 					if (direccion == 3)
 					{
-						formaMueve=6;
 						//Si el sensor de color detecta un borde de la cancha
 						if (color.getColorID() == 6)
 					    {
-					    	noTeSalgas(formaMueve);
+					    	m.detenerA();
+							m.frontCbackB(850);
+							Delay.msDelay(400);
 					    }
     					else
     					{
@@ -150,12 +163,12 @@ public class Pelota
 
 					if (direccion == 4)
 					{
-						
-						formaMueve=2;
 						//Si el sensor de color detecta un borde de la cancha
 						if (color.getColorID() == 6)
 					    {
-					    	noTeSalgas(formaMueve);
+					    	m.detenerB();
+							m.frontAbackC(850);
+							Delay.msDelay(400);
 					    }
     					else
     					{
@@ -166,56 +179,80 @@ public class Pelota
 		
 					if (direccion == 5)
 					{
-						formaMueve=6;
+						numeroAleatorio=rand.nextInt(2);
 						//Si el sensor de color detecta un borde de la cancha
 						if (color.getColorID() == 6)
 					    {
-					    	noTeSalgas(formaMueve);
+					    	if(numeroAleatorio==0)
+    						{
+    							m.detenerB();
+								m.frontAbackC(850);
+								Delay.msDelay(400);
+    						}
+    						else
+    						{
+    							m.detenerA();
+								m.frontCbackB(850);
+								Delay.msDelay(400);	
+    						}
 					    }
     					else
     					{
-	    					m.detenerB();
-							m.frontAbackC(700);
+    						if(numeroAleatorio==0)
+    						{
+    							m.detenerA();
+								m.frontCbackB(700);
+    						}
+    						else
+    						{
+    							m.detenerB();
+								m.frontAbackC(700);	
+    						}
+	    					
     					}	
 					}
     
 					if (direccion == 6)
 					{	
-						formaMueve=6;
 						//Si el sensor de color detecta un borde de la cancha
 						if (color.getColorID() == 6)
 					    {
-					    	noTeSalgas(formaMueve);
+					    	m.detenerA();
+							m.frontCbackB(850);
+							Delay.msDelay(400);
 					    }
     					else
     					{
 	    					m.detenerB();
-						  m.frontAbackC(500);
+						    m.frontAbackC(500);
     					}
 					}
 
 					if (direccion == 7)
 					{
-						formaMueve=2;
 						//Si el sensor de color detecta un borde de la cancha
 						if (color.getColorID() == 6)
 					    {
-					    	noTeSalgas(formaMueve);
+					    	m.detenerB();
+						    m.frontAbackC(850);
+						    Delay.msDelay(400);
 					    }
     					else
     					{
 	    					m.detenerA();
 							m.frontCbackB(800);
+							Delay.msDelay(400);
     					}
 					}
      
 					if (direccion == 8)
 					{
-						formaMueve=3;
 						//Si el sensor de color detecta un borde de la cancha
 						if (color.getColorID() == 6)
 					    {
-					    	noTeSalgas(formaMueve);
+					    	m.detenerA();
+							m.frontBbackC(850);
+							Delay.msDelay(400);
 					    }
     					else
     					{
@@ -226,11 +263,12 @@ public class Pelota
 
 					if (direccion == 9)
 					{
-						formaMueve=3;
 						//Si el sensor de color detecta un borde de la cancha
 						if (color.getColorID() == 6)
 					    {
-					    	noTeSalgas(formaMueve);
+					    	m.detenerA();
+							m.frontBbackC(850);
+							Delay.msDelay(400);
 					    }
     					else
     					{
@@ -242,47 +280,10 @@ public class Pelota
 			}
 			else
 			{
-				
 				//DETENER MOTORES
 				m.parar();	
 			}				
 		}
     }
 
-    public void noTeSalgas(int va)
-    {
-    	switch(va)
-    	{
-    		case 1:
-    			m.frontBbackC(700);
-				m.detenerA();
-				Delay.msDelay(350);
-    			break;
-    		case 2:
-    			m.detenerB();
-				m.frontAbackC(800);
-				Delay.msDelay(350);
-    			break;
-    		case 3:
-    			m.detenerA();
-				m.frontBbackC(800);
-				Delay.msDelay(350);
-    			break;
-    		case 4:
-    			m.detenerC();
-				m.frontAbackB(800);
-				Delay.msDelay(350);
-    			break;
-    		case 5:
-    			m.detenerB();
-				m.frontCbackA(800);
-				Delay.msDelay(350);
-    			break;
-    		case 6:
-    			m.detenerA();
-				m.frontCbackB(800);
-				Delay.msDelay(350);
-    			break;
-    	}
-    }
 }
