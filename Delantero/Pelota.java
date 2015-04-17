@@ -93,9 +93,19 @@ public class Pelota
     					//Si el sensor de color detecta un borde de la cancha
 						if (color.getColorID() == 6)
 					    {
-					    	m.detenerA();
-					    	m.frontBbackC(700);
-							Delay.msDelay(400);
+					    	if (numeroAleatorio==0) 
+	    					{
+	    						m.detenerA();
+								m.frontBbackC(850);
+								Delay.msDelay(400);
+	    					}
+	    					else
+	    					{
+	    						m.detenerB();
+								m.frontCbackA(850);
+								Delay.msDelay(400);
+	    					}
+
 					    }
     					else
     					{
