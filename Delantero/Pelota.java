@@ -22,14 +22,14 @@ public class Pelota
     //Sensor de compas
     private CompassHTSensor brujula;
     //Clase programada por YOLO para motores
-    private Movimientos m;
+    private MovimientosMejorados m;
     //Clase para numeros RANDOM......................
     private Random rand;
     //Atributos necesarios...............................
     private int direccion, orientacion,numeroAleatorio;
     
    //CONSTRUCTOR DE LA CLASE
-    public Pelota(IRSeekerV2 infrarrojo, CompassHTSensor compas, Movimientos m, ColorSensor c,TouchSensor tacto)
+    public Pelota(IRSeekerV2 infrarrojo, CompassHTSensor compas, MovimientosMejorados m, ColorSensor c,TouchSensor tacto)
     {
     
     	color = c;
@@ -95,14 +95,12 @@ public class Pelota
 					    {
 					    	if (numeroAleatorio==0) 
 	    					{
-	    						m.detenerA();
-								m.frontBbackC(850);
+	    						m.atrasDiagonalIzq(850);
 								Delay.msDelay(400);
 	    					}
 	    					else
 	    					{
-	    						m.detenerB();
-								m.frontCbackA(850);
+	    						m.atrasDiagonalDer(850);
 								Delay.msDelay(400);
 	    					}
 
@@ -111,13 +109,11 @@ public class Pelota
     					{
 	    					if (numeroAleatorio==0) 
 	    					{
-	    						m.detenerB();
-								m.frontCbackA(900);
+	    						m.atrasDiagonalDer(900);
 	    					}
 	    					else
 	    					{
-	    						m.detenerA();
-								m.frontBbackC(900);
+	    						m.atrasDiagonalIzq(900);
 	    					}
     						
     					}
@@ -128,15 +124,13 @@ public class Pelota
 						//Si el sensor de color detecta un borde de la cancha
 						if (color.getColorID() == 6)
 					    {
-					    	m.detenerB();
-							m.frontCbackA(850);
+					    	m.atrasDiagonalDer(850);
 							Delay.msDelay(400);
 					    }
     					else
     					{
-	    					m.detenerA();
-							m.frontBbackC(900);
-    					}
+	    					m.atrasDiagonalIzq(800);
+	    				}
 					}
 
 					if (direccion == 2)
@@ -144,14 +138,12 @@ public class Pelota
 						//Si el sensor de color detecta un borde de la cancha
 						if (color.getColorID() == 6)
 					    {
-					    	m.detenerB();
-							m.frontCbackA(850);
+					    	m.atrasDiagonalDer(850);
 							Delay.msDelay(400);
 					    }
     					else
     					{
-	    					m.detenerA();
-							m.frontBbackC(800);
+	    					m.atrasDiagonalIzq(750);
     					}	
 					}
      
@@ -160,14 +152,13 @@ public class Pelota
 						//Si el sensor de color detecta un borde de la cancha
 						if (color.getColorID() == 6)
 					    {
-					    	m.detenerA();
-							m.frontCbackB(850);
+					    	m.enfrenteDiagonalDer(850);
 							Delay.msDelay(400);
 					    }
     					else
     					{
-	    					m.detenerB();
-							m.frontAbackC(800);
+	    					
+							m.enfrenteDiagonalIzq(800);
     					}	
 					}
 
@@ -176,14 +167,13 @@ public class Pelota
 						//Si el sensor de color detecta un borde de la cancha
 						if (color.getColorID() == 6)
 					    {
-					    	m.detenerB();
-							m.frontAbackC(850);
+					    	m.enfrenteDiagonalIzq(850);
 							Delay.msDelay(400);
 					    }
     					else
     					{
-	    					m.detenerA();
-							m.frontCbackB(700);
+	    					
+							m.enfrenteDiagonalDer(700);
     					}	
 					}
 		
@@ -195,14 +185,12 @@ public class Pelota
 					    {
 					    	if(numeroAleatorio==0)
     						{
-    							m.detenerB();
-								m.frontAbackC(850);
+    							m.enfrenteDiagonalIzq(850);
 								Delay.msDelay(400);
     						}
     						else
     						{
-    							m.detenerA();
-								m.frontCbackB(850);
+    							m.enfrenteDiagonalDer(850);
 								Delay.msDelay(400);	
     						}
 					    }
@@ -210,13 +198,12 @@ public class Pelota
     					{
     						if(numeroAleatorio==0)
     						{
-    							m.detenerA();
-								m.frontCbackB(700);
+    							m.enfrenteDiagonalDer(700);
     						}
     						else
     						{
-    							m.detenerB();
-								m.frontAbackC(700);	
+    						
+								m.enfrenteDiagonalIzq(700);	
     						}
 	    					
     					}	
@@ -227,14 +214,12 @@ public class Pelota
 						//Si el sensor de color detecta un borde de la cancha
 						if (color.getColorID() == 6)
 					    {
-					    	m.detenerA();
-							m.frontCbackB(850);
+					    	m.enfrenteDiagonalDer(850);
 							Delay.msDelay(400);
 					    }
     					else
     					{
-	    					m.detenerB();
-						    m.frontAbackC(500);
+	    					m.enfrenteDiagonalIzq(500);
     					}
 					}
 
@@ -243,14 +228,12 @@ public class Pelota
 						//Si el sensor de color detecta un borde de la cancha
 						if (color.getColorID() == 6)
 					    {
-					    	m.detenerB();
-						    m.frontAbackC(850);
+					    	m.enfrenteDiagonalIzq(850);
 						    Delay.msDelay(400);
 					    }
     					else
     					{
-	    					m.detenerA();
-							m.frontCbackB(800);
+	    					m.enfrenteDiagonalDer(800);
 							Delay.msDelay(400);
     					}
 					}
@@ -260,14 +243,12 @@ public class Pelota
 						//Si el sensor de color detecta un borde de la cancha
 						if (color.getColorID() == 6)
 					    {
-					    	m.detenerA();
-							m.frontBbackC(850);
+					    	m.atrasDiagonalIzq(850);
 							Delay.msDelay(400);
 					    }
     					else
     					{
-	    					m.detenerB();
-							m.frontCbackA(800);
+	    					m.atrasDiagonalDer(750);
     					}
  					}
 
@@ -276,14 +257,12 @@ public class Pelota
 						//Si el sensor de color detecta un borde de la cancha
 						if (color.getColorID() == 6)
 					    {
-					    	m.detenerA();
-							m.frontBbackC(850);
+					    	m.atrasDiagonalIzq(850);
 							Delay.msDelay(400);
 					    }
     					else
     					{
-	    					m.detenerB();
-							m.frontCbackA(900);
+	    					m.atrasDiagonalDer(800);
     					}
 					}
 				}	

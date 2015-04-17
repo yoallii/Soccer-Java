@@ -29,7 +29,7 @@ public class Pelota
     private int direccion, orientacion,numeroAleatorio;
     
    //CONSTRUCTOR DE LA CLASE
-    public Pelota(IRSeekerV2 infrarrojo, CompassHTSensor compas, Movimientos m, ColorSensor c,TouchSensor tacto)
+    public Pelota(IRSeekerV2 infrarrojo, CompassHTSensor compas, MovimientosMejorados m, ColorSensor c,TouchSensor tacto)
     {
     
     	color = c;
@@ -124,7 +124,7 @@ public class Pelota
 						//Si el sensor de color detecta un borde de la cancha
 						if (color.getColorID() == 6)
 					    {
-					    	enfrenteDiagonalDer(850);
+					    	m.atrasDiagonalDer(850);
 							Delay.msDelay(400);
 					    }
     					else
@@ -158,7 +158,7 @@ public class Pelota
     					else
     					{
 	    					
-							m.enfrenteDiagonalIzq(850);
+							m.enfrenteDiagonalIzq(800);
     					}	
 					}
 
@@ -173,7 +173,7 @@ public class Pelota
     					else
     					{
 	    					
-							m.enfrenteDiagonalDer (700);
+							m.enfrenteDiagonalDer(700);
     					}	
 					}
 		
@@ -248,7 +248,7 @@ public class Pelota
 					    }
     					else
     					{
-	    					m.atrasDiagonalDer(850);
+	    					m.atrasDiagonalDer(750);
     					}
  					}
 
@@ -262,13 +262,13 @@ public class Pelota
 					    }
     					else
     					{
-	    					m.atrasDiagonalDer(900);
+	    					m.atrasDiagonalDer(800);
     					}
 					}
 				}	
 			}
 			else
-			
+			{
 				//DETENER MOTORES
 				m.parar();	
 			}				
