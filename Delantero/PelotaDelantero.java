@@ -97,7 +97,7 @@ public class PelotaDelantero
 					    	m.detenerABC();
 					    	Delay.msDelay(250);
 					    	m.enfrente(900);
-					    	Delay.msDelay(800);
+					    	Delay.msDelay(1000);
 	    					lineaBlanca*=-1;
 					    }
     					else
@@ -114,7 +114,7 @@ public class PelotaDelantero
 					    	m.detenerABC();
 					    	Delay.msDelay(250);
 					    	m.enfrenteDiagonalDer(900);
-					    	Delay.msDelay(850);
+					    	Delay.msDelay(1000);
 							lineaBlanca*=-1;
 					    }
     					else
@@ -131,7 +131,7 @@ public class PelotaDelantero
 					    	m.detenerABC();
 					    	Delay.msDelay(250);
 					    	m.enfrenteDiagonalDer(900);
-					    	Delay.msDelay(850);
+					    	Delay.msDelay(1000);
 					    	lineaBlanca*=-1;
 					    }
     					else
@@ -148,7 +148,7 @@ public class PelotaDelantero
 					    	m.detenerABC();
 					    	Delay.msDelay(250);
 					    	m.atrasDiagonalDer(900);
-					    	Delay.msDelay(850);
+					    	Delay.msDelay(1000);
 					    	lineaBlanca*=-1;
 							
 					    }
@@ -166,14 +166,15 @@ public class PelotaDelantero
 					    {
 					    	m.detenerABC();
 					    	Delay.msDelay(250);
-					    	m.enfrenteDiagonalIzq(900);
-					    	Delay.msDelay(850);
-	    					lineaBlanca*=-1;
+					    	m.atrasDiagonalDer(900);
+					    	Delay.msDelay(1000);
+					    	lineaBlanca*=-1;
 							
 					    }
     					else
     					{
-	    					m.enfrenteDiagonalDer(700);
+	    					
+							m.enfrenteDiagonalIzq(750);
     					}	
 					}
 		
@@ -186,7 +187,7 @@ public class PelotaDelantero
 					    	m.detenerABC();
 					    	Delay.msDelay(250);
 					    	m.atrasDiagonalDer(900);
-					  		Delay.msDelay(850);
+					  		Delay.msDelay(1000);
 							lineaBlanca*=-1;
 					    }
     					else
@@ -203,13 +204,13 @@ public class PelotaDelantero
 					    {
 					    	m.detenerABC();
 					    	Delay.msDelay(250);
-					    	m.atrasDiagonalDer(900);
-					  		Delay.msDelay(850);
+					    	m.atrasDiagonalIzq(900);
+							Delay.msDelay(1000);
 							lineaBlanca*=-1;
 					    }
     					else
     					{
-	    					m.enfrenteDiagonalIzq(700);
+	    					m.enfrenteDiagonalDer(750);
     					}
 					}
 
@@ -221,7 +222,7 @@ public class PelotaDelantero
 					    	m.detenerABC();
 					    	Delay.msDelay(250);
 					    	m.atrasDiagonalIzq(900);
-							Delay.msDelay(850);
+							Delay.msDelay(1000);
 							lineaBlanca*=-1;
 					    }
     					else
@@ -238,7 +239,7 @@ public class PelotaDelantero
 					    	m.detenerABC();
 					    	Delay.msDelay(250);
 					    	m.enfrenteDiagonalIzq(900);
-							Delay.msDelay(850);
+							Delay.msDelay(1000);
 							lineaBlanca*=-1;
 					    }
     					else
@@ -254,8 +255,8 @@ public class PelotaDelantero
 					    {
 					    	m.detenerABC();
 					    	Delay.msDelay(250);
-					    	m.enfrenteDiagonalIzq(850);
-							Delay.msDelay(850);
+					    	m.enfrenteDiagonalIzq(800);
+							Delay.msDelay(1000);
 							lineaBlanca*=-1;
 					    }
     					else
