@@ -67,8 +67,19 @@ public class PelotaDelantero
 					// si la brujula ve mayor o igual a 180
 					{
 						do{
-							m.detenerC();
-							m.retrocederAB(500); // Se  alineara
+							if (lineaBlanca < 1)
+							{
+								
+								m.detenerABC();
+
+							}
+							else
+							{
+								
+								m.detenerC();
+								m.retrocederAB(500); // Se  alineara
+
+							}
 							
 							
 						}while(brujula.getDegreesCartesian() < 340 );
@@ -77,8 +88,20 @@ public class PelotaDelantero
 					else
 					{
 						do{
-							 m.detenerC();
-							 m.avanzarAB(500);	//Se alineara
+							 if (lineaBlanca < 1)
+							 {
+							 
+							 	m.detenerABC();
+
+							 }
+							 else
+							 {
+							 
+							 	m.detenerC();
+							 	m.avanzarAB(500);	//Se alineara
+
+							 }
+							
 						}while(brujula.getDegreesCartesian() > 15);
 					   
 					}
@@ -95,15 +118,15 @@ public class PelotaDelantero
 						if (lineaBlanca < 1)
 					    {
 					    	m.detenerABC();
-					    	Delay.msDelay(250);
-					    	m.enfrente(900);
+					    	Delay.msDelay(20);
+					    	m.enfrenteDiagonalDer(900);
 					    	Delay.msDelay(1000);
-	    					lineaBlanca*=-1;
+							lineaBlanca*=-1;
 					    }
     					else
     					{
-	    					m.atras(800);
- 						}
+	    					m.atrasDiagonalIzq(900);
+	    				}
     				}
 			
 					if (direccion == 1)
@@ -112,7 +135,7 @@ public class PelotaDelantero
 						if (lineaBlanca < 1)
 					    {
 					    	m.detenerABC();
-					    	Delay.msDelay(250);
+					    	Delay.msDelay(20);
 					    	m.enfrenteDiagonalDer(900);
 					    	Delay.msDelay(1000);
 							lineaBlanca*=-1;
@@ -129,7 +152,7 @@ public class PelotaDelantero
 						if (lineaBlanca < 1)
 					    {
 					    	m.detenerABC();
-					    	Delay.msDelay(250);
+					    	Delay.msDelay(20);
 					    	m.enfrenteDiagonalDer(900);
 					    	Delay.msDelay(1000);
 					    	lineaBlanca*=-1;
@@ -146,7 +169,7 @@ public class PelotaDelantero
 						if (lineaBlanca < 1)
 					    {
 					    	m.detenerABC();
-					    	Delay.msDelay(250);
+					    	Delay.msDelay(20);
 					    	m.atrasDiagonalDer(900);
 					    	Delay.msDelay(1000);
 					    	lineaBlanca*=-1;
@@ -155,7 +178,7 @@ public class PelotaDelantero
     					else
     					{
 	    					
-							m.enfrenteDiagonalIzq(750);
+							m.enfrenteDiagonalIzq(800);
     					}	
 					}
 
@@ -165,7 +188,7 @@ public class PelotaDelantero
 						if (lineaBlanca < 1)
 					    {
 					    	m.detenerABC();
-					    	Delay.msDelay(250);
+					    	Delay.msDelay(20);
 					    	m.atrasDiagonalDer(900);
 					    	Delay.msDelay(1000);
 					    	lineaBlanca*=-1;
@@ -174,7 +197,7 @@ public class PelotaDelantero
     					else
     					{
 	    					
-							m.enfrenteDiagonalIzq(750);
+							m.enfrenteDiagonalIzq(800);
     					}	
 					}
 		
@@ -185,14 +208,14 @@ public class PelotaDelantero
 						if (lineaBlanca < 1)
 					    {
 					    	m.detenerABC();
-					    	Delay.msDelay(250);
+					    	Delay.msDelay(20);
 					    	m.atrasDiagonalDer(900);
 					  		Delay.msDelay(1000);
 							lineaBlanca*=-1;
 					    }
     					else
     					{
-	    					m.enfrenteDiagonalIzq(700);
+	    					m.enfrenteDiagonalIzq(800);
     					}
 	    					
 					}
@@ -203,14 +226,14 @@ public class PelotaDelantero
 						if (lineaBlanca < 1)
 					    {
 					    	m.detenerABC();
-					    	Delay.msDelay(250);
+					    	Delay.msDelay(20);
 					    	m.atrasDiagonalIzq(900);
 							Delay.msDelay(1000);
 							lineaBlanca*=-1;
 					    }
     					else
     					{
-	    					m.enfrenteDiagonalDer(750);
+	    					m.enfrenteDiagonalDer(800);
     					}
 					}
 
@@ -220,14 +243,14 @@ public class PelotaDelantero
 						if (lineaBlanca < 1)
 					    {
 					    	m.detenerABC();
-					    	Delay.msDelay(250);
+					    	Delay.msDelay(20);
 					    	m.atrasDiagonalIzq(900);
 							Delay.msDelay(1000);
 							lineaBlanca*=-1;
 					    }
     					else
     					{
-	    					m.enfrenteDiagonalDer(750);
+	    					m.enfrenteDiagonalDer(800);
     					}
 					}
      
@@ -237,7 +260,7 @@ public class PelotaDelantero
 						if (lineaBlanca < 1)
 					    {
 					    	m.detenerABC();
-					    	Delay.msDelay(250);
+					    	Delay.msDelay(20);
 					    	m.enfrenteDiagonalIzq(900);
 							Delay.msDelay(1000);
 							lineaBlanca*=-1;
@@ -254,7 +277,7 @@ public class PelotaDelantero
 						if (lineaBlanca < 1)
 					    {
 					    	m.detenerABC();
-					    	Delay.msDelay(250);
+					    	Delay.msDelay(20);
 					    	m.enfrenteDiagonalIzq(800);
 							Delay.msDelay(1000);
 							lineaBlanca*=-1;
