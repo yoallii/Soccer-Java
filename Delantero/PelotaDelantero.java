@@ -69,7 +69,7 @@ public class PelotaDelantero
 						do{
 										
 							m.detenerC();
-							m.retrocederAB(700); // Se  alineara
+							m.retrocederAB(750); // Se  alineara
 						
 							
 						}while(brujula.getDegreesCartesian() < 340 );
@@ -80,7 +80,7 @@ public class PelotaDelantero
 						do{
 							 
 							m.detenerC();
-							m.avanzarAB(700);//Se alineara
+							m.avanzarAB(750);//Se alineara
 
 							
 							
@@ -101,13 +101,13 @@ public class PelotaDelantero
 					    {
 					    	m.detenerABC();
 					    	Delay.msDelay(200);
-					    	m.enfrente(700);
+					    	m.enfrente(750);
 					    	Delay.msDelay(450);
 							lineaBlanca*=-1;
 					    }
     					else
     					{
-	    					m.atras(700);
+	    					m.atras(750);
 	    				}
     				}
 			
@@ -118,14 +118,14 @@ public class PelotaDelantero
 					    {
 					    	m.detenerABC();
 					    	Delay.msDelay(200);
-					    	m.enfrente(700);
+					    	m.enfrenteDiagonalDer(750);
 					    	Delay.msDelay(450);
-							lineaBlanca*=-1;
+					    	lineaBlanca*=-1;
 					    }
     					else
     					{
-	    					m.atras(700);
-	    				}
+	    					m.atrasDiagonalIzq(750);
+    					}
 					}
 
 					if (direccion == 2)
@@ -135,13 +135,13 @@ public class PelotaDelantero
 					    {
 					    	m.detenerABC();
 					    	Delay.msDelay(200);
-					    	m.enfrenteDiagonalDer(700);
+					    	m.enfrenteDiagonalDer(750);
 					    	Delay.msDelay(450);
 					    	lineaBlanca*=-1;
 					    }
     					else
     					{
-	    					m.atrasDiagonalIzq(700);
+	    					m.atrasDiagonalIzq(750);
     					}	
 					}
      
@@ -152,7 +152,7 @@ public class PelotaDelantero
 					    {
 					    	m.detenerABC();
 					    	Delay.msDelay(200);
-					    	m.atrasDiagonalDer(700);
+					    	m.atrasDiagonalDer(750);
 					    	Delay.msDelay(450);
 					    	lineaBlanca*=-1;
 							
@@ -160,7 +160,7 @@ public class PelotaDelantero
     					else
     					{
 	    					
-							m.enfrenteDiagonalIzq(700);
+							m.enfrenteDiagonalIzq(750);
     					}	
 					}
 
@@ -171,13 +171,13 @@ public class PelotaDelantero
 					    {
 					    	m.detenerABC();
 					    	Delay.msDelay(200);
-					    	m.atrasDiagonalIzq(700);
+					    	m.atrasDiagonalIzq(750);
 							Delay.msDelay(450);
 							lineaBlanca*=-1;
 					    }
     					else
     					{
-	    					m.enfrenteDiagonalDer(700);
+	    					m.enfrenteDiagonalDer(750);
     					}
 					}
 		
@@ -189,13 +189,13 @@ public class PelotaDelantero
 					    {
 					    	m.detenerABC();
 					    	Delay.msDelay(200);
-					    	m.atrasDiagonalIzq(700);
+					    	m.atrasDiagonalIzq(750);
 							Delay.msDelay(450);
 							lineaBlanca*=-1;
 					    }
     					else
     					{
-	    					m.enfrenteDiagonalDer(700);
+	    					m.enfrenteDiagonalDer(750);
     					}
 	    					
 					}
@@ -207,13 +207,13 @@ public class PelotaDelantero
 					    {
 					    	m.detenerABC();
 					    	Delay.msDelay(200);
-					    	m.atrasDiagonalIzq(700);
+					    	m.atrasDiagonalIzq(750);
 							Delay.msDelay(450);
 							lineaBlanca*=-1;
 					    }
     					else
     					{
-	    					m.enfrenteDiagonalIzq(700);
+	    					m.enfrenteDiagonalIzq(750);
     					}
 					}
 
@@ -224,13 +224,13 @@ public class PelotaDelantero
 					    {
 					    	m.detenerABC();
 					    	Delay.msDelay(200);
-					    	m.atrasDiagonalIzq(700);
+					    	m.atrasDiagonalIzq(750);
 							Delay.msDelay(450);
 							lineaBlanca*=-1;
 					    }
     					else
     					{
-	    					m.enfrenteDiagonalDer(700);
+	    					m.enfrenteDiagonalDer(750);
     					}
 					}
      
@@ -241,13 +241,13 @@ public class PelotaDelantero
 					    {
 					    	m.detenerABC();
 					    	Delay.msDelay(200);
-					    	m.enfrenteDiagonalIzq(700);
+					    	m.enfrenteDiagonalIzq(750);
 							Delay.msDelay(450);
 							lineaBlanca*=-1;
 					    }
     					else
     					{
-	    					m.atrasDiagonalDer(700);
+	    					m.atrasDiagonalDer(750);
     					}
  					}
 
@@ -258,13 +258,13 @@ public class PelotaDelantero
 					    {
 					    	m.detenerABC();
 					    	Delay.msDelay(200);
-					    	m.enfrente(700);
+					    	m.enfrenteDiagonalIzq(750);
 							Delay.msDelay(450);
 							lineaBlanca*=-1;
 					    }
     					else
     					{
-	    					m.atras(700);
+	    					m.atrasDiagonalDer(750);
     					}
 					}
 				}	
