@@ -118,9 +118,9 @@ public class PelotaDelantero
 						if (lineaBlanca < 1)
 					    {
 					    	m.detenerABC();
-					    	Delay.msDelay(20);
-					    	m.enfrenteDiagonalDer(900);
-					    	Delay.msDelay(1000);
+					    	Delay.msDelay(200);
+					    	m.enfrente(900);
+					    	Delay.msDelay(450);
 							lineaBlanca*=-1;
 					    }
     					else
@@ -135,9 +135,9 @@ public class PelotaDelantero
 						if (lineaBlanca < 1)
 					    {
 					    	m.detenerABC();
-					    	Delay.msDelay(20);
-					    	m.enfrenteDiagonalDer(900);
-					    	Delay.msDelay(1000);
+					    	Delay.msDelay(200);
+					    	m.enfrente(900);
+					    	Delay.msDelay(450);
 							lineaBlanca*=-1;
 					    }
     					else
@@ -152,9 +152,9 @@ public class PelotaDelantero
 						if (lineaBlanca < 1)
 					    {
 					    	m.detenerABC();
-					    	Delay.msDelay(20);
+					    	Delay.msDelay(200);
 					    	m.enfrenteDiagonalDer(900);
-					    	Delay.msDelay(1000);
+					    	Delay.msDelay(450);
 					    	lineaBlanca*=-1;
 					    }
     					else
@@ -169,9 +169,9 @@ public class PelotaDelantero
 						if (lineaBlanca < 1)
 					    {
 					    	m.detenerABC();
-					    	Delay.msDelay(20);
+					    	Delay.msDelay(200);
 					    	m.atrasDiagonalDer(900);
-					    	Delay.msDelay(1000);
+					    	Delay.msDelay(450);
 					    	lineaBlanca*=-1;
 							
 					    }
@@ -188,9 +188,9 @@ public class PelotaDelantero
 						if (lineaBlanca < 1)
 					    {
 					    	m.detenerABC();
-					    	Delay.msDelay(20);
+					    	Delay.msDelay(200);
 					    	m.atrasDiagonalDer(900);
-					    	Delay.msDelay(1000);
+					    	Delay.msDelay(450);
 					    	lineaBlanca*=-1;
 							
 					    }
@@ -208,14 +208,14 @@ public class PelotaDelantero
 						if (lineaBlanca < 1)
 					    {
 					    	m.detenerABC();
-					    	Delay.msDelay(20);
-					    	m.atrasDiagonalDer(900);
-					  		Delay.msDelay(1000);
+					    	Delay.msDelay(200);
+					    	m.atrasDiagonalIzq(900);
+							Delay.msDelay(450);
 							lineaBlanca*=-1;
 					    }
     					else
     					{
-	    					m.enfrenteDiagonalIzq(800);
+	    					m.enfrenteDiagonalDer(800);
     					}
 	    					
 					}
@@ -226,9 +226,9 @@ public class PelotaDelantero
 						if (lineaBlanca < 1)
 					    {
 					    	m.detenerABC();
-					    	Delay.msDelay(20);
+					    	Delay.msDelay(200);
 					    	m.atrasDiagonalIzq(900);
-							Delay.msDelay(1000);
+							Delay.msDelay(450);
 							lineaBlanca*=-1;
 					    }
     					else
@@ -243,9 +243,9 @@ public class PelotaDelantero
 						if (lineaBlanca < 1)
 					    {
 					    	m.detenerABC();
-					    	Delay.msDelay(20);
+					    	Delay.msDelay(200);
 					    	m.atrasDiagonalIzq(900);
-							Delay.msDelay(1000);
+							Delay.msDelay(450);
 							lineaBlanca*=-1;
 					    }
     					else
@@ -260,14 +260,14 @@ public class PelotaDelantero
 						if (lineaBlanca < 1)
 					    {
 					    	m.detenerABC();
-					    	Delay.msDelay(20);
+					    	Delay.msDelay(200);
 					    	m.enfrenteDiagonalIzq(900);
-							Delay.msDelay(1000);
+							Delay.msDelay(450);
 							lineaBlanca*=-1;
 					    }
     					else
     					{
-	    					m.atrasDiagonalDer(800);
+	    					m.atrasDiagonalDer(900);
     					}
  					}
 
@@ -277,9 +277,9 @@ public class PelotaDelantero
 						if (lineaBlanca < 1)
 					    {
 					    	m.detenerABC();
-					    	Delay.msDelay(20);
-					    	m.enfrenteDiagonalIzq(800);
-							Delay.msDelay(1000);
+					    	Delay.msDelay(200);
+					    	m.enfrente(800);
+							Delay.msDelay(450);
 							lineaBlanca*=-1;
 					    }
     					else
