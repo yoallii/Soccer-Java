@@ -125,7 +125,7 @@ public class PelotaDelantero
 					    }
     					else
     					{
-	    					m.atrasDiagonalIzq(900);
+	    					m.atras(900);
 	    				}
     				}
 			
@@ -142,7 +142,7 @@ public class PelotaDelantero
 					    }
     					else
     					{
-	    					m.atrasDiagonalIzq(900);
+	    					m.atras(900);
 	    				}
 					}
 
@@ -284,7 +284,7 @@ public class PelotaDelantero
 					    }
     					else
     					{
-	    					m.atrasDiagonalDer(900);
+	    					m.atras(900);
     					}
 					}
 				}	
