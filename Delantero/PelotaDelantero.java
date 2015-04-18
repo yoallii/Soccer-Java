@@ -67,20 +67,10 @@ public class PelotaDelantero
 					// si la brujula ve mayor o igual a 180
 					{
 						do{
-							if (lineaBlanca < 1)
-							{
-								
-								m.detenerABC();
-
-							}
-							else
-							{
-								
-								m.detenerC();
-								m.retrocederAB(500); // Se  alineara
-
-							}
-							
+										
+							m.detenerC();
+							m.retrocederAB(500); // Se  alineara
+						
 							
 						}while(brujula.getDegreesCartesian() < 340 );
 						
@@ -88,19 +78,11 @@ public class PelotaDelantero
 					else
 					{
 						do{
-							 if (lineaBlanca < 1)
-							 {
 							 
-							 	m.detenerABC();
+							m.detenerC();
+							m.avanzarAB(500);//Se alineara
 
-							 }
-							 else
-							 {
-							 
-							 	m.detenerC();
-							 	m.avanzarAB(500);	//Se alineara
-
-							 }
+							
 							
 						}while(brujula.getDegreesCartesian() > 15);
 					   
@@ -125,7 +107,7 @@ public class PelotaDelantero
 					    }
     					else
     					{
-	    					m.atras(900);
+	    					m.atras(700);
 	    				}
     				}
 			
@@ -142,7 +124,7 @@ public class PelotaDelantero
 					    }
     					else
     					{
-	    					m.atras(900);
+	    					m.atras(700);
 	    				}
 					}
 
@@ -159,7 +141,7 @@ public class PelotaDelantero
 					    }
     					else
     					{
-	    					m.atrasDiagonalIzq(800);
+	    					m.atrasDiagonalIzq(700);
     					}	
 					}
      
@@ -178,7 +160,7 @@ public class PelotaDelantero
     					else
     					{
 	    					
-							m.enfrenteDiagonalIzq(800);
+							m.enfrenteDiagonalIzq(700);
     					}	
 					}
 
@@ -189,16 +171,14 @@ public class PelotaDelantero
 					    {
 					    	m.detenerABC();
 					    	Delay.msDelay(200);
-					    	m.atrasDiagonalDer(900);
-					    	Delay.msDelay(450);
-					    	lineaBlanca*=-1;
-							
+					    	m.atrasDiagonalIzq(900);
+							Delay.msDelay(450);
+							lineaBlanca*=-1;
 					    }
     					else
     					{
-	    					
-							m.enfrenteDiagonalIzq(800);
-    					}	
+	    					m.enfrenteDiagonalDer(700);
+    					}
 					}
 		
 					if (direccion == 5)
@@ -215,7 +195,7 @@ public class PelotaDelantero
 					    }
     					else
     					{
-	    					m.enfrenteDiagonalDer(800);
+	    					m.enfrenteDiagonalDer(700);
     					}
 	    					
 					}
@@ -233,7 +213,7 @@ public class PelotaDelantero
 					    }
     					else
     					{
-	    					m.enfrenteDiagonalDer(800);
+	    					m.enfrenteDiagonalIzq(700);
     					}
 					}
 
@@ -250,7 +230,7 @@ public class PelotaDelantero
 					    }
     					else
     					{
-	    					m.enfrenteDiagonalDer(800);
+	    					m.enfrenteDiagonalDer(700);
     					}
 					}
      
@@ -267,7 +247,7 @@ public class PelotaDelantero
 					    }
     					else
     					{
-	    					m.atrasDiagonalDer(900);
+	    					m.atrasDiagonalDer(700);
     					}
  					}
 
@@ -284,7 +264,7 @@ public class PelotaDelantero
 					    }
     					else
     					{
-	    					m.atras(900);
+	    					m.atras(700);
     					}
 					}
 				}	
