@@ -6,7 +6,6 @@
 import lejos.nxt.addon.*; 	//Para sensor infrarrojo y compas
 import lejos.util.*; // Para delay
 import lejos.nxt.*; // Para motores y sensores en general
-import java.util.*; //Para numeros RANDOM
 //..................................
 
 //Clase Pelota...................................
@@ -23,11 +22,9 @@ public class PelotaDefensa
     private CompassHTSensor brujula;
     //Clase programada por YOLO para motores
     private MovimientosMejorados m;
-    //Clase para numeros RANDOM......................
-    private Random rand;
     //Atributos necesarios...............................
     private int direccion, orientacion,numeroAleatorio;
-    private int canchaChica=1;
+    private int canchaChica=1,lineaBlanca=1;
     
    //CONSTRUCTOR DE LA CLASE
     public PelotaDefensa(IRSeekerV2 infrarrojo, CompassHTSensor compas, MovimientosMejorados m, ColorSensor c,TouchSensor tacto)
@@ -38,7 +35,7 @@ public class PelotaDefensa
 		brujula = compas;
 		this.m = m;
 		touch = tacto;
-		rand = new Random();
+		
     }
    	
    	//Metodo para buscar la pelota...........................
@@ -63,6 +60,10 @@ public class PelotaDefensa
 				if(color.getColorID()==7)
 				{
 					canchaChica*=-1;
+				}
+				if(color.getColorID()==6)
+				{
+					lineaBlanca*=-1;
 				}
 			  	// si la brujula ve mayor de 30 y menor que 330 significa que esta chueco   
 				if (brujula.getDegreesCartesian() > 35 && brujula.getDegreesCartesian()<330 )
@@ -92,280 +93,296 @@ public class PelotaDefensa
     			{
     				if(canchaChica>=1)
     				{
-    					//DEPENDIENDO DEL IR SE VA A MOVER EL ROBOT
+	    				//DEPENDIENDO DEL IR SE VA A MOVER EL ROBOT
 	    				if (direccion == 0)
 	    				{
 	    					
-							if (color.getColorID() == 6)
+	    					//Si el sensor de color detecta un borde de la cancha
+							if (lineaBlanca < 1)
 						    {
-						    	if (numeroAleatorio==0) 
-		    					{
-		    						m.atrasDiagonalIzq(850);
-									Delay.msDelay(400);
-		    					}
-		    					else
-		    					{
-		    						m.atrasDiagonalDer(850);
-									Delay.msDelay(400);
-		    					}
-
-						    }
-	    					else
-	    					{
-		    					if (numeroAleatorio==0) 
-		    					{
-		    						m.atrasDiagonalDer(900);
-		    					}
-		    					else
-		    					{
-		    						m.atrasDiagonalIzq(900);
-		    					}
-	    						
-	    					}	
-	 					}
-				
-						if (direccion == 1)
-						{
-							//Si el sensor de color detecta un borde de la cancha
-							if (color.getColorID() == 6)
-						    {
-						    	m.atrasDiagonalDer(850);
-								Delay.msDelay(400);
+						    	m.detenerABC();
+						    	Delay.msDelay(250);
+						    	m.enfrenteDiagonalDer(900);
+						    	Delay.msDelay(800);
+		    					lineaBlanca*=-1;
 						    }
 	    					else
 	    					{
 		    					m.atrasDiagonalIzq(800);
+	 						}
+	    				}
+				
+						if (direccion == 1)
+						{
+							//Si el sensor de color detecta un borde de la cancha
+							if (lineaBlanca < 1)
+						    {
+						    	m.detenerABC();
+						    	Delay.msDelay(250);
+						    	m.enfrenteDiagonalDer(900);
+						    	Delay.msDelay(850);
+								lineaBlanca*=-1;
+						    }
+	    					else
+	    					{
+		    					m.atrasDiagonalIzq(900);
 		    				}
 						}
 
 						if (direccion == 2)
 						{
 							//Si el sensor de color detecta un borde de la cancha
-							if (color.getColorID() == 6)
+							if (lineaBlanca < 1)
 						    {
-						    	m.atrasDiagonalDer(850);
-								Delay.msDelay(400);
+						    	m.detenerABC();
+						    	Delay.msDelay(250);
+						    	m.enfrenteDiagonalDer(900);
+						    	Delay.msDelay(850);
+						    	lineaBlanca*=-1;
 						    }
 	    					else
 	    					{
-		    					m.atrasDiagonalIzq(750);
+		    					m.atrasDiagonalIzq(800);
 	    					}	
 						}
 	     
 						if (direccion == 3)
 						{
 							//Si el sensor de color detecta un borde de la cancha
-							if (color.getColorID() == 6)
+							if (lineaBlanca < 1)
 						    {
-						    	m.enfrenteDiagonalDer(850);
-								Delay.msDelay(400);
+						    	m.detenerABC();
+						    	Delay.msDelay(250);
+						    	m.atrasDiagonalDer(900);
+						    	Delay.msDelay(850);
+						    	lineaBlanca*=-1;
+								
 						    }
 	    					else
 	    					{
 		    					
-								m.enfrenteDiagonalIzq(800);
+								m.enfrenteDiagonalIzq(700);
 	    					}	
 						}
 
 						if (direccion == 4)
 						{
 							//Si el sensor de color detecta un borde de la cancha
-							if (color.getColorID() == 6)
+							if (lineaBlanca < 1)
 						    {
-						    	m.enfrenteDiagonalDer(850);
-								Delay.msDelay(400);
+						    	m.detenerABC();
+						    	Delay.msDelay(250);
+						    	m.atrasDiagonalDer(900);
+						    	Delay.msDelay(850);
+						    	lineaBlanca*=-1;
+								
 						    }
 	    					else
 	    					{
 		    					
-								m.enfrenteDiagonalIzq(800);
-	    					}
+								m.enfrenteDiagonalIzq(700);
+	    					}	
 						}
 			
 						if (direccion == 5)
 						{
+							
 							//Si el sensor de color detecta un borde de la cancha
-							if (color.getColorID() == 6)
+							if (lineaBlanca < 1)
 						    {
-						    	m.atras(850);
-								Delay.msDelay(400);
+						    	m.detenerABC();
+						    	Delay.msDelay(250);
+						    	m.atras(900);
+						  		Delay.msDelay(850);
+								lineaBlanca*=-1;
 						    }
 	    					else
 	    					{
 		    					m.enfrente(700);
 	    					}
+		    					
 						}
 	    
 						if (direccion == 6)
 						{	
 							//Si el sensor de color detecta un borde de la cancha
-							if (color.getColorID() == 6)
+							if (lineaBlanca < 1)
 						    {
-						    	m.enfrenteDiagonalIzq(850);
-							    Delay.msDelay(400);
+						    	m.detenerABC();
+						    	Delay.msDelay(250);
+						    	m.atrasDiagonalIzq(900);
+						  		Delay.msDelay(850);
+								lineaBlanca*=-1;
 						    }
 	    					else
 	    					{
-		    					m.enfrenteDiagonalDer(800);
-								
+		    					m.enfrenteDiagonalDer(700);
 	    					}
 						}
 
 						if (direccion == 7)
 						{
 							//Si el sensor de color detecta un borde de la cancha
-							if (color.getColorID() == 6)
+							if (lineaBlanca < 1)
 						    {
-						    	m.enfrenteDiagonalIzq(850);
-							    Delay.msDelay(400);
+						    	m.detenerABC();
+						    	Delay.msDelay(250);
+						    	m.atrasDiagonalIzq(900);
+								Delay.msDelay(850);
+								lineaBlanca*=-1;
 						    }
 	    					else
 	    					{
-		    					m.enfrenteDiagonalDer(800);
-								
+		    					m.enfrenteDiagonalDer(700);
 	    					}
 						}
 	     
 						if (direccion == 8)
 						{
 							//Si el sensor de color detecta un borde de la cancha
-							if (color.getColorID() == 6)
+							if (lineaBlanca < 1)
 						    {
-						    	m.atrasDiagonalIzq(850);
-								Delay.msDelay(400);
+						    	m.detenerABC();
+						    	Delay.msDelay(250);
+						    	m.enfrenteDiagonalIzq(900);
+								Delay.msDelay(850);
+								lineaBlanca*=-1;
 						    }
 	    					else
 	    					{
-		    					m.atrasDiagonalDer(750);
+		    					m.atrasDiagonalDer(800);
 	    					}
 	 					}
 
 						if (direccion == 9)
 						{
 							//Si el sensor de color detecta un borde de la cancha
-							if (color.getColorID() == 6)
+							if (lineaBlanca < 1)
 						    {
-						    	m.atrasDiagonalIzq(850);
-								Delay.msDelay(400);
+						    	m.detenerABC();
+						    	Delay.msDelay(250);
+						    	m.enfrenteDiagonalIzq(850);
+								Delay.msDelay(850);
+								lineaBlanca*=-1;
 						    }
 	    					else
 	    					{
-		    					m.atrasDiagonalDer(800);
+		    					m.atrasDiagonalDer(900);
 	    					}
-						}
+						}	
     				}
     				else
     				{
-    					//DEPENDIENDO DEL IR SE VA A MOVER EL ROBOT
 	    				if (direccion == 0)
 	    				{
 	    					
-							if (color.getColorID() == 6)
+	    					//Si el sensor de color detecta un borde de la cancha
+							if (lineaBlanca < 1)
 						    {
-						    	if (numeroAleatorio==0) 
-		    					{
-		    						m.atrasDiagonalIzq(850);
-									Delay.msDelay(400);
-		    					}
-		    					else
-		    					{
-		    						m.atrasDiagonalDer(850);
-									Delay.msDelay(400);
-		    					}
-
-						    }
-	    					else
-	    					{
-		    					if (numeroAleatorio==0) 
-		    					{
-		    						m.atrasDiagonalDer(900);
-		    					}
-		    					else
-		    					{
-		    						m.atrasDiagonalIzq(900);
-		    					}
-	    						
-	    					}	
-	 					}
-				
-						if (direccion == 1)
-						{
-							//Si el sensor de color detecta un borde de la cancha
-							if (color.getColorID() == 6)
-						    {
-						    	m.atrasDiagonalDer(850);
-								Delay.msDelay(400);
+						    	m.detenerABC();
+						    	Delay.msDelay(250);
+						    	m.enfrenteDiagonalDer(900);
+						    	Delay.msDelay(800);
+		    					lineaBlanca*=-1;
 						    }
 	    					else
 	    					{
 		    					m.atrasDiagonalIzq(800);
+	 						}
+	    				}
+				
+						if (direccion == 1)
+						{
+							//Si el sensor de color detecta un borde de la cancha
+							if (lineaBlanca < 1)
+						    {
+						    	m.detenerABC();
+						    	Delay.msDelay(250);
+						    	m.enfrenteDiagonalDer(900);
+						    	Delay.msDelay(850);
+								lineaBlanca*=-1;
+						    }
+	    					else
+	    					{
+		    					m.atrasDiagonalIzq(900);
 		    				}
 						}
 
 						if (direccion == 2)
 						{
 							//Si el sensor de color detecta un borde de la cancha
-							if (color.getColorID() == 6)
+							if (lineaBlanca < 1)
 						    {
-						    	m.atrasDiagonalDer(850);
-								Delay.msDelay(400);
+						    	m.detenerABC();
+						    	Delay.msDelay(250);
+						    	m.enfrenteDiagonalDer(900);
+						    	Delay.msDelay(850);
+						    	lineaBlanca*=-1;
 						    }
 	    					else
 	    					{
-		    					m.atrasDiagonalIzq(750);
+		    					m.atrasDiagonalIzq(800);
 	    					}	
 						}
 	     
 						if (direccion == 3)
 						{
-							m.atras(600);	
+							m.atras(700);
 						}
 
 						if (direccion == 4)
 						{
-							m.atras(600);
+							m.detenerABC();
 						}
 			
 						if (direccion == 5)
 						{
+							
 							m.detenerABC();
+		    					
 						}
-
+	    
 						if (direccion == 6)
-						{
-							m.atras(600);	
+						{	
+							m.detenerABC();
 						}
 
 						if (direccion == 7)
 						{
-							m.atras(600);
+							m.atras(700);
 						}
 	     
 						if (direccion == 8)
 						{
 							//Si el sensor de color detecta un borde de la cancha
-							if (color.getColorID() == 6)
+							if (lineaBlanca < 1)
 						    {
-						    	m.atrasDiagonalIzq(850);
-								Delay.msDelay(400);
+						    	m.detenerABC();
+						    	Delay.msDelay(250);
+						    	m.enfrenteDiagonalIzq(900);
+								Delay.msDelay(850);
+								lineaBlanca*=-1;
 						    }
 	    					else
 	    					{
-		    					m.atrasDiagonalDer(750);
+		    					m.atrasDiagonalDer(800);
 	    					}
 	 					}
 
 						if (direccion == 9)
 						{
 							//Si el sensor de color detecta un borde de la cancha
-							if (color.getColorID() == 6)
+							if (lineaBlanca < 1)
 						    {
-						    	m.atrasDiagonalIzq(850);
-								Delay.msDelay(400);
+						    	m.detenerABC();
+						    	Delay.msDelay(250);
+						    	m.enfrenteDiagonalIzq(850);
+								Delay.msDelay(850);
+								lineaBlanca*=-1;
 						    }
 	    					else
 	    					{
-		    					m.atrasDiagonalDer(800);
+		    					m.atrasDiagonalDer(900);
 	    					}
 						}
     				}
