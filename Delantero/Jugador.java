@@ -25,7 +25,7 @@ public class Jugador
 		//Se instancia el sensor de tacto puerto 2
 		TouchSensor tacto = new TouchSensor(SensorPort.S2);
 		//Se instancea el objeto buscar de la clase Pelota
- 		Pelota buscar = new Pelota(infra, brujula , m, color, tacto);//Se mandan los argumentos necesarios al constructor
+ 		PelotaDelantero buscar = new PelotaDelantero(infra, brujula , m, color, tacto);//Se mandan los argumentos necesarios al constructor
 		//Se manda llamar el metodo buscaPelota de la clase Pelota
 		buscar.buscaPelota();
 

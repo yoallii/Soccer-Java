@@ -21,11 +21,11 @@ public class Portero
 		//Se instancia el sensor de compas puerto 3..........
 		CompassHTSensor brujula = new CompassHTSensor(SensorPort.S3);
 		//Se instancea el objeto m de la clase de movimientos
-		Movimientos m = new Movimientos();
+		MovimientosMejorados m = new MovimientosMejorados();
 		//Se instancia el sensor de tacto puerto 2
 		TouchSensor tacto = new TouchSensor(SensorPort.S2);
 		//Se instancea el objeto buscar de la clase Pelota
- 		Pelota buscar = new Pelota(infra, brujula , m, color, tacto);//Se mandan los argumentos necesarios al constructor
+ 		PelotaDefensa buscar = new PelotaDefensa(infra, brujula , m, color, tacto);//Se mandan los argumentos necesarios al constructor
 		//Se manda llamar el metodo buscaPelota de la clase Pelota
 		buscar.buscaPelota();
 

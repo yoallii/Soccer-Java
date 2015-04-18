@@ -10,7 +10,7 @@ import java.util.*; //Para numeros RANDOM
 //..................................
 
 //Clase Pelota...................................
-public class Pelota
+public class PelotaDelantero
 {
     //Declaraciones necesarias...............
     //Sensor de color................
@@ -29,7 +29,7 @@ public class Pelota
     private int direccion, orientacion,numeroAleatorio;
     
    //CONSTRUCTOR DE LA CLASE
-    public Pelota(IRSeekerV2 infrarrojo, CompassHTSensor compas, MovimientosMejorados m, ColorSensor c,TouchSensor tacto)
+    public PelotaDelantero(IRSeekerV2 infrarrojo, CompassHTSensor compas, MovimientosMejorados m, ColorSensor c,TouchSensor tacto)
     {
     
     	color = c;
@@ -234,7 +234,7 @@ public class Pelota
     					else
     					{
 	    					m.enfrenteDiagonalDer(800);
-							Delay.msDelay(400);
+							
     					}
 					}
      
