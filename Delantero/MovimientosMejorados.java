@@ -1,4 +1,4 @@
-public class MovimientosMejorados  extends Movimientos 
+public class MovimientosMejorados extends Movimientos 
 {
 	public void atrasDiagonalIzq(int vel)
 	{

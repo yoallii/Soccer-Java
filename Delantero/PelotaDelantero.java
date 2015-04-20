@@ -171,13 +171,13 @@ public class PelotaDelantero
 					    {
 					    	m.detenerABC();
 					    	Delay.msDelay(200);
-					    	m.atrasDiagonalIzq(750);
+					    	m.atrasDiagonalDer(750);
 							Delay.msDelay(450);
 							lineaBlanca*=-1;
 					    }
     					else
     					{
-	    					m.enfrenteDiagonalDer(750);
+	    					m.enfrenteDiagonalIzq(750);
     					}
 					}
 		
@@ -189,13 +189,13 @@ public class PelotaDelantero
 					    {
 					    	m.detenerABC();
 					    	Delay.msDelay(200);
-					    	m.atrasDiagonalIzq(750);
+					    	m.atras(750);
 							Delay.msDelay(450);
 							lineaBlanca*=-1;
 					    }
     					else
     					{
-	    					m.enfrenteDiagonalDer(750);
+	    					m.enfrente(750);
     					}
 	    					
 					}
@@ -213,7 +213,7 @@ public class PelotaDelantero
 					    }
     					else
     					{
-	    					m.enfrenteDiagonalIzq(750);
+	    					m.enfrenteDiagonalDer(750);
     					}
 					}
 

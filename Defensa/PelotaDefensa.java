@@ -392,7 +392,7 @@ public class PelotaDefensa
 			else
 			{
 				//DETENER MOTORES
-				m.parar();	
+				m.detenerABC();	
 			}				
 		}
     }
