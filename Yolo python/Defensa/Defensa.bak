@@ -1,4 +1,4 @@
-                                      //CREADO POR YOALI Y PYTHON
+                                      //CREADO POR YOALLI Y PYTHON
 
 //FUNCION QUE DEVUELVE ENTERO QUE HACE QUE EL COMPAS TE DE EL VALOR COMO APUNTASTE AL PRINCIPIO
 inline int brujula(int compas,int compasactual)
@@ -112,114 +112,114 @@ void alinearDer(int v){
                    break;
                case 2:
 
-                   if(Sensor(S4) > luz)
+                   if(csr.ColorValue==1 || csr.ColorValue==6)
                    {
                      diagonalSuperiorDer(90);
-                     Wait(300);
+                     Wait(200);
                    }
                    else
                    {
-                     diagonalInferiorIzq(90);
+                     diagonalInferiorIzq(70);
                    }
                    break;
                case 3:
-                     if(Sensor(S4) > luz)
+                     if(csr.ColorValue==1 || csr.ColorValue==6)
                    {
                         diagonalInferiorDer(90);
-                        Wait(300);
+                        Wait(200);
                     }
                       else
                       {
-                        diagonalSuperiorIzq(80);
+                        diagonalSuperiorIzq(70);
 
                       }
 
                     break;
                case 4:
-                     if(Sensor(S4) > luz)
+                     if(csr.ColorValue==1 || csr.ColorValue==6)
                    {
                         diagonalInferiorDer(90);
-                        Wait(300);
+                        Wait(200);
                     }
                       else
                       {
-                        diagonalSuperiorIzq(75);
+                        diagonalSuperiorIzq(70);
 
                       }
 
 
                    break;
                case 5:
-                    if(Sensor(S4) > luz)
+                    if(csr.ColorValue==1 || csr.ColorValue==6)
                    {
 
                         atras(90);
-                         Wait(300);
+                         Wait(200);
                      }
                       else
                       {
-                        adelante(90);
+                        adelante(50);
                       }
                    break;
                case 6:
-                    if(Sensor(S4) > luz)
+                    if(csr.ColorValue==1 || csr.ColorValue==6)
                    {
                           diagonalInferiorIzq(90);
-                         Wait(300);
+                         Wait(200);
                     }
                    else
                    {
-                        diagonalSuperiorDer(75);
+                        diagonalSuperiorDer(70);
                     }
                       break;
                case  7:
-                     if(Sensor(S4) > luz)
+                     if(csr.ColorValue==1 || csr.ColorValue==6)
                    {
                           diagonalInferiorIzq(90);
-                         Wait(300);
+                         Wait(200);
                     }
                    else
                    {
-                        diagonalSuperiorDer(80);
+                        diagonalSuperiorDer(70);
                     }
 
 
                    break;
                case 8:
 
-                    if(Sensor(S4) > luz)
+                    if(csr.ColorValue==1 || csr.ColorValue==6)
                    {
                      diagonalSuperiorIzq(90);
-                     Wait(300);
+                     Wait(200);
                    }
                    else
                    {
-                      diagonalInferiorDer(90);
+                      diagonalInferiorDer(70);
                    }
                    break;
                case 9:
 
-                    if(Sensor(S4) > luz)
+                    if(csr.ColorValue==1 || csr.ColorValue==6)
                    {
                      diagonalSuperiorIzq(90);
-                     Wait(300);
+                     Wait(200);
                    }
                    else
                    {
 
-                     diagonalInferiorDer(95);
+                     diagonalInferiorDer(70);
                    }
                    break;
                case 0:
-                    if(Sensor(S4) > luz)
+                    if(csr.ColorValue==1 || csr.ColorValue==6)
                    {
                      diagonalSuperiorDer(90);
-                     Wait(300);
+                     Wait(200);
                    }
                    else
                    {
 
-                     diagonalInferiorIzq(90);
+                     diagonalInferiorIzq(70);
                    }
                    break;
           }

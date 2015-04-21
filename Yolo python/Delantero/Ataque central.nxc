@@ -1,4 +1,4 @@
-                                      //CREADO POR YOALI Y PYTHON
+                                      //CREADO POR YOALLI Y PYTHON
 
 //FUNCION QUE DEVUELVE ENTERO QUE HACE QUE EL COMPAS TE DE EL VALOR COMO APUNTASTE AL PRINCIPIO
 inline int brujula(int compas,int compasactual)
@@ -56,7 +56,7 @@ void alinearDer(int v){
  task main()
   {
      //VARIABLE DE LUZ
-     int luz=45;       //VALOR DE LUZ SE NECESITA CALIBRAR
+     int luz=40;       //VALOR DE LUZ SE NECESITA CALIBRAR
      //VARIABLES DE SENSOR IR
      int ir,s1,s2,s3,s4,s5;
      //VARIABLES DE COMPAS
@@ -71,12 +71,13 @@ void alinearDer(int v){
 
      //inicia ciclo
      while(true) {
-         //leemos datos de ir
-          ReadSensorHTIRSeeker2AC(IN_1,ir,s1,s2,s3,s4,s5);
-          cactual=SensorHTCompass(IN_3);  //detectamos el valor actual de compas
-          ba=brujula(cinicio,cactual);  //ba ahora vale un angulo respecto a como empieza
-
-          //Alineamos el robot si esta chueco.................
+       //leemos datos de ir
+       ReadSensorHTIRSeeker2AC(IN_1,ir,s1,s2,s3,s4,s5);
+       cactual=SensorHTCompass(IN_3);  //detectamos el valor actual de compas
+       ba=brujula(cinicio,cactual);  //ba ahora vale un angulo respecto a como empieza
+       if(Sensor(IN_2) == 0)
+       {
+            //Alineamos el robot si esta chueco.................
           if(ba>=20 && ba<=340)
           {
           	 if(ba >= 180)
@@ -108,17 +109,19 @@ void alinearDer(int v){
                    }
                    break;
                case 2:
-
-                   if(Sensor(S4) > luz)
+                     if(Sensor(S4) > luz)
                    {
                      diagonalSuperiorDer(90);
                      Wait(300);
                    }
                    else
                    {
-                     diagonalInferiorIzq(90);
+                     diagonalInferiorIzq(95);
                    }
                    break;
+
+
+
                case 3:
                      if(Sensor(S4) > luz)
                    {
@@ -127,7 +130,7 @@ void alinearDer(int v){
                     }
                       else
                       {
-                        diagonalSuperiorIzq(80);
+                        diagonalSuperiorIzq(85);
 
                       }
 
@@ -135,15 +138,14 @@ void alinearDer(int v){
                case 4:
                      if(Sensor(S4) > luz)
                    {
-                        diagonalInferiorDer(90);
-                        Wait(300);
-                    }
+
+                        atras(90);
+                         Wait(300);
+                     }
                       else
                       {
-                        diagonalSuperiorIzq(75);
-
+                        adelante(90);
                       }
-
 
                    break;
                case 5:
@@ -159,16 +161,17 @@ void alinearDer(int v){
                       }
                    break;
                case 6:
-                    if(Sensor(S4) > luz)
+                if(Sensor(S4) > luz)
                    {
-                          diagonalInferiorIzq(90);
+
+                        atras(90);
                          Wait(300);
-                    }
-                   else
-                   {
-                        diagonalSuperiorDer(75);
-                    }
-                      break;
+                     }
+                      else
+                      {
+                        adelante(90);
+                      }
+                   break;
                case  7:
                      if(Sensor(S4) > luz)
                    {
@@ -177,23 +180,25 @@ void alinearDer(int v){
                     }
                    else
                    {
-                        diagonalSuperiorDer(80);
+                        diagonalSuperiorDer(85);
                     }
 
 
                    break;
                case 8:
-
-                    if(Sensor(S4) > luz)
+                 if(Sensor(S4) > luz)
                    {
                      diagonalSuperiorIzq(90);
                      Wait(300);
                    }
                    else
                    {
-                      diagonalInferiorDer(90);
+
+                     diagonalInferiorDer(95);
                    }
                    break;
+
+
                case 9:
 
                     if(Sensor(S4) > luz)
@@ -221,5 +226,10 @@ void alinearDer(int v){
                    break;
           }
         }
+       }
+       else
+       {
+         Off(OUT_ABC);
+       }
      }
   }
