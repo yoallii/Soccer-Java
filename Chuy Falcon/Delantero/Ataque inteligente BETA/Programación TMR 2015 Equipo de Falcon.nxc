@@ -10,41 +10,39 @@ inline int brujula(int compas,int compasactual)
 void diagonalSuperiorIzq(int v){
   Off(OUT_ABC);
   OnFwd(OUT_A,v);
-  OnRev(OUT_C,v);
+  OnRev(OUT_B,v);
 }
 void diagonalSuperiorDer(int v){
   Off(OUT_ABC);
-  OnFwd(OUT_B,v);
-  OnRev(OUT_C,v);
+  OnFwd(OUT_BC,v);
 }
 void centroSuperior(int v){
   Off(OUT_ABC);
-  OnFwd(OUT_A,v);
-  OnRev(OUT_C,v);
+  OnFwd(OUT_AC,v);
 }
 void diagonalInferiorIzq(int v){
   Off(OUT_ABC);
-  OnFwd(OUT_B,v);
-  OnRev(OUT_C,v);
+  OnRev(OUT_BC,v);
 }
 void diagonalInferiorDer(int v){
   Off(OUT_ABC);
-  OnFwd(OUT_C,v);
+  OnFwd(OUT_B,v);
   OnRev(OUT_A,v);
 }
 void centroInferior(int v){
   Off(OUT_ABC);
-  OnFwd(OUT_B,v);
-  OnRev(OUT_A,v);
+  OnRev(OUT_AC,v);
 
 }
 void alinearIzq(int v){
   Off(OUT_ABC);
-  OnFwd(OUT_ABC,v);
+  OnRev(OUT_AB,v);
+  OnFwd(OUT_C,v);
 }
 void alinearDer(int v){
   Off(OUT_ABC);
-  OnRev(OUT_ABC,v)
+  OnFwd(OUT_AB,v);
+  OnRev(OUT_C,v);
 }
 
  task main()
@@ -52,22 +50,23 @@ void alinearDer(int v){
      int ir,s1,s2,s3,s4,s5;
      int cinicio,cactual,ba;
      bool ataqueDerecha=true;
-     SetSensorLowspeed(IN_1);
      SetSensorLowspeed(IN_3);
-     SetSensorLight(IN_4);
-     SetSensorTouch(IN_2);
-     cinicio=SensorHTCompass(IN_3);
+     SetSensorLowspeed(IN_4);
+     SetSensorLight(IN_2);
+     cinicio=SensorHTCompass(IN_4);
 
      while(true) {
           ReadSensorHTIRSeeker2AC(IN_3,ir,s1,s2,s3,s4,s5);
           cactual=SensorHTCompass(IN_4);
           ba=brujula(cinicio,cactual);
 
+          NumOut(0, LCD_LINE1, csr.ColorValue);
           TextOut(0, LCD_LINE3, "ir:    ");
           NumOut(7*6,LCD_LINE3, ir);
           TextOut(0, LCD_LINE2, "comp:     ");
           NumOut(7*6,LCD_LINE2, ba);
            // Clear previous values from screen
+           TextOut(0, LCD_LINE1, "               ");
           TextOut(0, LCD_LINE5, "               ");
           TextOut(0, LCD_LINE6, "               ");
            TextOut(0, LCD_LINE8, "               ");
@@ -97,7 +96,7 @@ void alinearDer(int v){
             switch(ir){
               case 1:
                    ataqueDerecha=true;
-                   if(Sensor(S4) > 35)
+                   if(Sensor(S2) > 35)
                    {
                      diagonalSuperiorDer(100);
                      Wait(500);
@@ -110,7 +109,7 @@ void alinearDer(int v){
                    break;
                case 2:
                     ataqueDerecha=true;
-                    if(Sensor(S4) > 35)
+                    if(Sensor(S2) > 35)
                    {
                      diagonalSuperiorDer(100);
                      Wait(500);
@@ -122,7 +121,7 @@ void alinearDer(int v){
                    }
                    break;
                case 3:
-                     if(Sensor(S4) > 35)
+                     if(Sensor(S2) > 35)
                    {
                      if(ataqueDerecha==true)
                       {
@@ -150,7 +149,7 @@ void alinearDer(int v){
                     }
                     break;
                case 4:
-                    if(Sensor(S4) > 35)
+                    if(Sensor(S2) > 35)
                    {
                      if(ataqueDerecha==true)
                       {
@@ -178,7 +177,7 @@ void alinearDer(int v){
                     }
                    break;
                case 5:
-                    if(Sensor(S4) > 35)
+                    if(Sensor(S2) > 35)
                    {
                      if(ataqueDerecha==true)
                       {
@@ -206,7 +205,7 @@ void alinearDer(int v){
                     }
                    break;
                case 6:
-                     if(Sensor(S4) > 35)
+                     if(Sensor(S2) > 35)
                    {
                      if(ataqueDerecha==true)
                       {
@@ -234,7 +233,7 @@ void alinearDer(int v){
                     }
                    break;
                case  7:
-                     if(Sensor(S4) > 35)
+                     if(Sensor(S2) > 35)
                    {
                      if(ataqueDerecha==true)
                       {
@@ -263,7 +262,7 @@ void alinearDer(int v){
                    break;
                case 8:
                     ataqueDerecha=false;
-                    if(Sensor(S4) > 35)
+                    if(Sensor(S2) > 35)
                    {
                      diagonalSuperiorIzq(100);
                      Wait(500);
@@ -275,7 +274,7 @@ void alinearDer(int v){
                    break;
                case 9:
                     ataqueDerecha=false;
-                    if(Sensor(S4) > 35)
+                    if(Sensor(S2) > 35)
                    {
                      diagonalSuperiorIzq(100);
                      Wait(500);
@@ -287,7 +286,7 @@ void alinearDer(int v){
                    }
                    break;
                case 0:
-                    if(Sensor(S4) > 35)
+                    if(Sensor(S2) > 35)
                    {
                      centroSuperior(85);
                      Wait(500);

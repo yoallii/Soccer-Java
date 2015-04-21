@@ -1,0 +1,236 @@
+inline int brujula(int compas,int compasactual)
+{
+    int b;
+    b=compasactual-compas;
+    if(b<0){
+        b+=360;
+    }
+    return b;
+}
+void diagonalSuperiorIzq(int v){
+  Off(OUT_ABC);
+  OnFwd(OUT_A,v);
+  OnRev(OUT_B,v);
+}
+void diagonalSuperiorDer(int v){
+  Off(OUT_ABC);
+  OnFwd(OUT_BC,v);
+}
+void centroSuperior(int v){
+  Off(OUT_ABC);
+  OnFwd(OUT_AC,v);
+}
+void diagonalInferiorIzq(int v){
+  Off(OUT_ABC);
+  OnRev(OUT_BC,v);
+}
+void diagonalInferiorDer(int v){
+  Off(OUT_ABC);
+  OnFwd(OUT_B,v);
+  OnRev(OUT_A,v);
+}
+void centroInferior(int v){
+  Off(OUT_ABC);
+  OnRev(OUT_AC,v);
+
+}
+void alinearIzq(int v){
+  Off(OUT_ABC);
+  OnRev(OUT_AB,v);
+  OnFwd(OUT_C,v);
+}
+void alinearDer(int v){
+  Off(OUT_ABC);
+  OnFwd(OUT_AB,v);
+  OnRev(OUT_C,v);
+}
+
+
+ task main()
+  {
+
+     int luz=45;
+     int ir,s1,s2,s3,s4,s5;
+     int cinicio,cactual,ba;
+
+     SetSensorTouch(IN_1);
+     SetSensorLowspeed(IN_3);
+     SetSensorLowspeed(IN_4);
+     SetSensorLight(IN_2);
+     cinicio=SensorHTCompass(IN_4);
+
+     //inicia ciclo
+     while(true) {
+          ReadSensorHTIRSeeker2AC(IN_3,ir,s1,s2,s3,s4,s5);
+          cactual=SensorHTCompass(IN_4);
+          ba=brujula(cinicio,cactual);
+
+         // NumOut(0, LCD_LINE1, csr.ColorValue);
+          TextOut(0, LCD_LINE3, "ir:    ");
+          NumOut(7*6,LCD_LINE3, ir);
+          TextOut(0, LCD_LINE2, "comp:     ");
+          NumOut(7*6,LCD_LINE2, ba);
+           // Clear previous values from screen
+          // TextOut(0, LCD_LINE1, "               ");
+          TextOut(0, LCD_LINE5, "               ");
+          TextOut(0, LCD_LINE6, "               ");
+           TextOut(0, LCD_LINE8, "               ");
+           // Show S values in a arc pattern
+           NumOut(3*6, LCD_LINE8, s1);
+           NumOut(2*6, LCD_LINE6, s2);
+           NumOut(7*6, LCD_LINE5, s3);
+           NumOut(11*6, LCD_LINE6, s4);
+           NumOut(10*6, LCD_LINE8, s5);
+           
+       if(Sensor(IN_1) == 0)
+       {
+           if(ba>=20 && ba<=340)
+          {
+          	 if(ba >= 180)
+					   {
+                 alinearDer(70);
+                 until(ba<350);
+              }
+					    else
+              {
+                   alinearIzq(70);
+				           until(ba > 5);
+              }
+           }
+         else
+         {
+          //dependiendo del caso que detecte el infrarrojo
+            switch(ir){
+              case 1:
+
+                   if(Sensor(S4) > luz)
+                   {
+                     diagonalSuperiorDer(90);
+                     Wait(300);
+                   }
+                   else
+                   {
+                     diagonalInferiorIzq(95);
+                   }
+                   break;
+               case 2:
+
+                   if(Sensor(S4) > luz)
+                   {
+                     diagonalSuperiorDer(90);
+                     Wait(300);
+                   }
+                   else
+                   {
+                     diagonalInferiorIzq(90);
+                   }
+                   break;
+               case 3:
+                     if(Sensor(S4) > luz)
+                   {
+                        diagonalInferiorDer(90);
+                        Wait(300);
+                    }
+                      else
+                      {
+                        diagonalSuperiorIzq(80);
+
+                      }
+
+                    break;
+               case 4:
+                     if(Sensor(S4) > luz)
+                   {
+                        diagonalInferiorIzq(90);
+                        Wait(300);
+                    }
+                      else
+                      {
+                        diagonalSuperiorDer(70);
+
+                      }
+
+                   break;
+               case 5:
+                    if(Sensor(S4) > luz)
+                   {
+
+                        centroInferior(90);
+                         Wait(300);
+                     }
+                      else
+                      {
+                        centroSuperior(90);
+                      }
+                   break;
+               case 6:
+                     if(Sensor(S4) > luz)
+                   {
+
+                        diagonalInferiorDer(90);
+                         Wait(300);
+                     }
+                      else
+                      {
+                        diagonalSuperiorIzq(70);
+                      }
+                      break;
+               case  7:
+                     if(Sensor(S4) > luz)
+                   {
+                          diagonalInferiorIzq(90);
+                         Wait(300);
+                    }
+                   else
+                   {
+                        diagonalSuperiorDer(80);
+                    }
+
+
+                   break;
+               case 8:
+
+                    if(Sensor(S4) > luz)
+                   {
+                     diagonalSuperiorIzq(90);
+                     Wait(300);
+                   }
+                   else
+                   {
+                      diagonalInferiorDer(90);
+                   }
+                   break;
+               case 9:
+
+                    if(Sensor(S4) > luz)
+                   {
+                     diagonalSuperiorIzq(90);
+                     Wait(300);
+                   }
+                   else
+                   {
+
+                     diagonalInferiorDer(95);
+                   }
+                   break;
+               case 0:
+                    if(Sensor(S4) > luz)
+                   {
+                     diagonalSuperiorDer(90);
+                     Wait(300);
+                   }
+                   else
+                   {
+
+                     diagonalInferiorIzq(90);
+                   }
+                   break;
+          }
+        }
+       }
+       else
+       {
+         Off(OUT_ABC);
+       }
+     }
+  }

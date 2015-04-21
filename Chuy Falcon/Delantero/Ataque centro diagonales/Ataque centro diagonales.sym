@@ -1,0 +1,1442 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0centroInferior	6	1	0	4	2
+1	__CLSRMutex2	9	0	4	4	2
+2	__CLSCSMutex3	9	0	8	4	2
+3	__CLSWMutex2	9	0	12	4	2
+4	__D0main	6	1	16	4	95
+5	__CLSCSMutex2	9	0	20	4	2
+6	__D0diagonalSuperiorIzq	6	1	24	4	4
+7	__D0centroSuperior	6	1	28	4	2
+8	__RLSBmutex2	9	0	32	4	2
+9	__D0diagonalInferiorIzq	6	1	36	4	2
+10	__D0diagonalSuperiorDer	6	1	40	4	2
+11	__D0diagonalInferiorDer	6	1	44	4	4
+12	__CLSWMutex3	9	0	48	4	2
+13	__RLSBmutex3	9	0	52	4	4
+14	__CLSRMutex3	9	0	56	4	2
+15	__OnRevMutex	9	0	60	4	12
+16	__D0alinearDer	6	1	64	4	4
+17	__D0brujula_inline_main	6	1	68	4	3
+18	__signed_stack_001main	6	1	72	4	56
+19	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	76	4	10
+20	__signed_stack_001brujula_inline_main	6	1	80	4	2
+21	__signed_stack_002main	6	1	84	4	26
+22	__DU0SetSensorLight_inline_main	5	1	88	4	2
+23	__D0SetSensorLight_inline_main	6	1	92	4	3
+24	__D0alinearIzq	6	1	96	4	4
+25	__D0SetSensorLowspeed_inline_main	6	1	100	4	6
+26	__DU0SetSensorLowspeed_inline_main	5	1	104	4	4
+27	__centroInferior_7qG2_v_7qG2_000	4	1	108	2	2
+28	__centroSuperior_7qG2_v_7qG2_000	4	1	110	2	2
+29	__diagonalInferiorDer_7qG2_v_7qG2_000	4	1	112	2	6
+30	__alinearDer_7qG2_v_7qG2_000	4	1	114	2	3
+31	__constVal360	4	0	116	2	1
+32	__alinearIzq_7qG2_v_7qG2_000	4	1	118	2	3
+33	__diagonalInferiorIzq_7qG2_v_7qG2_000	4	1	120	2	6
+34	__main_7qG2_ba_7qG2_000	4	1	122	2	7
+35	__main_7qG2_cinicio_7qG2_000	4	1	124	2	2
+36	__main_7qG2_s5_7qG2_000	4	1	126	2	2
+37	__brujula_7qG2_b_7qG2_000_inline_main	4	1	128	2	5
+38	__diagonalSuperiorIzq_7qG2_v_7qG2_000	4	1	130	2	6
+39	__diagonalSuperiorDer_7qG2_v_7qG2_000	4	1	132	2	6
+40	__main_7qG2_s1_7qG2_000	4	1	134	2	2
+41	__main_7qG2_luz_7qG2_000	4	1	136	2	11
+42	__main_7qG2_ir_7qG2_000	4	1	138	2	3
+43	__main_7qG2_s4_7qG2_000	4	1	140	2	2
+44	__main_7qG2_s3_7qG2_000	4	1	142	2	2
+45	__main_7qG2_s2_7qG2_000	4	1	144	2	2
+46	__diagonalSuperiorIzq_return	1	1	146	1	6
+47	__constVal63	2	0	147	1	21
+48	__constVal96	2	0	148	1	21
+49	__diagonalSuperiorDer_return	1	1	149	1	7
+50	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	150	1	2
+51	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	151	1	4
+52	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	152	1	4
+53	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	153	1	4
+54	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	154	1	4
+55	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	155	1	2
+56	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	156	1	2
+57	__constVal73	2	0	157	1	1
+58	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	158	1	2
+59	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	159	1	2
+60	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	160	1	2
+61	__centroInferior_return	1	1	161	1	3
+62	__alinearIzq_return	1	1	162	1	3
+63	__diagonalInferiorDer_return	1	1	163	1	6
+64	__centroSuperior_return	1	1	164	1	3
+65	__diagonalInferiorIzq_return	1	1	165	1	7
+66	__alinearDer_return	1	1	166	1	3
+67	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	167	1	4
+68	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	168	1	4
+69	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	169	1	10
+70	____initialize_global_data_return	1	1	170	1	3
+71	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	171	1	4
+72	__RLSBytesCount2	1	1	172	1	7
+73	__RLSBResult2	2	1	173	1	8
+74	__constVal3	2	0	174	1	33
+75	__RLSBIterations2	1	1	175	1	4
+76	____ReadLSBytes3_return	1	1	176	1	4
+77	__constVal2	2	0	177	1	4
+78	__constVal0	2	1	178	1	78
+79	__ResetSensorPort	1	1	179	1	6
+80	__ResetSensorTmp	1	1	180	1	2
+81	____ResetSensorSubroutine_return	1	1	181	1	6
+82	__constVal5	2	0	182	1	2
+83	____ReadLSBytes2_return	1	1	183	1	3
+84	__constVal6	2	0	184	1	1
+85	__constVal4	2	0	185	1	2
+86	__zfmain	1	1	186	1	55
+87	__constVal9	2	0	187	1	1
+88	__constVal16	2	0	188	1	1
+89	__OnRev_Tmp	2	1	189	1	12
+90	__zfbrujula_inline_main	1	1	190	1	3
+91	__zfSetSensorLowspeed_inline_main	1	1	191	1	4
+92	__zfSetSensorLight_inline_main	1	1	192	1	2
+93	__RLSBytesCount3	1	1	193	1	12
+94	__RLSBResult3	2	1	194	1	7
+95	__constVal1	2	0	195	1	13
+96	__RLSBIterations3	1	1	196	1	4
+97	__constVal7	2	0	197	1	1
+98	__constVal8	2	0	198	1	1
+99	__constVal32	2	0	199	1	64
+100	__CLSCSArgs2	8	0	3	4	4
+101	__CLSCSArgs2.Result	2	1	200	1	4
+102	__CLSCSArgs2.Port	1	1	201	1	4
+103	__CLSCSArgs2.BytesReady	1	1	202	1	4
+104	__CLSWArgs3	8	0	4	12	5
+105	__CLSWArgs3.Result	2	1	204	1	5
+106	__CLSWArgs3.Port	1	1	205	1	5
+107	__CLSWArgs3.Buffer	7	0	206	4	5
+108	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+109	__CLSWArgs3.ReturnLen	1	1	208	1	5
+110	__CLSRArgs3	8	0	4	12	5
+111	__CLSRArgs3.Result	2	1	212	1	5
+112	__CLSRArgs3.Port	1	1	213	1	5
+113	__CLSRArgs3.Buffer	7	0	214	4	5
+114	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+115	__CLSRArgs3.BufferLen	1	1	216	1	5
+116	__TextOutArgs	8	0	4	16	61
+117	__TextOutArgs.Result	2	1	220	1	61
+118	__TextOutArgs.Location	8	0	2	4	61
+119	__TextOutArgs.Location.X	4	1	224	2	61
+120	__TextOutArgs.Location.Y	4	1	226	2	61
+121	__TextOutArgs.Text	7	0	228	4	61
+122	__TextOutArgs.Text.Text_type	1	0	0	1	0
+123	__TextOutArgs.Options	5	1	232	4	61
+124	__CLSWArgs2	8	0	4	12	5
+125	__CLSWArgs2.Result	2	1	236	1	5
+126	__CLSWArgs2.Port	1	1	237	1	5
+127	__CLSWArgs2.Buffer	7	0	238	4	5
+128	__CLSWArgs2.Buffer.Buffer_type	1	0	0	1	0
+129	__CLSWArgs2.ReturnLen	1	1	240	1	5
+130	__CLSRArgs2	8	0	4	12	5
+131	__CLSRArgs2.Result	2	1	244	1	5
+132	__CLSRArgs2.Port	1	1	245	1	5
+133	__CLSRArgs2.Buffer	7	0	246	4	5
+134	__CLSRArgs2.Buffer.Buffer_type	1	0	0	1	0
+135	__CLSRArgs2.BufferLen	1	1	248	1	5
+136	__CLSCSArgs3	8	0	3	4	4
+137	__CLSCSArgs3.Result	2	1	252	1	4
+138	__CLSCSArgs3.Port	1	1	253	1	4
+139	__CLSCSArgs3.BytesReady	1	1	254	1	4
+140	__constStr0009	7	0	256	4	1
+141	__constStr0009.__constStr0009_type	1	1	0	1	0
+142	__OUT_AC	7	0	258	4	2
+143	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+144	__OUT_BC	7	0	260	4	2
+145	__OUT_BC.__OUT_BC_type	1	0	0	1	0
+146	__OUT_AB	7	0	262	4	2
+147	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+148	__constStr0011	7	0	264	4	3
+149	__constStr0011.__constStr0011_type	1	1	0	1	0
+150	__constStr0010	7	0	266	4	1
+151	__constStr0010.__constStr0010_type	1	1	0	1	0
+152	__OUT_ABC	7	0	268	4	9
+153	__OUT_ABC.__OUT_ABC_type	1	0	0	1	0
+154	__RLSReadBuf2	7	0	270	4	13
+155	__RLSReadBuf2.__RLSReadBuf2_type	1	0	0	1	0
+156	__RLSLastGoodRead2	7	0	272	4	2
+157	__RLSLastGoodRead2.__RLSLastGoodRead2_type	1	0	0	1	0
+158	__RLSBbufLSWrite1	7	0	274	4	2
+159	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+160	__strbufmain	7	0	276	4	10
+161	__strbufmain.__strbufmain_type	1	0	0	1	0
+162	__RLSReadBuf3	7	0	278	4	12
+163	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
+164	__RLSLastGoodRead3	7	0	280	4	2
+165	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	51	0	#line 51 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	52	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	51	2	#line 51 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	52	2	#line 52 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	53	2		set __main_7qG2_luz_7qG2_000, 45
+0	52	5	#line 52 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	55	5	#line 55 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	56	5		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	55	8	#line 55 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	3718	8	#line 3718 "NXCDefs.h"
+0	3719	8	#pragma macro 6
+0	3719	8		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	3719	12		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	3719	16		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
+0	3719	18		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6959	20	#line 6959 "NXCDefs.h"
+0	3718	20	#line 3718 "NXCDefs.h"
+0	56	20	#line 56 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	56	20	#line 56 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	57	20		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 2
+0	56	23	#line 56 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	57	23	#line 57 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	58	23		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	25	#line 3758 "NXCDefs.h"
+0	3759	25		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	27	#line 3758 "NXCDefs.h"
+0	3758	27	#line 3758 "NXCDefs.h"
+0	3759	27		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	29	#line 3758 "NXCDefs.h"
+0	3759	29		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	32	#line 3758 "NXCDefs.h"
+0	3759	32		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	35	#line 3758 "NXCDefs.h"
+0	3759	35		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	38	#line 3758 "NXCDefs.h"
+0	3759	38		jmp __004__NXC_Label_37
+0	3758	40	#line 3758 "NXCDefs.h"
+0	3759	40		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	43	#line 3758 "NXCDefs.h"
+0	3759	43		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	45	#line 3663 "NXCDefs.h"
+0	3664	45		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	49	#line 3663 "NXCDefs.h"
+0	3759	49	#line 3759 "NXCDefs.h"
+0	3759	49	#line 3759 "NXCDefs.h"
+0	3760	49		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	51	#line 3759 "NXCDefs.h"
+0	3759	51	#line 3759 "NXCDefs.h"
+0	3760	51		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	54	#line 3759 "NXCDefs.h"
+0	3676	54	#line 3676 "NXCDefs.h"
+0	3677	54		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	58	#line 3676 "NXCDefs.h"
+0	3760	58	#line 3760 "NXCDefs.h"
+0	3760	58	#line 3760 "NXCDefs.h"
+0	3761	58		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3760	60	#line 3760 "NXCDefs.h"
+0	3694	60	#line 3694 "NXCDefs.h"
+0	3695	60	#pragma macro 4
+0	3695	60		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3695	62		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	7053	64	#line 7053 "NXCDefs.h"
+0	3694	64	#line 3694 "NXCDefs.h"
+0	3761	64	#line 3761 "NXCDefs.h"
+0	57	64	#line 57 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	57	64	#line 57 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	58	64		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
+0	57	67	#line 57 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	58	67	#line 58 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	59	67		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	69	#line 3758 "NXCDefs.h"
+0	3759	69		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	71	#line 3758 "NXCDefs.h"
+0	3758	71	#line 3758 "NXCDefs.h"
+0	3759	71		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	73	#line 3758 "NXCDefs.h"
+0	3759	73		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	76	#line 3758 "NXCDefs.h"
+0	3759	76		brtst 4, __005__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	79	#line 3758 "NXCDefs.h"
+0	3759	79		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	82	#line 3758 "NXCDefs.h"
+0	3759	82		jmp __005__NXC_Label_37
+0	3758	84	#line 3758 "NXCDefs.h"
+0	3759	84		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	87	#line 3758 "NXCDefs.h"
+0	3759	87		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	89	#line 3663 "NXCDefs.h"
+0	3664	89		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	93	#line 3663 "NXCDefs.h"
+0	3759	93	#line 3759 "NXCDefs.h"
+0	3759	93	#line 3759 "NXCDefs.h"
+0	3760	93		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	95	#line 3759 "NXCDefs.h"
+0	3759	95	#line 3759 "NXCDefs.h"
+0	3760	95		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	98	#line 3759 "NXCDefs.h"
+0	3676	98	#line 3676 "NXCDefs.h"
+0	3677	98		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	102	#line 3676 "NXCDefs.h"
+0	3760	102	#line 3760 "NXCDefs.h"
+0	3760	102	#line 3760 "NXCDefs.h"
+0	3761	102		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3760	104	#line 3760 "NXCDefs.h"
+0	3694	104	#line 3694 "NXCDefs.h"
+0	3695	104	#pragma macro 4
+0	3695	104		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3695	106		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	7120	108	#line 7120 "NXCDefs.h"
+0	3694	108	#line 3694 "NXCDefs.h"
+0	3761	108	#line 3761 "NXCDefs.h"
+0	58	108	#line 58 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	58	108	#line 58 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	59	108		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
+0	58	111	#line 58 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	59	111	#line 59 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	60	111		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	113	#line 3729 "NXCDefs.h"
+0	3730	113		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	115	#line 3729 "NXCDefs.h"
+0	3729	115	#line 3729 "NXCDefs.h"
+0	3730	115		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	117	#line 3729 "NXCDefs.h"
+0	3730	117		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	120	#line 3729 "NXCDefs.h"
+0	3730	120		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	123	#line 3729 "NXCDefs.h"
+0	3730	123		set __D0SetSensorLight_inline_main, 5
+0	3729	126	#line 3729 "NXCDefs.h"
+0	3730	126		jmp __001__NXC_Label_5
+0	3729	128	#line 3729 "NXCDefs.h"
+0	3730	128		set __D0SetSensorLight_inline_main, 6
+0	3729	131	#line 3729 "NXCDefs.h"
+0	3730	131		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	133	#line 3663 "NXCDefs.h"
+0	3664	133		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	137	#line 3663 "NXCDefs.h"
+0	3730	137	#line 3730 "NXCDefs.h"
+0	3730	137	#line 3730 "NXCDefs.h"
+0	3731	137		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	139	#line 3730 "NXCDefs.h"
+0	3730	139	#line 3730 "NXCDefs.h"
+0	3731	139		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	142	#line 3730 "NXCDefs.h"
+0	3676	142	#line 3676 "NXCDefs.h"
+0	3677	142		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	146	#line 3676 "NXCDefs.h"
+0	3731	146	#line 3731 "NXCDefs.h"
+0	3731	146	#line 3731 "NXCDefs.h"
+0	3731	146	#line 3731 "NXCDefs.h"
+0	3694	146	#line 3694 "NXCDefs.h"
+0	3695	146	#pragma macro 4
+0	3695	146		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	148		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	7215	150	#line 7215 "NXCDefs.h"
+0	3694	150	#line 3694 "NXCDefs.h"
+0	3732	150	#line 3732 "NXCDefs.h"
+0	59	150	#line 59 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	59	150	#line 59 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	60	150	#pragma macro 30
+0	60	150		acquire __RLSBmutex3
+0	60	151		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	60	153		set __RLSBytesCount3, 2
+0	60	156		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	60	158		index __D0main, __RLSReadBuf3, 65535
+0	60	162		index __RLSBytesCount3, __RLSReadBuf3, __constVal1
+0	60	166		add __D0main, __D0main, __D0main
+0	60	170		add __D0main, __D0main, __RLSBytesCount3
+0	60	174		release __RLSBmutex3
+0	7220	175	#line 7220 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	59	175	#line 59 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	60	175		mov __main_7qG2_cinicio_7qG2_000, __D0main
+0	59	177	#line 59 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	59	177	#line 59 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	62	177	#line 62 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	63	177		set __D0main, 1
+0	63	180	#line 63 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	64	180		tst 5, __zfmain, __D0main
+0	63	183	#line 63 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	64	183		brtst 4, __NXC_Label_650, __zfmain
+0	63	186	#line 63 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	64	186	#pragma macro 36
+0	64	186		acquire __RLSBmutex2
+0	64	187		arrbuild __RLSReadBuf2, __constVal16, __constVal73
+0	64	192		set __RLSBytesCount2, 6
+0	64	195		subcall __ReadLSBytes2, ____ReadLSBytes2_return
+0	64	197		tst 4, __D0main, __RLSBResult2
+0	64	200		index __main_7qG2_ir_7qG2_000, __RLSReadBuf2, 65535
+0	64	204		index __main_7qG2_s1_7qG2_000, __RLSReadBuf2, __constVal1
+0	64	208		index __main_7qG2_s2_7qG2_000, __RLSReadBuf2, __constVal2
+0	64	212		index __main_7qG2_s3_7qG2_000, __RLSReadBuf2, __constVal3
+0	64	216		index __main_7qG2_s4_7qG2_000, __RLSReadBuf2, __constVal4
+0	64	220		index __main_7qG2_s5_7qG2_000, __RLSReadBuf2, __constVal5
+0	64	224		release __RLSBmutex2
+0	7237	225	#line 7237 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	63	225	#line 63 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	63	225	#line 63 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	64	225	#line 64 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	65	225	#pragma macro 30
+0	65	225		acquire __RLSBmutex3
+0	65	226		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	65	228		set __RLSBytesCount3, 2
+0	65	231		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	65	233		index __D0main, __RLSReadBuf3, 65535
+0	65	237		index __RLSBytesCount3, __RLSReadBuf3, __constVal1
+0	65	241		add __D0main, __D0main, __D0main
+0	65	245		add __D0main, __D0main, __RLSBytesCount3
+0	65	249		release __RLSBmutex3
+0	7241	250	#line 7241 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	64	250	#line 64 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	64	250	#line 64 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	64	250	#line 64 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	65	250	#line 65 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	65	250	#line 65 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	65	250	#line 65 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	65	250	#line 65 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	3	250	#line 3 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	3	250	#line 3 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	4	250	#line 4 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	4	250	#line 4 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	5	250		sub __brujula_7qG2_b_7qG2_000_inline_main, __D0main, __main_7qG2_cinicio_7qG2_000
+0	4	254	#line 4 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	4	254	#line 4 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	4	254	#line 4 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	5	254		mov __signed_stack_001brujula_inline_main, __brujula_7qG2_b_7qG2_000_inline_main
+0	4	256	#line 4 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	4	256	#line 4 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	5	256		set __D0brujula_inline_main, 0
+0	4	259	#line 4 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	5	259		cmp 0, __zfbrujula_inline_main, __signed_stack_001brujula_inline_main, __D0brujula_inline_main
+0	4	263	#line 4 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	5	263		mov __D0brujula_inline_main, __zfbrujula_inline_main
+0	5	265	#line 5 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	6	265		brtst 4, __001__NXC_Label_608, __zfbrujula_inline_main
+0	6	268	#line 6 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	6	268	#line 6 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	7	268		add __brujula_7qG2_b_7qG2_000_inline_main, __brujula_7qG2_b_7qG2_000_inline_main, __constVal360
+0	6	272	#line 6 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	7	272	#line 7 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	8	272	#line 8 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	9	272		mov __main_7qG2_ba_7qG2_000, __brujula_7qG2_b_7qG2_000_inline_main
+0	8	274	#line 8 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	8	274	#line 8 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	68	274	#line 68 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	68	274	#line 68 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	68	274	#line 68 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	68	274	#line 68 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	69	274		set __signed_stack_001main, 0
+0	68	277	#line 68 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	68	277	#line 68 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	69	277		set __signed_stack_002main, 40
+0	68	280	#line 68 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	68	280	#line 68 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	69	280		strcat __strbufmain, __constStr0009
+0	69	284	#line 69 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	69	284	#line 69 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	70	284		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	69	286	#line 69 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	70	286		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	69	288	#line 69 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	70	288		set __TextOutArgs.Options, 0
+0	69	291	#line 69 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	70	291		mov __TextOutArgs.Text, __strbufmain
+0	69	293	#line 69 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	70	293		syscall 13, __TextOutArgs
+0	69	296	#line 69 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	69	296	#line 69 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	69	296	#line 69 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	69	296	#line 69 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	70	296		set __signed_stack_001main, 42
+0	69	299	#line 69 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	69	299	#line 69 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	70	299		set __signed_stack_002main, 40
+0	69	302	#line 69 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	69	302	#line 69 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	70	302		mov __D0main, __main_7qG2_ir_7qG2_000
+0	70	304	#line 70 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	70	304	#line 70 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	71	304		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	70	306	#line 70 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	71	306		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	70	308	#line 70 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	71	308		set __TextOutArgs.Options, 0
+0	70	311	#line 70 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	71	311		numtostr __TextOutArgs.Text, __D0main
+0	70	314	#line 70 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	71	314		syscall 13, __TextOutArgs
+0	70	317	#line 70 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	70	317	#line 70 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	70	317	#line 70 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	70	317	#line 70 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	71	317		set __signed_stack_001main, 0
+0	70	320	#line 70 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	70	320	#line 70 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	71	320		set __signed_stack_002main, 48
+0	70	323	#line 70 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	70	323	#line 70 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	71	323		strcat __strbufmain, __constStr0010
+0	71	327	#line 71 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	71	327	#line 71 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	72	327		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	71	329	#line 71 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	72	329		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	71	331	#line 71 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	72	331		set __TextOutArgs.Options, 0
+0	71	334	#line 71 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	72	334		mov __TextOutArgs.Text, __strbufmain
+0	71	336	#line 71 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	72	336		syscall 13, __TextOutArgs
+0	71	339	#line 71 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	71	339	#line 71 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	71	339	#line 71 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	71	339	#line 71 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	72	339		set __signed_stack_001main, 42
+0	71	342	#line 71 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	71	342	#line 71 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	72	342		set __signed_stack_002main, 48
+0	71	345	#line 71 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	71	345	#line 71 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	72	345		mov __D0main, __main_7qG2_ba_7qG2_000
+0	74	347	#line 74 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	74	347	#line 74 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	75	347		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	74	349	#line 74 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	75	349		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	74	351	#line 74 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	75	351		set __TextOutArgs.Options, 0
+0	74	354	#line 74 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	75	354		numtostr __TextOutArgs.Text, __D0main
+0	74	357	#line 74 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	75	357		syscall 13, __TextOutArgs
+0	74	360	#line 74 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	74	360	#line 74 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	74	360	#line 74 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	74	360	#line 74 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	75	360		set __signed_stack_001main, 0
+0	74	363	#line 74 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	74	363	#line 74 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	75	363		set __signed_stack_002main, 24
+0	74	366	#line 74 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	74	366	#line 74 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	75	366		strcat __strbufmain, __constStr0011
+0	75	370	#line 75 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	75	370	#line 75 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	76	370		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	75	372	#line 75 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	76	372		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	75	374	#line 75 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	76	374		set __TextOutArgs.Options, 0
+0	75	377	#line 75 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	76	377		mov __TextOutArgs.Text, __strbufmain
+0	75	379	#line 75 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	76	379		syscall 13, __TextOutArgs
+0	75	382	#line 75 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	75	382	#line 75 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	75	382	#line 75 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	75	382	#line 75 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	76	382		set __signed_stack_001main, 0
+0	75	385	#line 75 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	75	385	#line 75 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	76	385		set __signed_stack_002main, 16
+0	75	388	#line 75 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	75	388	#line 75 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	76	388		strcat __strbufmain, __constStr0011
+0	76	392	#line 76 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	76	392	#line 76 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	77	392		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	76	394	#line 76 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	77	394		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	76	396	#line 76 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	77	396		set __TextOutArgs.Options, 0
+0	76	399	#line 76 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	77	399		mov __TextOutArgs.Text, __strbufmain
+0	76	401	#line 76 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	77	401		syscall 13, __TextOutArgs
+0	76	404	#line 76 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	76	404	#line 76 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	76	404	#line 76 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	76	404	#line 76 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	77	404		set __signed_stack_001main, 0
+0	76	407	#line 76 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	76	407	#line 76 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	77	407		set __signed_stack_002main, 0
+0	76	410	#line 76 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	76	410	#line 76 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	77	410		strcat __strbufmain, __constStr0011
+0	78	414	#line 78 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	78	414	#line 78 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	79	414		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	78	416	#line 78 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	79	416		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	78	418	#line 78 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	79	418		set __TextOutArgs.Options, 0
+0	78	421	#line 78 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	79	421		mov __TextOutArgs.Text, __strbufmain
+0	78	423	#line 78 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	79	423		syscall 13, __TextOutArgs
+0	78	426	#line 78 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	78	426	#line 78 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	78	426	#line 78 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	78	426	#line 78 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	79	426		set __signed_stack_001main, 18
+0	78	429	#line 78 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	78	429	#line 78 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	79	429		set __signed_stack_002main, 0
+0	78	432	#line 78 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	78	432	#line 78 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	79	432		mov __D0main, __main_7qG2_s1_7qG2_000
+0	79	434	#line 79 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	79	434	#line 79 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	80	434		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	79	436	#line 79 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	80	436		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	79	438	#line 79 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	80	438		set __TextOutArgs.Options, 0
+0	79	441	#line 79 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	80	441		numtostr __TextOutArgs.Text, __D0main
+0	79	444	#line 79 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	80	444		syscall 13, __TextOutArgs
+0	79	447	#line 79 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	79	447	#line 79 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	79	447	#line 79 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	79	447	#line 79 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	80	447		set __signed_stack_001main, 12
+0	79	450	#line 79 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	79	450	#line 79 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	80	450		set __signed_stack_002main, 16
+0	79	453	#line 79 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	79	453	#line 79 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	80	453		mov __D0main, __main_7qG2_s2_7qG2_000
+0	80	455	#line 80 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	80	455	#line 80 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	81	455		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	80	457	#line 80 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	81	457		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	80	459	#line 80 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	81	459		set __TextOutArgs.Options, 0
+0	80	462	#line 80 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	81	462		numtostr __TextOutArgs.Text, __D0main
+0	80	465	#line 80 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	81	465		syscall 13, __TextOutArgs
+0	80	468	#line 80 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	80	468	#line 80 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	80	468	#line 80 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	80	468	#line 80 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	81	468		set __signed_stack_001main, 42
+0	80	471	#line 80 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	80	471	#line 80 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	81	471		set __signed_stack_002main, 24
+0	80	474	#line 80 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	80	474	#line 80 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	81	474		mov __D0main, __main_7qG2_s3_7qG2_000
+0	81	476	#line 81 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	81	476	#line 81 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	82	476		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	81	478	#line 81 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	82	478		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	81	480	#line 81 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	82	480		set __TextOutArgs.Options, 0
+0	81	483	#line 81 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	82	483		numtostr __TextOutArgs.Text, __D0main
+0	81	486	#line 81 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	82	486		syscall 13, __TextOutArgs
+0	81	489	#line 81 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	81	489	#line 81 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	81	489	#line 81 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	81	489	#line 81 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	82	489		set __signed_stack_001main, 66
+0	81	492	#line 81 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	81	492	#line 81 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	82	492		set __signed_stack_002main, 16
+0	81	495	#line 81 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	81	495	#line 81 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	82	495		mov __D0main, __main_7qG2_s4_7qG2_000
+0	82	497	#line 82 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	82	497	#line 82 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	83	497		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	82	499	#line 82 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	83	499		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	82	501	#line 82 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	83	501		set __TextOutArgs.Options, 0
+0	82	504	#line 82 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	83	504		numtostr __TextOutArgs.Text, __D0main
+0	82	507	#line 82 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	83	507		syscall 13, __TextOutArgs
+0	82	510	#line 82 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	82	510	#line 82 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	82	510	#line 82 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	82	510	#line 82 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	83	510		set __signed_stack_001main, 60
+0	82	513	#line 82 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	82	513	#line 82 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	83	513		set __signed_stack_002main, 0
+0	82	516	#line 82 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	82	516	#line 82 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	83	516		mov __D0main, __main_7qG2_s5_7qG2_000
+0	84	518	#line 84 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	84	518	#line 84 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	85	518		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	84	520	#line 84 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	85	520		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	84	522	#line 84 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	85	522		set __TextOutArgs.Options, 0
+0	84	525	#line 84 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	85	525		numtostr __TextOutArgs.Text, __D0main
+0	84	528	#line 84 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	85	528		syscall 13, __TextOutArgs
+0	84	531	#line 84 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	85	531		mov __D0main, __TextOutArgs.Result
+0	84	533	#line 84 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	84	533	#line 84 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	84	533	#line 84 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	85	533		getin __signed_stack_001main, __constVal0, 4
+0	84	537	#line 84 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	85	537	#line 85 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	86	537		set __D0main, 0
+0	85	540	#line 85 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	86	540		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	85	544	#line 85 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	86	544		mov __D0main, __zfmain
+0	86	546	#line 86 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	87	546		brtst 4, __NXC_Label_725, __zfmain
+0	86	549	#line 86 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	87	549		mov __signed_stack_001main, __main_7qG2_ba_7qG2_000
+0	86	551	#line 86 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	86	551	#line 86 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	87	551		set __D0main, 20
+0	86	554	#line 86 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	87	554		cmp 3, __zfmain, __signed_stack_001main, __D0main
+0	86	558	#line 86 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	87	558		mov __D0main, __zfmain
+0	86	560	#line 86 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	87	560		brtst 4, __NXC_Label_727, __zfmain
+0	86	563	#line 86 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	87	563		mov __signed_stack_001main, __D0main
+0	86	565	#line 86 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	87	565		mov __signed_stack_002main, __main_7qG2_ba_7qG2_000
+0	86	567	#line 86 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	87	567	#line 87 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	88	567		set __D0main, 340
+0	87	570	#line 87 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	88	570		cmp 2, __zfmain, __signed_stack_002main, __D0main
+0	87	574	#line 87 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	87	574	#line 87 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	88	574		and __D0main, __signed_stack_001main, __zfmain
+0	88	578	#line 88 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	89	578		tst 5, __zfmain, __D0main
+0	88	581	#line 88 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	89	581		brtst 4, __NXC_Label_728, __zfmain
+0	88	584	#line 88 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	89	584		mov __signed_stack_001main, __main_7qG2_ba_7qG2_000
+0	88	586	#line 88 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	89	586	#line 89 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	90	586		set __D0main, 180
+0	89	589	#line 89 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	90	589		cmp 3, __zfmain, __signed_stack_001main, __D0main
+0	89	593	#line 89 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	90	593		mov __D0main, __zfmain
+0	90	595	#line 90 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	91	595		brtst 4, __NXC_Label_731, __zfmain
+0	90	598	#line 90 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	91	598		set __alinearDer_7qG2_v_7qG2_000, 70
+0	90	601	#line 90 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	91	601	#line 91 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	92	601		subcall alinearDer, __alinearDer_return
+0	91	603	#line 91 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	91	603	#line 91 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	92	603		mov __signed_stack_001main, __main_7qG2_ba_7qG2_000
+0	91	605	#line 91 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	91	605	#line 91 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	92	605		set __D0main, 350
+0	91	608	#line 91 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	92	608		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	91	612	#line 91 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	91	612	#line 91 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	92	612		not __D0main, __zfmain
+0	92	615	#line 92 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	93	615		tst 5, __zfmain, __D0main
+0	92	618	#line 92 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	93	618		brtst 4, __NXC_Label_735, __zfmain
+0	92	621	#line 92 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	92	621	#line 92 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	93	621		jmp __NXC_Label_734
+0	92	623	#line 92 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	95	623	#line 95 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	96	623		jmp __NXC_Label_740
+0	95	625	#line 95 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	96	625		set __alinearIzq_7qG2_v_7qG2_000, 70
+0	95	628	#line 95 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	96	628	#line 96 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	97	628		subcall alinearIzq, __alinearIzq_return
+0	96	630	#line 96 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	96	630	#line 96 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	97	630		mov __signed_stack_001main, __main_7qG2_ba_7qG2_000
+0	96	632	#line 96 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	96	632	#line 96 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	97	632		set __D0main, 5
+0	96	635	#line 96 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	97	635		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	96	639	#line 96 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	96	639	#line 96 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	97	639		not __D0main, __zfmain
+0	97	642	#line 97 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	98	642		tst 5, __zfmain, __D0main
+0	97	645	#line 97 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	98	645		brtst 4, __NXC_Label_744, __zfmain
+0	97	648	#line 97 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	97	648	#line 97 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	98	648		jmp __NXC_Label_743
+0	97	650	#line 97 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	99	650	#line 99 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	102	650	#line 102 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	103	650		jmp __NXC_Label_749
+0	102	652	#line 102 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	103	652		mov __D0main, __main_7qG2_ir_7qG2_000
+0	106	654		brcmp 4, __NXC_Label_753, __constVal1, __D0main
+0	107	658		brcmp 4, __NXC_Label_764, __constVal2, __D0main
+0	108	662		brcmp 4, __NXC_Label_775, __constVal3, __D0main
+0	109	666		brcmp 4, __NXC_Label_786, __constVal4, __D0main
+0	110	670		brcmp 4, __NXC_Label_797, __constVal5, __D0main
+0	111	674		brcmp 4, __NXC_Label_808, __constVal6, __D0main
+0	112	678		brcmp 4, __NXC_Label_819, __constVal7, __D0main
+0	113	682		brcmp 4, __NXC_Label_830, __constVal8, __D0main
+0	114	686		brcmp 4, __NXC_Label_841, __constVal9, __D0main
+0	115	690		brcmp 4, __NXC_Label_852, __constVal0, __D0main
+0	116	694		jmp __NXC_Label_752
+0	105	696	#line 105 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	105	696	#line 105 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	106	696		getin __signed_stack_001main, __constVal3, 4
+0	105	700	#line 105 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	106	700	#line 106 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	107	700		mov __D0main, __main_7qG2_luz_7qG2_000
+0	106	702	#line 106 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	107	702		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	106	706	#line 106 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	107	706		mov __D0main, __zfmain
+0	107	708	#line 107 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	108	708		brtst 4, __NXC_Label_756, __zfmain
+0	107	711	#line 107 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	108	711		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 90
+0	107	714	#line 107 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	108	714	#line 108 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	109	714		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
+0	108	716	#line 108 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	108	716	#line 108 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	109	716		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	108	719	#line 108 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	7921	719	#line 7921 "NXCDefs.h"
+0	7922	719		wait 300
+0	7921	721	#line 7921 "NXCDefs.h"
+0	109	721	#line 109 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	112	721	#line 112 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	113	721		jmp __NXC_Label_761
+0	112	723	#line 112 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	113	723		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 95
+0	112	726	#line 112 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	113	726	#line 113 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	114	726		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
+0	113	728	#line 113 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	114	728	#line 114 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	115	728	#line 115 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	116	728		jmp __NXC_Label_752
+0	115	730	#line 115 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	117	730	#line 117 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	117	730	#line 117 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	118	730		getin __signed_stack_001main, __constVal3, 4
+0	117	734	#line 117 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	118	734	#line 118 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	119	734		mov __D0main, __main_7qG2_luz_7qG2_000
+0	118	736	#line 118 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	119	736		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	118	740	#line 118 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	119	740		mov __D0main, __zfmain
+0	119	742	#line 119 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	120	742		brtst 4, __NXC_Label_767, __zfmain
+0	119	745	#line 119 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	120	745		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 90
+0	119	748	#line 119 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	120	748	#line 120 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	121	748		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
+0	120	750	#line 120 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	120	750	#line 120 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	121	750		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	120	753	#line 120 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	7921	753	#line 7921 "NXCDefs.h"
+0	7922	753		wait 300
+0	7921	755	#line 7921 "NXCDefs.h"
+0	121	755	#line 121 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	124	755	#line 124 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	125	755		jmp __NXC_Label_772
+0	124	757	#line 124 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	125	757		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 90
+0	124	760	#line 124 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	125	760	#line 125 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	126	760		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
+0	125	762	#line 125 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	126	762	#line 126 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	127	762	#line 127 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	128	762		jmp __NXC_Label_752
+0	127	764	#line 127 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	128	764	#line 128 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	128	764	#line 128 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	129	764		getin __signed_stack_001main, __constVal3, 4
+0	128	768	#line 128 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	129	768	#line 129 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	130	768		mov __D0main, __main_7qG2_luz_7qG2_000
+0	129	770	#line 129 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	130	770		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	129	774	#line 129 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	130	774		mov __D0main, __zfmain
+0	130	776	#line 130 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	131	776		brtst 4, __NXC_Label_778, __zfmain
+0	130	779	#line 130 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	131	779		set __diagonalInferiorDer_7qG2_v_7qG2_000, 90
+0	130	782	#line 130 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	131	782	#line 131 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	132	782		subcall diagonalInferiorDer, __diagonalInferiorDer_return
+0	131	784	#line 131 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	131	784	#line 131 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	132	784		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	131	787	#line 131 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	7921	787	#line 7921 "NXCDefs.h"
+0	7922	787		wait 300
+0	7921	789	#line 7921 "NXCDefs.h"
+0	132	789	#line 132 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	135	789	#line 135 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	136	789		jmp __NXC_Label_783
+0	135	791	#line 135 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	136	791		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 80
+0	135	794	#line 135 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	137	794	#line 137 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	138	794		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
+0	137	796	#line 137 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	139	796	#line 139 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	140	796	#line 140 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	141	796		jmp __NXC_Label_752
+0	140	798	#line 140 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	141	798	#line 141 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	141	798	#line 141 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	142	798		getin __signed_stack_001main, __constVal3, 4
+0	141	802	#line 141 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	142	802	#line 142 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	143	802		mov __D0main, __main_7qG2_luz_7qG2_000
+0	142	804	#line 142 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	143	804		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	142	808	#line 142 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	143	808		mov __D0main, __zfmain
+0	143	810	#line 143 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	144	810		brtst 4, __NXC_Label_789, __zfmain
+0	143	813	#line 143 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	144	813		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 90
+0	143	816	#line 143 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	144	816	#line 144 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	145	816		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
+0	144	818	#line 144 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	144	818	#line 144 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	145	818		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	144	821	#line 144 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	7921	821	#line 7921 "NXCDefs.h"
+0	7922	821		wait 300
+0	7921	823	#line 7921 "NXCDefs.h"
+0	145	823	#line 145 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	148	823	#line 148 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	149	823		jmp __NXC_Label_794
+0	148	825	#line 148 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	149	825		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 70
+0	148	828	#line 148 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	150	828	#line 150 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	151	828		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
+0	150	830	#line 150 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	152	830	#line 152 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	153	830	#line 153 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	154	830		jmp __NXC_Label_752
+0	153	832	#line 153 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	154	832	#line 154 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	154	832	#line 154 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	155	832		getin __signed_stack_001main, __constVal3, 4
+0	154	836	#line 154 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	155	836	#line 155 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	156	836		mov __D0main, __main_7qG2_luz_7qG2_000
+0	155	838	#line 155 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	156	838		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	155	842	#line 155 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	156	842		mov __D0main, __zfmain
+0	157	844	#line 157 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	158	844		brtst 4, __NXC_Label_800, __zfmain
+0	157	847	#line 157 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	158	847		set __centroInferior_7qG2_v_7qG2_000, 90
+0	157	850	#line 157 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	158	850	#line 158 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	159	850		subcall centroInferior, __centroInferior_return
+0	158	852	#line 158 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	158	852	#line 158 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	159	852		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	158	855	#line 158 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	7921	855	#line 7921 "NXCDefs.h"
+0	7922	855		wait 300
+0	7921	857	#line 7921 "NXCDefs.h"
+0	159	857	#line 159 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	162	857	#line 162 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	163	857		jmp __NXC_Label_805
+0	162	859	#line 162 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	163	859		set __centroSuperior_7qG2_v_7qG2_000, 90
+0	162	862	#line 162 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	163	862	#line 163 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	164	862		subcall centroSuperior, __centroSuperior_return
+0	163	864	#line 163 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	164	864	#line 164 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	165	864	#line 165 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	166	864		jmp __NXC_Label_752
+0	165	866	#line 165 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	166	866	#line 166 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	166	866	#line 166 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	167	866		getin __signed_stack_001main, __constVal3, 4
+0	166	870	#line 166 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	167	870	#line 167 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	168	870		mov __D0main, __main_7qG2_luz_7qG2_000
+0	167	872	#line 167 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	168	872		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	167	876	#line 167 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	168	876		mov __D0main, __zfmain
+0	169	878	#line 169 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	170	878		brtst 4, __NXC_Label_811, __zfmain
+0	169	881	#line 169 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	170	881		set __diagonalInferiorDer_7qG2_v_7qG2_000, 90
+0	169	884	#line 169 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	170	884	#line 170 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	171	884		subcall diagonalInferiorDer, __diagonalInferiorDer_return
+0	170	886	#line 170 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	170	886	#line 170 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	171	886		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	170	889	#line 170 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	7921	889	#line 7921 "NXCDefs.h"
+0	7922	889		wait 300
+0	7921	891	#line 7921 "NXCDefs.h"
+0	171	891	#line 171 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	174	891	#line 174 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	175	891		jmp __NXC_Label_816
+0	174	893	#line 174 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	175	893		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 70
+0	174	896	#line 174 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	175	896	#line 175 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	176	896		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
+0	175	898	#line 175 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	176	898	#line 176 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	177	898	#line 177 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	178	898		jmp __NXC_Label_752
+0	177	900	#line 177 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	178	900	#line 178 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	178	900	#line 178 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	179	900		getin __signed_stack_001main, __constVal3, 4
+0	178	904	#line 178 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	179	904	#line 179 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	180	904		mov __D0main, __main_7qG2_luz_7qG2_000
+0	179	906	#line 179 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	180	906		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	179	910	#line 179 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	180	910		mov __D0main, __zfmain
+0	180	912	#line 180 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	181	912		brtst 4, __NXC_Label_822, __zfmain
+0	180	915	#line 180 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	181	915		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 90
+0	180	918	#line 180 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	181	918	#line 181 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	182	918		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
+0	181	920	#line 181 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	181	920	#line 181 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	182	920		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	181	923	#line 181 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	7921	923	#line 7921 "NXCDefs.h"
+0	7922	923		wait 300
+0	7921	925	#line 7921 "NXCDefs.h"
+0	182	925	#line 182 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	185	925	#line 185 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	186	925		jmp __NXC_Label_827
+0	185	927	#line 185 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	186	927		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 80
+0	185	930	#line 185 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	186	930	#line 186 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	187	930		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
+0	186	932	#line 186 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	189	932	#line 189 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	190	932	#line 190 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	191	932		jmp __NXC_Label_752
+0	190	934	#line 190 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	192	934	#line 192 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	192	934	#line 192 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	193	934		getin __signed_stack_001main, __constVal3, 4
+0	192	938	#line 192 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	193	938	#line 193 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	194	938		mov __D0main, __main_7qG2_luz_7qG2_000
+0	193	940	#line 193 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	194	940		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	193	944	#line 193 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	194	944		mov __D0main, __zfmain
+0	194	946	#line 194 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	195	946		brtst 4, __NXC_Label_833, __zfmain
+0	194	949	#line 194 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	195	949		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 90
+0	194	952	#line 194 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	195	952	#line 195 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	196	952		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
+0	195	954	#line 195 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	195	954	#line 195 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	196	954		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	195	957	#line 195 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	7921	957	#line 7921 "NXCDefs.h"
+0	7922	957		wait 300
+0	7921	959	#line 7921 "NXCDefs.h"
+0	196	959	#line 196 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	199	959	#line 199 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	200	959		jmp __NXC_Label_838
+0	199	961	#line 199 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	200	961		set __diagonalInferiorDer_7qG2_v_7qG2_000, 90
+0	199	964	#line 199 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	200	964	#line 200 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	201	964		subcall diagonalInferiorDer, __diagonalInferiorDer_return
+0	200	966	#line 200 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	201	966	#line 201 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	202	966	#line 202 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	203	966		jmp __NXC_Label_752
+0	202	968	#line 202 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	204	968	#line 204 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	204	968	#line 204 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	205	968		getin __signed_stack_001main, __constVal3, 4
+0	204	972	#line 204 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	205	972	#line 205 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	206	972		mov __D0main, __main_7qG2_luz_7qG2_000
+0	205	974	#line 205 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	206	974		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	205	978	#line 205 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	206	978		mov __D0main, __zfmain
+0	206	980	#line 206 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	207	980		brtst 4, __NXC_Label_844, __zfmain
+0	206	983	#line 206 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	207	983		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 90
+0	206	986	#line 206 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	207	986	#line 207 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	208	986		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
+0	207	988	#line 207 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	207	988	#line 207 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	208	988		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	207	991	#line 207 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	7921	991	#line 7921 "NXCDefs.h"
+0	7922	991		wait 300
+0	7921	993	#line 7921 "NXCDefs.h"
+0	208	993	#line 208 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	212	993	#line 212 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	213	993		jmp __NXC_Label_849
+0	212	995	#line 212 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	213	995		set __diagonalInferiorDer_7qG2_v_7qG2_000, 95
+0	212	998	#line 212 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	213	998	#line 213 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	214	998		subcall diagonalInferiorDer, __diagonalInferiorDer_return
+0	213	1000	#line 213 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	214	1000	#line 214 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	215	1000	#line 215 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	216	1000		jmp __NXC_Label_752
+0	215	1002	#line 215 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	216	1002	#line 216 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	216	1002	#line 216 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	217	1002		getin __signed_stack_001main, __constVal3, 4
+0	216	1006	#line 216 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	217	1006	#line 217 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	218	1006		mov __D0main, __main_7qG2_luz_7qG2_000
+0	217	1008	#line 217 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	218	1008		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	217	1012	#line 217 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	218	1012		mov __D0main, __zfmain
+0	218	1014	#line 218 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	219	1014		brtst 4, __NXC_Label_855, __zfmain
+0	218	1017	#line 218 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	219	1017		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 90
+0	218	1020	#line 218 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	219	1020	#line 219 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	220	1020		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
+0	219	1022	#line 219 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	219	1022	#line 219 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	220	1022		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	219	1025	#line 219 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	7921	1025	#line 7921 "NXCDefs.h"
+0	7922	1025		wait 300
+0	7921	1027	#line 7921 "NXCDefs.h"
+0	220	1027	#line 220 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	224	1027	#line 224 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	225	1027		jmp __NXC_Label_860
+0	224	1029	#line 224 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	225	1029		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 90
+0	224	1032	#line 224 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	225	1032	#line 225 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	226	1032		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
+0	225	1034	#line 225 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	226	1034	#line 226 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	227	1034	#line 227 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	227	1034	#line 227 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	229	1034	#line 229 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	230	1034	#line 230 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	232	1034	#line 232 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	233	1034		jmp __NXC_Label_863
+0	233	1036	#line 233 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	234	1036	#pragma macro 7
+0	234	1036		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8395	1059	#line 8395 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	233	1059	#line 233 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	235	1059	#line 235 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	237	1059	#line 237 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	238	1059		jmp __NXC_Label_649
+0	237	1061	#line 237 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+0	238	1061		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	5747	0	#pragma macro 25
+2	5747	0		acquire __CLSWMutex2
+2	5747	1		set __CLSWArgs2.Port, 2
+2	5747	4		mov __CLSWArgs2.ReturnLen, __RLSBytesCount2
+2	5747	6		mov __CLSWArgs2.Buffer, __RLSReadBuf2
+2	5747	8		syscall 21, __CLSWArgs2
+2	5747	11		mov __RLSBResult2, __CLSWArgs2.Result
+2	5747	13		release __CLSWMutex2
+2	5747	14	#line 5747 "NXTDefs.h"
+2	5748	14		brtst 4, __RLSBReturn2, __RLSBytesCount2
+2	5749	17		arrinit __RLSReadBuf2, __constVal0, __RLSBytesCount2
+2	5750	21		brtst 5, __RLSBError2, __RLSBResult2
+2	5751	24		set __RLSBIterations2, 4
+2	5753	27	#pragma macro 23
+2	5753	27		acquire __CLSCSMutex2
+2	5753	28		set __CLSCSArgs2.Port, 2
+2	5753	31		syscall 23, __CLSCSArgs2
+2	5753	34		mov __RLSBytesCount2, __CLSCSArgs2.BytesReady
+2	5753	36		mov __RLSBResult2, __CLSCSArgs2.Result
+2	5753	38		release __CLSCSMutex2
+2	5753	39	#line 5753 "NXTDefs.h"
+2	5754	39		sub __RLSBIterations2, __RLSBIterations2, __constVal1
+2	5755	43		brtst 2, __RLSBError2, __RLSBIterations2
+2	5756	46		brtst 0, __RLSBError2, __RLSBResult2
+2	5757	49		brtst 4, __RLSBReadyToRead2, __RLSBResult2
+2	5759	52		wait 15
+2	5760	54		jmp __RLSBDoCheckStatus2
+2	5763	56	#pragma macro 25
+2	5763	56		acquire __CLSRMutex2
+2	5763	57		set __CLSRArgs2.Port, 2
+2	5763	60		mov __CLSRArgs2.BufferLen, __RLSBytesCount2
+2	5763	62		syscall 22, __CLSRArgs2
+2	5763	65		mov __RLSReadBuf2, __CLSRArgs2.Buffer
+2	5763	67		mov __RLSBResult2, __CLSRArgs2.Result
+2	5763	69		release __CLSRMutex2
+2	5763	70	#line 5763 "NXTDefs.h"
+2	5764	70		brtst 5, __RLSBError2, __RLSBResult2
+2	5765	73		mov __RLSLastGoodRead2, __RLSReadBuf2
+2	5766	75		jmp __RLSBDone2
+2	5768	77		mov __RLSReadBuf2, __RLSLastGoodRead2
+2	5770	79		arrsize __RLSBytesCount2, __RLSReadBuf2
+2	5772	82		subret ____ReadLSBytes2_return
+3	5784	0	#pragma macro 25
+3	5784	0		acquire __CLSWMutex3
+3	5784	1		set __CLSWArgs3.Port, 3
+3	5784	4		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
+3	5784	6		mov __CLSWArgs3.Buffer, __RLSReadBuf3
+3	5784	8		syscall 21, __CLSWArgs3
+3	5784	11		mov __RLSBResult3, __CLSWArgs3.Result
+3	5784	13		release __CLSWMutex3
+3	5784	14	#line 5784 "NXTDefs.h"
+3	5785	14		brtst 4, __RLSBReturn3, __RLSBytesCount3
+3	5786	17		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
+3	5787	21		brtst 5, __RLSBError3, __RLSBResult3
+3	5788	24		set __RLSBIterations3, 4
+3	5790	27	#pragma macro 23
+3	5790	27		acquire __CLSCSMutex3
+3	5790	28		set __CLSCSArgs3.Port, 3
+3	5790	31		syscall 23, __CLSCSArgs3
+3	5790	34		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
+3	5790	36		mov __RLSBResult3, __CLSCSArgs3.Result
+3	5790	38		release __CLSCSMutex3
+3	5790	39	#line 5790 "NXTDefs.h"
+3	5791	39		sub __RLSBIterations3, __RLSBIterations3, __constVal1
+3	5792	43		brtst 2, __RLSBError3, __RLSBIterations3
+3	5793	46		brtst 0, __RLSBError3, __RLSBResult3
+3	5794	49		brtst 4, __RLSBReadyToRead3, __RLSBResult3
+3	5796	52		wait 15
+3	5797	54		jmp __RLSBDoCheckStatus3
+3	5800	56	#pragma macro 25
+3	5800	56		acquire __CLSRMutex3
+3	5800	57		set __CLSRArgs3.Port, 3
+3	5800	60		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
+3	5800	62		syscall 22, __CLSRArgs3
+3	5800	65		mov __RLSReadBuf3, __CLSRArgs3.Buffer
+3	5800	67		mov __RLSBResult3, __CLSRArgs3.Result
+3	5800	69		release __CLSRMutex3
+3	5800	70	#line 5800 "NXTDefs.h"
+3	5801	70		brtst 5, __RLSBError3, __RLSBResult3
+3	5802	73		mov __RLSLastGoodRead3, __RLSReadBuf3
+3	5803	75		jmp __RLSBDone3
+3	5805	77		mov __RLSReadBuf3, __RLSLastGoodRead3
+3	5807	79		arrsize __RLSBytesCount3, __RLSReadBuf3
+3	5809	82		subret ____ReadLSBytes3_return
+4	11	0	#line 11 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+4	12	0	#pragma macro 7
+4	12	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6723	23	#line 6723 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+4	11	23	#line 11 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+4	11	23	#line 11 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+4	12	23		mov __D0diagonalSuperiorIzq, __diagonalSuperiorIzq_7qG2_v_7qG2_000
+4	12	25	#line 12 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+4	13	25	#pragma macro 7
+4	13	25		setout __constVal0, 2, __D0diagonalSuperiorIzq, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6730	48	#line 6730 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+4	12	48	#line 12 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+4	12	48	#line 12 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+4	13	48		mov __D0diagonalSuperiorIzq, __diagonalSuperiorIzq_7qG2_v_7qG2_000
+4	13	50	#line 13 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+4	14	50	#pragma macro 10
+4	14	50		acquire __OnRevMutex
+4	14	51		neg __OnRev_Tmp, __D0diagonalSuperiorIzq
+4	14	54		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	14	77		release __OnRevMutex
+4	6737	78	#line 6737 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+4	13	78	#line 13 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+4	14	78	#line 14 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+4	15	78		subret __diagonalSuperiorIzq_return
+5	16	0	#line 16 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+5	17	0	#pragma macro 7
+5	17	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	6749	23	#line 6749 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+5	16	23	#line 16 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+5	16	23	#line 16 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+5	17	23		mov __D0diagonalSuperiorDer, __diagonalSuperiorDer_7qG2_v_7qG2_000
+5	17	25	#line 17 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+5	18	25	#pragma macro 7
+5	18	25		setout __OUT_BC, 2, __D0diagonalSuperiorDer, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	6756	48	#line 6756 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+5	17	48	#line 17 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+5	18	48	#line 18 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+5	19	48		subret __diagonalSuperiorDer_return
+6	20	0	#line 20 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+6	21	0	#pragma macro 7
+6	21	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	6768	23	#line 6768 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+6	20	23	#line 20 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+6	20	23	#line 20 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+6	21	23		mov __D0centroSuperior, __centroSuperior_7qG2_v_7qG2_000
+6	21	25	#line 21 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+6	22	25	#pragma macro 7
+6	22	25		setout __OUT_AC, 2, __D0centroSuperior, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	6775	48	#line 6775 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+6	21	48	#line 21 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+6	22	48	#line 22 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+6	23	48		subret __centroSuperior_return
+7	24	0	#line 24 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+7	25	0	#pragma macro 7
+7	25	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	6787	23	#line 6787 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+7	24	23	#line 24 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+7	24	23	#line 24 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+7	25	23		mov __D0diagonalInferiorIzq, __diagonalInferiorIzq_7qG2_v_7qG2_000
+7	25	25	#line 25 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+7	26	25	#pragma macro 10
+7	26	25		acquire __OnRevMutex
+7	26	26		neg __OnRev_Tmp, __D0diagonalInferiorIzq
+7	26	29		setout __OUT_BC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	26	52		release __OnRevMutex
+7	6794	53	#line 6794 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+7	25	53	#line 25 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+7	26	53	#line 26 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+7	27	53		subret __diagonalInferiorIzq_return
+8	28	0	#line 28 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+8	29	0	#pragma macro 7
+8	29	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	6806	23	#line 6806 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+8	28	23	#line 28 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+8	28	23	#line 28 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+8	29	23		mov __D0diagonalInferiorDer, __diagonalInferiorDer_7qG2_v_7qG2_000
+8	29	25	#line 29 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+8	30	25	#pragma macro 7
+8	30	25		setout __constVal1, 2, __D0diagonalInferiorDer, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	6813	48	#line 6813 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+8	29	48	#line 29 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+8	29	48	#line 29 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+8	30	48		mov __D0diagonalInferiorDer, __diagonalInferiorDer_7qG2_v_7qG2_000
+8	30	50	#line 30 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+8	31	50	#pragma macro 10
+8	31	50		acquire __OnRevMutex
+8	31	51		neg __OnRev_Tmp, __D0diagonalInferiorDer
+8	31	54		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	31	77		release __OnRevMutex
+8	6820	78	#line 6820 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+8	30	78	#line 30 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+8	31	78	#line 31 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+8	32	78		subret __diagonalInferiorDer_return
+9	33	0	#line 33 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+9	34	0	#pragma macro 7
+9	34	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	6832	23	#line 6832 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+9	33	23	#line 33 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+9	33	23	#line 33 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+9	34	23		mov __D0centroInferior, __centroInferior_7qG2_v_7qG2_000
+9	35	25	#line 35 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+9	36	25	#pragma macro 10
+9	36	25		acquire __OnRevMutex
+9	36	26		neg __OnRev_Tmp, __D0centroInferior
+9	36	29		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	36	52		release __OnRevMutex
+9	6839	53	#line 6839 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+9	35	53	#line 35 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+9	36	53	#line 36 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+9	37	53		subret __centroInferior_return
+10	38	0	#line 38 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+10	39	0	#pragma macro 7
+10	39	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+10	6851	23	#line 6851 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+10	38	23	#line 38 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+10	38	23	#line 38 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+10	39	23		mov __D0alinearIzq, __alinearIzq_7qG2_v_7qG2_000
+10	39	25	#line 39 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+10	40	25	#pragma macro 10
+10	40	25		acquire __OnRevMutex
+10	40	26		neg __OnRev_Tmp, __D0alinearIzq
+10	40	29		setout __OUT_AB, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+10	40	52		release __OnRevMutex
+10	6858	53	#line 6858 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+10	39	53	#line 39 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+10	39	53	#line 39 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+10	40	53		mov __D0alinearIzq, __alinearIzq_7qG2_v_7qG2_000
+10	40	55	#line 40 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+10	41	55	#pragma macro 7
+10	41	55		setout __constVal2, 2, __D0alinearIzq, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+10	6865	78	#line 6865 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+10	40	78	#line 40 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+10	41	78	#line 41 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+10	42	78		subret __alinearIzq_return
+11	43	0	#line 43 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+11	44	0	#pragma macro 7
+11	44	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+11	6877	23	#line 6877 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+11	43	23	#line 43 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+11	43	23	#line 43 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+11	44	23		mov __D0alinearDer, __alinearDer_7qG2_v_7qG2_000
+11	44	25	#line 44 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+11	45	25	#pragma macro 7
+11	45	25		setout __OUT_AB, 2, __D0alinearDer, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+11	6884	48	#line 6884 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+11	44	48	#line 44 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+11	44	48	#line 44 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+11	45	48		mov __D0alinearDer, __alinearDer_7qG2_v_7qG2_000
+11	45	50	#line 45 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+11	46	50	#pragma macro 10
+11	46	50		acquire __OnRevMutex
+11	46	51		neg __OnRev_Tmp, __D0alinearDer
+11	46	54		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+11	46	77		release __OnRevMutex
+11	6891	78	#line 6891 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+11	45	78	#line 45 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+11	48	78	#line 48 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+11	49	78		subret __alinearDer_return
+12	238	0	#line 238 "C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc"
+12	239	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc
+1	__ResetSensorSubroutine	1064	NXTDefs.h
+2	__ReadLSBytes2	1077	NXTDefs.h
+3	__ReadLSBytes3	1161	NXTDefs.h
+4	diagonalSuperiorIzq	1245	C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc
+5	diagonalSuperiorDer	1325	C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc
+6	centroSuperior	1375	C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc
+7	diagonalInferiorIzq	1425	C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc
+8	diagonalInferiorDer	1480	C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc
+9	centroInferior	1560	C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc
+10	alinearIzq	1615	C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc
+11	alinearDer	1695	C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc
+12	__initialize_global_data	1775	C:\Users\UNMALN~1\AppData\Local\Temp\temp.nxc

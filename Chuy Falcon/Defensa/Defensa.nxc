@@ -1,0 +1,219 @@
+inline int brujula(int compas,int compasactual)
+{
+    int b;
+    b=compasactual-compas;
+    if(b<0){
+        b+=360;
+    }
+    return b;
+}
+void diagonalSuperiorIzq(int v){
+  Off(OUT_ABC);
+  OnFwd(OUT_A,v);
+  OnRev(OUT_B,v);
+}
+void diagonalSuperiorDer(int v){
+  Off(OUT_ABC);
+  OnFwd(OUT_BC,v);
+}
+void centroSuperior(int v){
+  Off(OUT_ABC);
+  OnFwd(OUT_AC,v);
+}
+void diagonalInferiorIzq(int v){
+  Off(OUT_ABC);
+  OnRev(OUT_BC,v);
+}
+void diagonalInferiorDer(int v){
+  Off(OUT_ABC);
+  OnFwd(OUT_B,v);
+  OnRev(OUT_A,v);
+}
+void centroInferior(int v){
+  Off(OUT_ABC);
+  OnRev(OUT_AC,v);
+
+}
+void alinearIzq(int v){
+  Off(OUT_ABC);
+  OnRev(OUT_AB,v);
+  OnFwd(OUT_C,v);
+}
+void alinearDer(int v){
+  Off(OUT_ABC);
+  OnFwd(OUT_AB,v);
+  OnRev(OUT_C,v);
+}
+
+ task main()
+  {
+     int ir,s1,s2,s3,s4,s5;
+     int cinicio,cactual,ba;
+     SetSensorTouch(IN_1);
+     SetSensorLowspeed(IN_3);
+     SetSensorLowspeed(IN_4);
+     cinicio=SensorHTCompass(IN_4);
+     SetSensorColorFull(S2);
+     ColorSensorReadType csr;
+     csr.Port = S2;
+
+
+     while(true) {
+       SysColorSensorRead(csr);
+       ReadSensorHTIRSeeker2AC(IN_1,ir,s1,s2,s3,s4,s5);
+       cactual=SensorHTCompass(IN_3);
+       ba=brujula(cinicio,cactual);
+       if(Sensor(IN_2) == 0)
+       {
+            //Alineamos el robot si esta chueco.................
+          if(ba>=20 && ba<=340)
+          {
+          	 if(ba >= 180)
+					   {
+                 alinearIzq(70);
+                 until(ba<350);
+              }
+					    else
+              {
+                   alinearDer(70);
+				           until(ba > 5);
+              }
+           }
+         //Si esta acomodado entonces.................................
+         else
+         {
+
+            switch(ir){
+              case 1:
+
+                   if(csr.ColorValue==1 || csr.ColorValue==6)
+                   {
+                     diagonalSuperiorDer(90);
+                     Wait(200);
+                   }
+                   else
+                   {
+                     diagonalInferiorIzq(70);
+                   }
+                   break;
+               case 2:
+
+                   if(csr.ColorValue==1 || csr.ColorValue==6)
+                   {
+                     diagonalSuperiorDer(90);
+                     Wait(200);
+                   }
+                   else
+                   {
+                     diagonalInferiorIzq(70);
+                   }
+                   break;
+               case 3:
+                     if(csr.ColorValue==1 || csr.ColorValue==6)
+                   {
+                        diagonalInferiorDer(90);
+                        Wait(200);
+                    }
+                      else
+                      {
+                        diagonalSuperiorIzq(70);
+
+                      }
+
+                    break;
+               case 4:
+                     if(csr.ColorValue==1 || csr.ColorValue==6)
+                   {
+                        diagonalInferiorDer(90);
+                        Wait(200);
+                    }
+                      else
+                      {
+                        diagonalSuperiorIzq(70);
+
+                      }
+
+
+                   break;
+               case 5:
+                    if(csr.ColorValue==1 || csr.ColorValue==6)
+                   {
+
+                        centroInferior(90);
+                         Wait(200);
+                     }
+                      else
+                      {
+                        centroSuperior(50);
+                      }
+                   break;
+               case 6:
+                    if(csr.ColorValue==1 || csr.ColorValue==6)
+                   {
+                          diagonalInferiorIzq(90);
+                         Wait(200);
+                    }
+                   else
+                   {
+                        diagonalSuperiorDer(70);
+                    }
+                      break;
+               case  7:
+                     if(csr.ColorValue==1 || csr.ColorValue==6)
+                   {
+                          diagonalInferiorIzq(90);
+                         Wait(200);
+                    }
+                   else
+                   {
+                        diagonalSuperiorDer(70);
+                    }
+
+
+                   break;
+               case 8:
+
+                    if(csr.ColorValue==1 || csr.ColorValue==6)
+                   {
+                     diagonalSuperiorIzq(90);
+                     Wait(200);
+                   }
+                   else
+                   {
+                      diagonalInferiorDer(70);
+                   }
+                   break;
+               case 9:
+
+                    if(csr.ColorValue==1 || csr.ColorValue==6)
+                   {
+                     diagonalSuperiorIzq(90);
+                     Wait(200);
+                   }
+                   else
+                   {
+
+                     diagonalInferiorDer(70);
+                   }
+                   break;
+               case 0:
+                    if(csr.ColorValue==1 || csr.ColorValue==6)
+                   {
+                     diagonalSuperiorDer(90);
+                     Wait(200);
+                   }
+                   else
+                   {
+
+                     diagonalInferiorIzq(70);
+                   }
+                   break;
+          }
+        }
+       }
+       else
+       {
+         Off(OUT_ABC);
+       }
+     }
+  }
