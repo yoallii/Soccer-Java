@@ -100,11 +100,11 @@ void alinearDer(int v){
                       if(Sensor(S4) > luz)
                    {
                      diagonalSuperiorDer(90);
-                     Wait(300);
+                     Wait(400);
                    }
                    else
                    {
-                     diagonalInferiorIzq(95);
+                     diagonalInferiorIzq(90);
                    }
                    break;
 
@@ -112,11 +112,11 @@ void alinearDer(int v){
                      if(Sensor(S4) > luz)
                    {
                      diagonalSuperiorDer(90);
-                     Wait(300);
+                     Wait(400);
                    }
                    else
                    {
-                     diagonalInferiorIzq(95);
+                     diagonalInferiorIzq(90);
                    }
                    break;
 
@@ -126,7 +126,7 @@ void alinearDer(int v){
                      if(Sensor(S4) > luz)
                    {
                         diagonalInferiorDer(90);
-                        Wait(300);
+                        Wait(400);
                     }
                       else
                       {
@@ -136,15 +136,15 @@ void alinearDer(int v){
 
                     break;
                case 4:
-                if(Sensor(S4) > luz)
+                  if(Sensor(S4) > luz)
                    {
-
-                        atras(90);
-                         Wait(300);
-                     }
+                        diagonalInferiorDer(90);
+                        Wait(400);
+                    }
                       else
                       {
-                        adelante(90);
+                        diagonalSuperiorIzq(80);
+
                       }
 
                     break;
@@ -153,7 +153,7 @@ void alinearDer(int v){
                    {
 
                         atras(90);
-                         Wait(300);
+                         Wait(400);
                      }
                       else
                       {
@@ -161,11 +161,11 @@ void alinearDer(int v){
                       }
                    break;
                case 6:
-                if(Sensor(S4) > luz)
+                 if(Sensor(S4) > luz)
                    {
 
                         atras(90);
-                         Wait(300);
+                         Wait(400);
                      }
                       else
                       {
@@ -176,7 +176,7 @@ void alinearDer(int v){
                      if(Sensor(S4) > luz)
                    {
                           diagonalInferiorIzq(90);
-                         Wait(300);
+                         Wait(400);
                     }
                    else
                    {
@@ -189,12 +189,12 @@ void alinearDer(int v){
                  if(Sensor(S4) > luz)
                    {
                      diagonalSuperiorIzq(90);
-                     Wait(300);
+                     Wait(400);
                    }
                    else
                    {
 
-                     diagonalInferiorDer(95);
+                     diagonalInferiorDer(90);
                    }
                    break;
 
@@ -204,24 +204,24 @@ void alinearDer(int v){
                     if(Sensor(S4) > luz)
                    {
                      diagonalSuperiorIzq(90);
-                     Wait(300);
+                     Wait(400);
                    }
                    else
                    {
 
-                     diagonalInferiorDer(95);
+                     diagonalInferiorDer(90);
                    }
                    break;
                case 0:
                   if(Sensor(S4) > luz)
                    {
-                     diagonalSuperiorIzq(90);
-                     Wait(300);
+                     diagonalInferiorIzq(90);
+                     Wait(400);
                    }
                    else
                    {
 
-                     diagonalInferiorDer(95);
+                     diagonalInferiorDer(85);
                    }
                    break;
           }

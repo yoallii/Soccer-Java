@@ -99,137 +99,165 @@ void alinearDer(int v){
            if(puntoNeutro==true)
            {
             atras(100);
-             Wait(800);
-               puntoNeutro=false;
+             Wait(600);
+             puntoNeutro=false;
            }
            else
            {
            //dependiendo del caso que detecte el infrarrojo
             switch(ir){
-              case 1:
-
-                   if(csr.ColorValue==1 || csr.ColorValue==6)
+              //csr.ColorValue==1 || csr.ColorValue==6
+                case 1:
+                      if(csr.ColorValue==1)
                    {
-                     diagonalSuperiorDer(70);
-                     Wait(300);
+                     diagonalInferiorDer(90);
+                     Wait(400);
+                   }
+                    else if(csr.ColorValue==6)
+                   {
+                     diagonalSuperiorDer(90);
+                     Wait(400);
                    }
                    else
                    {
-                     diagonalInferiorIzq(75);
+                     diagonalInferiorIzq(70);
                    }
                    break;
+
                case 2:
-
-                   if(csr.ColorValue==1 || csr.ColorValue==6)
+                       if(csr.ColorValue==1)
                    {
-                     diagonalSuperiorDer(70);
-                     Wait(300);
+                     diagonalInferiorDer(90);
+                     Wait(400);
+                   }
+                    else if(csr.ColorValue==6)
+                   {
+                     diagonalSuperiorDer(90);
+                     Wait(400);
                    }
                    else
                    {
-                     diagonalInferiorIzq(75);
+                     diagonalInferiorIzq(70);
                    }
                    break;
+
+
+
                case 3:
                      if(csr.ColorValue==1 || csr.ColorValue==6)
                    {
-                        diagonalInferiorDer(70);          // borde negro o blanco
-                        Wait(700);
+                        diagonalInferiorDer(90);
+                        Wait(400);
                     }
                       else
                       {
-                        diagonalSuperiorIzq(75);          //normal
+                        diagonalSuperiorIzq(85);
 
                       }
 
                     break;
                case 4:
-                    if(csr.ColorValue==1 || csr.ColorValue==6)
+                  if(csr.ColorValue==1 || csr.ColorValue==6)
                    {
-                        diagonalInferiorDer(70);          // borde negro o blanco
-                        Wait(700);
+                        diagonalInferiorDer(90);
+                        Wait(400);
                     }
                       else
                       {
-                        diagonalSuperiorIzq(75);          //normal
+                        diagonalSuperiorIzq(80);
 
                       }
 
-                   break;
+                    break;
                case 5:
                     if(csr.ColorValue==1 || csr.ColorValue==6)
                    {
 
-                        atras(80);
-                         Wait(700);
+                        atras(90);
+                         Wait(400);
                      }
                       else
                       {
-                        adelante(60);
+                        adelante(65);
                       }
                    break;
                case 6:
-                         if(csr.ColorValue==1 || csr.ColorValue==6)
+                 if(csr.ColorValue==1 || csr.ColorValue==6 )
                    {
 
-                        atras(80);
-                         Wait(700);
+                        atras(90);
+                         Wait(400);
                      }
                       else
                       {
-                        adelante(60);
+                        adelante(65);
                       }
                    break;
                case  7:
-                        if(csr.ColorValue==1 || csr.ColorValue==6)
+                     if(csr.ColorValue==1 || csr.ColorValue==6)
                    {
-
-                        atras(80);
-                         Wait(700);
-                     }
-                      else
-                      {
-                        adelante(60);
-                      }
-                   break;
+                          diagonalInferiorIzq(90);
+                         Wait(400);
+                    }
+                   else
+                   {
+                        diagonalSuperiorDer(85);
+                    }
 
 
                    break;
                case 8:
-
-                    if(csr.ColorValue==1 || csr.ColorValue==6)
+                 if(csr.ColorValue==1)
                    {
-                     diagonalSuperiorIzq(70);
-                     Wait(300);
+                     diagonalInferiorIzq(90);
+                     Wait(400);
+                   }
+                    else if(csr.ColorValue==6)
+                   {
+                     diagonalSuperiorIzq(90);
+                     Wait(400);
                    }
                    else
                    {
-                      diagonalInferiorDer(75);
+
+                     diagonalInferiorDer(90);
                    }
                    break;
+
+
                case 9:
 
-                    if(csr.ColorValue==1 || csr.ColorValue==6)
+                   if(csr.ColorValue==1)
                    {
-                     diagonalSuperiorIzq(70);
-                     Wait(300);
+                     diagonalInferiorIzq(90);
+                     Wait(400);
+                   }
+                    else if(csr.ColorValue==6)
+                   {
+                     diagonalSuperiorIzq(90);
+                     Wait(400);
                    }
                    else
                    {
 
-                     diagonalInferiorDer(75);
+                     diagonalInferiorDer(90);
                    }
                    break;
                case 0:
-                    if(csr.ColorValue==1 || csr.ColorValue==6)
+                   if(csr.ColorValue==1)
                    {
-                     diagonalSuperiorDer(70);
-                     Wait(150);
+                     diagonalInferiorIzq(90);
+                     Wait(400);
+                   }
+                    else if(csr.ColorValue==6)
+                   {
+                     diagonalSuperiorIzq(90);
+                     Wait(400);
                    }
                    else
                    {
 
-                     diagonalInferiorIzq(70);
+                     diagonalInferiorDer(90);
                    }
                    break;
           }

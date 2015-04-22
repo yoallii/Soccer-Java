@@ -11,12 +11,12 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 8	__D0adelante	6	1	32	4	4
 9	__RLSBmutex2	9	0	36	4	4
 10	__D0diagonalSuperiorDer	6	1	40	4	4
-11	__signed_stack_002main	6	1	44	4	22
+11	__signed_stack_002main	6	1	44	4	12
 12	__signed_stack_001main	6	1	48	4	52
 13	__unsigned_stack_001main	5	1	52	4	2
-14	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	56	4	22
+14	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	56	4	32
 15	__signed_stack_001brujula_inline_main	6	1	60	4	2
-16	__D0main	6	1	64	4	133
+16	__D0main	6	1	64	4	123
 17	__D0diagonalSuperiorIzq	6	1	68	4	4
 18	__D0SetSensorLowspeed_inline_main	6	1	72	4	6
 19	__D0brujula_inline_main	6	1	76	4	3
@@ -26,16 +26,16 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 23	__CLSRMutex0	9	0	92	4	2
 24	__CLSCSMutex2	9	0	96	4	2
 25	__OnRevMutex	9	0	100	4	14
-26	__atras_7qG2_v_7qG2_000	4	1	104	2	6
+26	__atras_7qG2_v_7qG2_000	4	1	104	2	5
 27	__constVal360	4	0	106	2	1
 28	__main_7qG2_ir_7qG2_000	4	1	108	2	2
 29	__alinearDer_7qG2_v_7qG2_000	4	1	110	2	2
 30	__alinearIzq_7qG2_v_7qG2_000	4	1	112	2	2
 31	__diagonalSuperiorDer_7qG2_v_7qG2_000	4	1	114	2	5
-32	__diagonalSuperiorIzq_7qG2_v_7qG2_000	4	1	116	2	6
-33	__adelante_7qG2_v_7qG2_000	4	1	118	2	5
-34	__diagonalInferiorDer_7qG2_v_7qG2_000	4	1	120	2	6
-35	__diagonalInferiorIzq_7qG2_v_7qG2_000	4	1	122	2	5
+32	__diagonalSuperiorIzq_7qG2_v_7qG2_000	4	1	116	2	7
+33	__adelante_7qG2_v_7qG2_000	4	1	118	2	4
+34	__diagonalInferiorDer_7qG2_v_7qG2_000	4	1	120	2	9
+35	__diagonalInferiorIzq_7qG2_v_7qG2_000	4	1	122	2	8
 36	__main_7qG2_cinicio_7qG2_000	4	1	124	2	2
 37	__brujula_7qG2_b_7qG2_000_inline_main	4	1	126	2	5
 38	__main_7qG2_ba_7qG2_000	4	1	128	2	6
@@ -43,13 +43,13 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 40	__constVal63	2	0	131	1	23
 41	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	132	1	4
 42	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	133	1	2
-43	__adelante_return	1	1	134	1	5
+43	__adelante_return	1	1	134	1	4
 44	__SetSensorColorFull_7qG2_port_7qG2_000_inline_main	1	1	135	1	4
 45	__OnRev_Tmp	2	1	136	1	14
 46	__constVal32	2	0	137	1	70
 47	__constVal1	2	0	138	1	14
 48	__constVal96	2	0	139	1	23
-49	__diagonalSuperiorIzq_return	1	1	140	1	6
+49	__diagonalSuperiorIzq_return	1	1	140	1	7
 50	__constVal73	2	0	141	1	1
 51	__alinearIzq_return	1	1	142	1	3
 52	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	143	1	10
@@ -57,12 +57,12 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 54	____initialize_global_data_return	1	1	145	1	3
 55	__alinearDer_return	1	1	146	1	3
 56	__main_7qG2_puntoNeutro_7qG2_000	1	1	147	1	4
-57	__atras_return	1	1	148	1	6
-58	__diagonalInferiorIzq_return	1	1	149	1	5
+57	__atras_return	1	1	148	1	5
+58	__diagonalInferiorIzq_return	1	1	149	1	8
 59	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	150	1	4
 60	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	151	1	4
 61	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	152	1	4
-62	__diagonalInferiorDer_return	1	1	153	1	6
+62	__diagonalInferiorDer_return	1	1	153	1	9
 63	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	154	1	4
 64	__constVal2	2	0	155	1	5
 65	__RLSBIterations2	1	1	156	1	4
@@ -80,7 +80,7 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 77	__constVal15	2	0	168	1	2
 78	__constVal16	2	0	169	1	1
 79	__constVal6	2	0	170	1	1
-80	__zfmain	1	1	171	1	98
+80	__zfmain	1	1	171	1	93
 81	__constVal4	2	0	172	1	1
 82	__constVal3	2	0	173	1	24
 83	__zfbrujula_inline_main	1	1	174	1	3
@@ -148,16 +148,16 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 145	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	59	0	#line 59 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	59	0	#line 59 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	60	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	59	2	#line 59 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	63	2	#line 63 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	59	2	#line 59 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	63	2	#line 63 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	64	2		set __main_7qG2_puntoNeutro_7qG2_000, 0
-0	63	5	#line 63 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	63	5	#line 63 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	63	5	#line 63 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	63	5	#line 63 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	64	5		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
-0	63	8	#line 63 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	64	8	#line 64 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	63	8	#line 63 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	64	8	#line 64 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	65	8		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
 0	3758	10	#line 3758 "NXCDefs.h"
 0	3759	10		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
@@ -200,11 +200,11 @@ Clump	Line	PC	Source
 0	4358	49	#line 4358 "NXCDefs.h"
 0	3694	49	#line 3694 "NXCDefs.h"
 0	3761	49	#line 3761 "NXCDefs.h"
-0	64	49	#line 64 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	64	49	#line 64 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	64	49	#line 64 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	64	49	#line 64 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	65	49		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 2
-0	64	52	#line 64 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	65	52	#line 65 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	64	52	#line 64 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	65	52	#line 65 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	66	52		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
 0	3758	54	#line 3758 "NXCDefs.h"
 0	3759	54		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
@@ -247,10 +247,10 @@ Clump	Line	PC	Source
 0	4425	93	#line 4425 "NXCDefs.h"
 0	3694	93	#line 3694 "NXCDefs.h"
 0	3761	93	#line 3761 "NXCDefs.h"
-0	65	93	#line 65 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	65	93	#line 65 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	65	93	#line 65 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	65	93	#line 65 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	66	93		set __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 3
-0	65	96	#line 65 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	65	96	#line 65 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	3802	96	#line 3802 "NXCDefs.h"
 0	3803	96	#pragma macro 6
 0	3803	96		setin __constVal13, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 0
@@ -259,14 +259,14 @@ Clump	Line	PC	Source
 0	3803	106		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
 0	4440	108	#line 4440 "NXCDefs.h"
 0	3802	108	#line 3802 "NXCDefs.h"
-0	66	108	#line 66 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	68	108	#line 68 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	66	108	#line 66 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	68	108	#line 68 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	69	108		set __main_7qG2_csr_7qG2_000.Port, 3
-0	68	111	#line 68 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	68	111	#line 68 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	68	111	#line 68 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	68	111	#line 68 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	68	111	#line 68 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	68	111	#line 68 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	69	111		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
-0	68	114	#line 68 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	68	114	#line 68 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	3718	114	#line 3718 "NXCDefs.h"
 0	3719	114	#pragma macro 6
 0	3719	114		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
@@ -275,8 +275,8 @@ Clump	Line	PC	Source
 0	3719	124		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
 0	4465	126	#line 4465 "NXCDefs.h"
 0	3718	126	#line 3718 "NXCDefs.h"
-0	70	126	#line 70 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	70	126	#line 70 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	70	126	#line 70 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	70	126	#line 70 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	71	126	#pragma macro 30
 0	71	126		acquire __RLSBmutex2
 0	71	127		mov __RLSReadBuf2, __RLSBbufLSWrite1
@@ -287,28 +287,28 @@ Clump	Line	PC	Source
 0	71	142		add __D0main, __D0main, __D0main
 0	71	146		add __D0main, __D0main, __RLSBytesCount2
 0	71	150		release __RLSBmutex2
-0	4469	151	#line 4469 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	70	151	#line 70 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	4469	151	#line 4469 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	70	151	#line 70 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	71	151		mov __main_7qG2_cinicio_7qG2_000, __D0main
-0	70	153	#line 70 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	70	153	#line 70 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	73	153	#line 73 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	70	153	#line 70 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	70	153	#line 70 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	73	153	#line 73 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	74	153		set __D0main, 1
-0	74	156	#line 74 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	74	156	#line 74 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	75	156		tst 5, __zfmain, __D0main
-0	74	159	#line 74 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	74	159	#line 74 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	75	159		brtst 4, __NXC_Label_541, __zfmain
-0	75	162	#line 75 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	75	162	#line 75 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	76	162	#pragma macro 4
-0	76	162	#line 76 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	76	162	#line 76 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	76	162		syscall 34, __main_7qG2_csr_7qG2_000
-0	74	165	#line 74 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	74	165	#line 74 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	74	165	#line 74 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	74	165	#line 74 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	76	165	#line 76 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	75	165	#line 75 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	76	165	#line 76 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	74	165	#line 74 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	74	165	#line 74 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	74	165	#line 74 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	74	165	#line 74 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	76	165	#line 76 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	75	165	#line 75 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	76	165	#line 76 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	77	165	#pragma macro 36
 0	77	165		acquire __RLSBmutex0
 0	77	166		arrbuild __RLSReadBuf0, __constVal16, __constVal73
@@ -317,10 +317,10 @@ Clump	Line	PC	Source
 0	77	176		tst 4, __D0main, __RLSBResult0
 0	77	179		index __main_7qG2_ir_7qG2_000, __RLSReadBuf0, 65535
 0	77	183		release __RLSBmutex0
-0	4497	184	#line 4497 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	76	184	#line 76 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	76	184	#line 76 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	77	184	#line 77 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	4497	184	#line 4497 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	76	184	#line 76 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	76	184	#line 76 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	77	184	#line 77 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	78	184	#pragma macro 30
 0	78	184		acquire __RLSBmutex2
 0	78	185		mov __RLSReadBuf2, __RLSBbufLSWrite1
@@ -331,740 +331,792 @@ Clump	Line	PC	Source
 0	78	200		add __D0main, __D0main, __D0main
 0	78	204		add __D0main, __D0main, __RLSBytesCount2
 0	78	208		release __RLSBmutex2
-0	4501	209	#line 4501 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	77	209	#line 77 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	77	209	#line 77 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	77	209	#line 77 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	78	209	#line 78 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	78	209	#line 78 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	78	209	#line 78 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	78	209	#line 78 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	6	209	#line 6 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	6	209	#line 6 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	7	209	#line 7 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	7	209	#line 7 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	4501	209	#line 4501 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	77	209	#line 77 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	77	209	#line 77 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	77	209	#line 77 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	78	209	#line 78 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	78	209	#line 78 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	78	209	#line 78 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	78	209	#line 78 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	6	209	#line 6 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	6	209	#line 6 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7	209	#line 7 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7	209	#line 7 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	8	209		sub __brujula_7qG2_b_7qG2_000_inline_main, __D0main, __main_7qG2_cinicio_7qG2_000
-0	7	213	#line 7 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	7	213	#line 7 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	7	213	#line 7 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7	213	#line 7 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7	213	#line 7 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7	213	#line 7 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	8	213		mov __signed_stack_001brujula_inline_main, __brujula_7qG2_b_7qG2_000_inline_main
-0	7	215	#line 7 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	7	215	#line 7 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7	215	#line 7 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7	215	#line 7 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	8	215		set __D0brujula_inline_main, 0
-0	7	218	#line 7 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7	218	#line 7 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	8	218		cmp 0, __zfbrujula_inline_main, __signed_stack_001brujula_inline_main, __D0brujula_inline_main
-0	7	222	#line 7 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7	222	#line 7 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	8	222		mov __D0brujula_inline_main, __zfbrujula_inline_main
-0	8	224	#line 8 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	8	224	#line 8 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	9	224		brtst 4, __001__NXC_Label_493, __zfbrujula_inline_main
-0	9	227	#line 9 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	9	227	#line 9 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	9	227	#line 9 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	9	227	#line 9 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	10	227		add __brujula_7qG2_b_7qG2_000_inline_main, __brujula_7qG2_b_7qG2_000_inline_main, __constVal360
-0	9	231	#line 9 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	10	231	#line 10 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	11	231	#line 11 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	9	231	#line 9 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	10	231	#line 10 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	11	231	#line 11 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	12	231		mov __main_7qG2_ba_7qG2_000, __brujula_7qG2_b_7qG2_000_inline_main
-0	11	233	#line 11 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	11	233	#line 11 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	79	233	#line 79 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	79	233	#line 79 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	79	233	#line 79 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	79	233	#line 79 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	11	233	#line 11 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	11	233	#line 11 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	79	233	#line 79 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	79	233	#line 79 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	79	233	#line 79 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	79	233	#line 79 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	80	233		getin __signed_stack_001main, __constVal1, 4
-0	79	237	#line 79 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	80	237	#line 80 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	79	237	#line 79 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	80	237	#line 80 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	81	237		set __D0main, 0
-0	80	240	#line 80 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	80	240	#line 80 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	81	240		cmp 4, __zfmain, __signed_stack_001main, __D0main
-0	80	244	#line 80 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	80	244	#line 80 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	81	244		mov __D0main, __zfmain
-0	82	246	#line 82 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	82	246	#line 82 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	83	246		brtst 4, __NXC_Label_554, __zfmain
-0	82	249	#line 82 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	82	249	#line 82 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	83	249		mov __signed_stack_001main, __main_7qG2_ba_7qG2_000
-0	82	251	#line 82 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	82	251	#line 82 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	82	251	#line 82 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	82	251	#line 82 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	83	251		set __D0main, 20
-0	82	254	#line 82 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	82	254	#line 82 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	83	254		cmp 3, __zfmain, __signed_stack_001main, __D0main
-0	82	258	#line 82 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	82	258	#line 82 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	83	258		mov __D0main, __zfmain
-0	82	260	#line 82 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	82	260	#line 82 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	83	260		brtst 4, __NXC_Label_556, __zfmain
-0	82	263	#line 82 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	82	263	#line 82 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	83	263		mov __signed_stack_001main, __D0main
-0	82	265	#line 82 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	82	265	#line 82 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	83	265		mov __signed_stack_002main, __main_7qG2_ba_7qG2_000
-0	82	267	#line 82 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	83	267	#line 83 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	82	267	#line 82 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	83	267	#line 83 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	84	267		set __D0main, 340
-0	83	270	#line 83 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	83	270	#line 83 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	84	270		cmp 2, __zfmain, __signed_stack_002main, __D0main
-0	83	274	#line 83 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	83	274	#line 83 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	83	274	#line 83 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	83	274	#line 83 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	84	274		and __D0main, __signed_stack_001main, __zfmain
-0	84	278	#line 84 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	84	278	#line 84 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	85	278		tst 5, __zfmain, __D0main
-0	84	281	#line 84 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	84	281	#line 84 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	85	281		brtst 4, __NXC_Label_557, __zfmain
-0	84	284	#line 84 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	84	284	#line 84 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	85	284		mov __signed_stack_001main, __main_7qG2_ba_7qG2_000
-0	84	286	#line 84 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	85	286	#line 85 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	84	286	#line 84 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	85	286	#line 85 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	86	286		set __D0main, 180
-0	85	289	#line 85 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	85	289	#line 85 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	86	289		cmp 3, __zfmain, __signed_stack_001main, __D0main
-0	85	293	#line 85 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	85	293	#line 85 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	86	293		mov __D0main, __zfmain
-0	86	295	#line 86 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	86	295	#line 86 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	87	295		brtst 4, __NXC_Label_560, __zfmain
-0	86	298	#line 86 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	86	298	#line 86 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	87	298		set __alinearIzq_7qG2_v_7qG2_000, 70
-0	86	301	#line 86 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	87	301	#line 87 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	86	301	#line 86 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	87	301	#line 87 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	88	301		subcall alinearIzq, __alinearIzq_return
-0	87	303	#line 87 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	87	303	#line 87 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	87	303	#line 87 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	87	303	#line 87 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	88	303		mov __signed_stack_001main, __main_7qG2_ba_7qG2_000
-0	87	305	#line 87 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	87	305	#line 87 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	87	305	#line 87 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	87	305	#line 87 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	88	305		set __D0main, 350
-0	87	308	#line 87 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	87	308	#line 87 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	88	308		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	87	312	#line 87 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	87	312	#line 87 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	87	312	#line 87 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	87	312	#line 87 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	88	312		not __D0main, __zfmain
-0	88	315	#line 88 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	88	315	#line 88 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	89	315		tst 5, __zfmain, __D0main
-0	88	318	#line 88 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	88	318	#line 88 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	89	318		brtst 4, __NXC_Label_564, __zfmain
-0	88	321	#line 88 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	88	321	#line 88 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	88	321	#line 88 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	88	321	#line 88 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	89	321		jmp __NXC_Label_563
-0	88	323	#line 88 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	91	323	#line 91 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	88	323	#line 88 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	91	323	#line 91 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	92	323		jmp __NXC_Label_569
-0	91	325	#line 91 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	91	325	#line 91 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	92	325		set __alinearDer_7qG2_v_7qG2_000, 70
-0	91	328	#line 91 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	92	328	#line 92 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	91	328	#line 91 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	92	328	#line 92 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	93	328		subcall alinearDer, __alinearDer_return
-0	92	330	#line 92 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	92	330	#line 92 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	92	330	#line 92 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	92	330	#line 92 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	93	330		mov __signed_stack_001main, __main_7qG2_ba_7qG2_000
-0	92	332	#line 92 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	92	332	#line 92 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	92	332	#line 92 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	92	332	#line 92 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	93	332		set __D0main, 5
-0	92	335	#line 92 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	92	335	#line 92 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	93	335		cmp 1, __zfmain, __signed_stack_001main, __D0main
-0	92	339	#line 92 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	92	339	#line 92 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	92	339	#line 92 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	92	339	#line 92 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	93	339		not __D0main, __zfmain
-0	93	342	#line 93 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	93	342	#line 93 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	94	342		tst 5, __zfmain, __D0main
-0	93	345	#line 93 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	93	345	#line 93 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	94	345		brtst 4, __NXC_Label_573, __zfmain
-0	93	348	#line 93 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	93	348	#line 93 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	93	348	#line 93 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	93	348	#line 93 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	94	348		jmp __NXC_Label_572
-0	93	350	#line 93 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	96	350	#line 96 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	98	350	#line 98 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	93	350	#line 93 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	96	350	#line 96 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	98	350	#line 98 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	99	350		jmp __NXC_Label_578
-0	98	352	#line 98 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	98	352	#line 98 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	99	352		mov __unsigned_stack_001main, __main_7qG2_puntoNeutro_7qG2_000
-0	98	354	#line 98 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	99	354	#line 99 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	98	354	#line 98 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	99	354	#line 99 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	100	354		set __D0main, 1
-0	99	357	#line 99 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	99	357	#line 99 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	100	357		cmp 4, __zfmain, __unsigned_stack_001main, __D0main
-0	99	361	#line 99 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	99	361	#line 99 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	100	361		mov __D0main, __zfmain
-0	100	363	#line 100 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	100	363	#line 100 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	101	363		brtst 4, __NXC_Label_581, __zfmain
-0	100	366	#line 100 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	100	366	#line 100 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	101	366		set __atras_7qG2_v_7qG2_000, 100
-0	100	369	#line 100 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	101	369	#line 101 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	100	369	#line 100 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	101	369	#line 101 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	102	369		subcall atras, __atras_return
-0	101	371	#line 101 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	101	371	#line 101 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	102	371		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
-0	101	374	#line 101 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	101	371	#line 101 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	101	371	#line 101 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	102	371		set __Wait_7qG2_ms_7qG2_000_inline_main, 600
+0	101	374	#line 101 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	7921	374	#line 7921 "NXCDefs.h"
 0	7922	374		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
 0	7921	377	#line 7921 "NXCDefs.h"
-0	102	377	#line 102 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	103	377	#line 103 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	102	377	#line 102 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	103	377	#line 103 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	104	377		set __main_7qG2_puntoNeutro_7qG2_000, 0
-0	103	380	#line 103 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	103	380	#line 103 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	107	380	#line 107 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	103	380	#line 103 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	103	380	#line 103 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	107	380	#line 107 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	108	380		jmp __NXC_Label_588
-0	107	382	#line 107 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	107	382	#line 107 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	108	382		mov __D0main, __main_7qG2_ir_7qG2_000
 0	111	384		brcmp 4, __NXC_Label_592, __constVal1, __D0main
-0	112	388		brcmp 4, __NXC_Label_604, __constVal2, __D0main
-0	113	392		brcmp 4, __NXC_Label_616, __constVal3, __D0main
-0	114	396		brcmp 4, __NXC_Label_628, __constVal4, __D0main
-0	115	400		brcmp 4, __NXC_Label_640, __constVal5, __D0main
-0	116	404		brcmp 4, __NXC_Label_652, __constVal6, __D0main
-0	117	408		brcmp 4, __NXC_Label_664, __constVal7, __D0main
-0	118	412		brcmp 4, __NXC_Label_676, __constVal8, __D0main
-0	119	416		brcmp 4, __NXC_Label_688, __constVal9, __D0main
-0	120	420		brcmp 4, __NXC_Label_700, __constVal0, __D0main
+0	112	388		brcmp 4, __NXC_Label_611, __constVal2, __D0main
+0	113	392		brcmp 4, __NXC_Label_630, __constVal3, __D0main
+0	114	396		brcmp 4, __NXC_Label_642, __constVal4, __D0main
+0	115	400		brcmp 4, __NXC_Label_654, __constVal5, __D0main
+0	116	404		brcmp 4, __NXC_Label_666, __constVal6, __D0main
+0	117	408		brcmp 4, __NXC_Label_678, __constVal7, __D0main
+0	118	412		brcmp 4, __NXC_Label_690, __constVal8, __D0main
+0	119	416		brcmp 4, __NXC_Label_709, __constVal9, __D0main
+0	120	420		brcmp 4, __NXC_Label_728, __constVal0, __D0main
 0	121	424		jmp __NXC_Label_591
-0	110	426	#line 110 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	110	426	#line 110 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	110	426	#line 110 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	110	426	#line 110 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 0	111	426		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
-0	110	428	#line 110 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	110	428	#line 110 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	111	428		set __D0main, 1
-0	110	431	#line 110 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	111	431		cmp 4, __zfmain, __signed_stack_001main, __D0main
-0	110	435	#line 110 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	111	435		mov __D0main, __zfmain
-0	110	437	#line 110 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	111	437		brtst 5, __NXC_Label_593, __zfmain
-0	110	440	#line 110 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	111	440		mov __signed_stack_001main, __D0main
-0	110	442	#line 110 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	111	442		mov __signed_stack_002main, __main_7qG2_csr_7qG2_000.ColorValue
-0	110	444	#line 110 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	111	444	#line 111 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	112	444		set __D0main, 6
-0	111	447	#line 111 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	112	447		cmp 4, __zfmain, __signed_stack_002main, __D0main
-0	111	451	#line 111 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	111	451	#line 111 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	112	451		or __D0main, __signed_stack_001main, __zfmain
-0	112	455	#line 112 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	113	455		tst 5, __zfmain, __D0main
-0	112	458	#line 112 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	113	458		brtst 4, __NXC_Label_596, __zfmain
-0	112	461	#line 112 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	113	461		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 70
-0	112	464	#line 112 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	113	464	#line 113 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	114	464		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
-0	113	466	#line 113 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	113	466	#line 113 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	114	466		set __Wait_7qG2_ms_7qG2_000_inline_main, 150
-0	113	469	#line 113 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	7921	469	#line 7921 "NXCDefs.h"
-0	7922	469		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	472	#line 7921 "NXCDefs.h"
-0	114	472	#line 114 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	117	472	#line 117 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	118	472		jmp __NXC_Label_601
-0	117	474	#line 117 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	118	474		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 75
-0	117	477	#line 117 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	118	477	#line 118 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	119	477		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
-0	118	479	#line 118 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	119	479	#line 119 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	120	479	#line 120 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	121	479		jmp __NXC_Label_591
-0	120	481	#line 120 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	122	481	#line 122 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	122	481	#line 122 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	123	481		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
-0	122	483	#line 122 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	122	483	#line 122 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	123	483		set __D0main, 1
-0	122	486	#line 122 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	123	486		cmp 4, __zfmain, __signed_stack_001main, __D0main
-0	122	490	#line 122 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	123	490		mov __D0main, __zfmain
-0	122	492	#line 122 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	123	492		brtst 5, __NXC_Label_605, __zfmain
-0	122	495	#line 122 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	123	495		mov __signed_stack_001main, __D0main
-0	122	497	#line 122 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	123	497		mov __signed_stack_002main, __main_7qG2_csr_7qG2_000.ColorValue
-0	122	499	#line 122 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	123	499	#line 123 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	124	499		set __D0main, 6
-0	123	502	#line 123 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	124	502		cmp 4, __zfmain, __signed_stack_002main, __D0main
-0	123	506	#line 123 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	123	506	#line 123 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	124	506		or __D0main, __signed_stack_001main, __zfmain
-0	124	510	#line 124 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	125	510		tst 5, __zfmain, __D0main
-0	124	513	#line 124 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	125	513		brtst 4, __NXC_Label_608, __zfmain
-0	124	516	#line 124 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	125	516		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 70
-0	124	519	#line 124 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	125	519	#line 125 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	126	519		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
-0	125	521	#line 125 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	125	521	#line 125 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	126	521		set __Wait_7qG2_ms_7qG2_000_inline_main, 150
-0	125	524	#line 125 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	7921	524	#line 7921 "NXCDefs.h"
-0	7922	524		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	527	#line 7921 "NXCDefs.h"
-0	126	527	#line 126 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	129	527	#line 129 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	130	527		jmp __NXC_Label_613
-0	129	529	#line 129 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	130	529		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 75
-0	129	532	#line 129 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	130	532	#line 130 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	131	532		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
-0	130	534	#line 130 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	131	534	#line 131 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	132	534	#line 132 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	133	534		jmp __NXC_Label_591
-0	132	536	#line 132 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	133	536	#line 133 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	133	536	#line 133 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	134	536		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
-0	133	538	#line 133 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	133	538	#line 133 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	134	538		set __D0main, 1
-0	133	541	#line 133 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	134	541		cmp 4, __zfmain, __signed_stack_001main, __D0main
-0	133	545	#line 133 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	134	545		mov __D0main, __zfmain
-0	133	547	#line 133 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	134	547		brtst 5, __NXC_Label_617, __zfmain
-0	133	550	#line 133 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	134	550		mov __signed_stack_001main, __D0main
-0	133	552	#line 133 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	134	552		mov __signed_stack_002main, __main_7qG2_csr_7qG2_000.ColorValue
-0	133	554	#line 133 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	134	554	#line 134 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	135	554		set __D0main, 6
-0	134	557	#line 134 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	135	557		cmp 4, __zfmain, __signed_stack_002main, __D0main
-0	134	561	#line 134 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	134	561	#line 134 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	135	561		or __D0main, __signed_stack_001main, __zfmain
-0	135	565	#line 135 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	136	565		tst 5, __zfmain, __D0main
-0	135	568	#line 135 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	136	568		brtst 4, __NXC_Label_620, __zfmain
-0	135	571	#line 135 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	136	571		set __diagonalInferiorDer_7qG2_v_7qG2_000, 70
-0	135	574	#line 135 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	136	574	#line 136 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	137	574		subcall diagonalInferiorDer, __diagonalInferiorDer_return
-0	136	576	#line 136 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	136	576	#line 136 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	137	576		set __Wait_7qG2_ms_7qG2_000_inline_main, 150
-0	136	579	#line 136 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	7921	579	#line 7921 "NXCDefs.h"
-0	7922	579		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	582	#line 7921 "NXCDefs.h"
-0	137	582	#line 137 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	140	582	#line 140 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	141	582		jmp __NXC_Label_625
-0	140	584	#line 140 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	141	584		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 75
-0	140	587	#line 140 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	142	587	#line 142 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	143	587		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
-0	142	589	#line 142 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	144	589	#line 144 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	145	589	#line 145 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	146	589		jmp __NXC_Label_591
-0	145	591	#line 145 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	146	591	#line 146 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	146	591	#line 146 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	147	591		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
-0	146	593	#line 146 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	146	593	#line 146 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	147	593		set __D0main, 1
-0	146	596	#line 146 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	147	596		cmp 4, __zfmain, __signed_stack_001main, __D0main
-0	146	600	#line 146 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	147	600		mov __D0main, __zfmain
-0	146	602	#line 146 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	147	602		brtst 5, __NXC_Label_629, __zfmain
-0	146	605	#line 146 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	147	605		mov __signed_stack_001main, __D0main
-0	146	607	#line 146 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	147	607		mov __signed_stack_002main, __main_7qG2_csr_7qG2_000.ColorValue
-0	146	609	#line 146 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	147	609	#line 147 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	148	609		set __D0main, 6
-0	147	612	#line 147 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	148	612		cmp 4, __zfmain, __signed_stack_002main, __D0main
-0	147	616	#line 147 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	147	616	#line 147 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	148	616		or __D0main, __signed_stack_001main, __zfmain
-0	148	620	#line 148 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	149	620		tst 5, __zfmain, __D0main
-0	148	623	#line 148 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	149	623		brtst 4, __NXC_Label_632, __zfmain
-0	148	626	#line 148 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	149	626		set __diagonalInferiorDer_7qG2_v_7qG2_000, 70
-0	148	629	#line 148 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	149	629	#line 149 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	150	629		subcall diagonalInferiorDer, __diagonalInferiorDer_return
-0	149	631	#line 149 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	149	631	#line 149 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	150	631		set __Wait_7qG2_ms_7qG2_000_inline_main, 150
-0	149	634	#line 149 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	7921	634	#line 7921 "NXCDefs.h"
-0	7922	634		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	637	#line 7921 "NXCDefs.h"
-0	150	637	#line 150 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	153	637	#line 153 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	154	637		jmp __NXC_Label_637
-0	153	639	#line 153 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	154	639		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 75
-0	153	642	#line 153 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	155	642	#line 155 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	156	642		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
-0	155	644	#line 155 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	157	644	#line 157 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	158	644	#line 158 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	159	644		jmp __NXC_Label_591
-0	158	646	#line 158 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	159	646	#line 159 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	159	646	#line 159 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	160	646		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
-0	159	648	#line 159 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	159	648	#line 159 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	160	648		set __D0main, 1
-0	159	651	#line 159 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	160	651		cmp 4, __zfmain, __signed_stack_001main, __D0main
-0	159	655	#line 159 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	160	655		mov __D0main, __zfmain
-0	159	657	#line 159 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	160	657		brtst 5, __NXC_Label_641, __zfmain
-0	159	660	#line 159 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	160	660		mov __signed_stack_001main, __D0main
-0	159	662	#line 159 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	160	662		mov __signed_stack_002main, __main_7qG2_csr_7qG2_000.ColorValue
-0	159	664	#line 159 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	160	664	#line 160 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	161	664		set __D0main, 6
-0	160	667	#line 160 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	161	667		cmp 4, __zfmain, __signed_stack_002main, __D0main
-0	160	671	#line 160 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	160	671	#line 160 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	161	671		or __D0main, __signed_stack_001main, __zfmain
-0	162	675	#line 162 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	163	675		tst 5, __zfmain, __D0main
-0	162	678	#line 162 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	163	678		brtst 4, __NXC_Label_644, __zfmain
-0	162	681	#line 162 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	163	681		set __atras_7qG2_v_7qG2_000, 80
-0	162	684	#line 162 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	163	684	#line 163 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	164	684		subcall atras, __atras_return
-0	163	686	#line 163 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	163	686	#line 163 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	164	686		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
-0	163	689	#line 163 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	7921	689	#line 7921 "NXCDefs.h"
-0	7922	689		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	692	#line 7921 "NXCDefs.h"
-0	164	692	#line 164 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	167	692	#line 167 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	168	692		jmp __NXC_Label_649
-0	167	694	#line 167 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	168	694		set __adelante_7qG2_v_7qG2_000, 60
-0	167	697	#line 167 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	168	697	#line 168 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	169	697		subcall adelante, __adelante_return
-0	168	699	#line 168 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	169	699	#line 169 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	170	699	#line 170 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	171	699		jmp __NXC_Label_591
-0	170	701	#line 170 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	171	701	#line 171 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	171	701	#line 171 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	172	701		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
-0	171	703	#line 171 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	171	703	#line 171 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	172	703		set __D0main, 1
-0	171	706	#line 171 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	172	706		cmp 4, __zfmain, __signed_stack_001main, __D0main
-0	171	710	#line 171 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	172	710		mov __D0main, __zfmain
-0	171	712	#line 171 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	172	712		brtst 5, __NXC_Label_653, __zfmain
-0	171	715	#line 171 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	172	715		mov __signed_stack_001main, __D0main
-0	171	717	#line 171 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	172	717		mov __signed_stack_002main, __main_7qG2_csr_7qG2_000.ColorValue
-0	171	719	#line 171 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	172	719	#line 172 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	173	719		set __D0main, 6
-0	172	722	#line 172 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	173	722		cmp 4, __zfmain, __signed_stack_002main, __D0main
-0	172	726	#line 172 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	172	726	#line 172 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	173	726		or __D0main, __signed_stack_001main, __zfmain
-0	174	730	#line 174 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	175	730		tst 5, __zfmain, __D0main
-0	174	733	#line 174 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	175	733		brtst 4, __NXC_Label_656, __zfmain
-0	174	736	#line 174 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	175	736		set __atras_7qG2_v_7qG2_000, 80
-0	174	739	#line 174 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	175	739	#line 175 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	176	739		subcall atras, __atras_return
-0	175	741	#line 175 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	175	741	#line 175 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	176	741		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
-0	175	744	#line 175 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	7921	744	#line 7921 "NXCDefs.h"
-0	7922	744		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	747	#line 7921 "NXCDefs.h"
-0	176	747	#line 176 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	179	747	#line 179 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	180	747		jmp __NXC_Label_661
-0	179	749	#line 179 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	180	749		set __adelante_7qG2_v_7qG2_000, 60
-0	179	752	#line 179 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	180	752	#line 180 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	181	752		subcall adelante, __adelante_return
-0	180	754	#line 180 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	181	754	#line 181 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	182	754	#line 182 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	183	754		jmp __NXC_Label_591
-0	182	756	#line 182 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	183	756	#line 183 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	183	756	#line 183 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	184	756		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
-0	183	758	#line 183 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	183	758	#line 183 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	184	758		set __D0main, 1
-0	183	761	#line 183 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	184	761		cmp 4, __zfmain, __signed_stack_001main, __D0main
-0	183	765	#line 183 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	184	765		mov __D0main, __zfmain
-0	183	767	#line 183 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	184	767		brtst 5, __NXC_Label_665, __zfmain
-0	183	770	#line 183 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	184	770		mov __signed_stack_001main, __D0main
-0	183	772	#line 183 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	184	772		mov __signed_stack_002main, __main_7qG2_csr_7qG2_000.ColorValue
-0	183	774	#line 183 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	184	774	#line 184 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	185	774		set __D0main, 6
-0	184	777	#line 184 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	185	777		cmp 4, __zfmain, __signed_stack_002main, __D0main
-0	184	781	#line 184 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	184	781	#line 184 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	185	781		or __D0main, __signed_stack_001main, __zfmain
-0	186	785	#line 186 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	187	785		tst 5, __zfmain, __D0main
-0	186	788	#line 186 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	187	788		brtst 4, __NXC_Label_668, __zfmain
-0	186	791	#line 186 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	187	791		set __atras_7qG2_v_7qG2_000, 80
-0	186	794	#line 186 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	187	794	#line 187 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	188	794		subcall atras, __atras_return
-0	187	796	#line 187 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	187	796	#line 187 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	188	796		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
-0	187	799	#line 187 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	7921	799	#line 7921 "NXCDefs.h"
-0	7922	799		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	802	#line 7921 "NXCDefs.h"
-0	188	802	#line 188 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	191	802	#line 191 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	192	802		jmp __NXC_Label_673
-0	191	804	#line 191 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	192	804		set __adelante_7qG2_v_7qG2_000, 60
-0	191	807	#line 191 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	192	807	#line 192 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	193	807		subcall adelante, __adelante_return
-0	192	809	#line 192 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	193	809	#line 193 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	196	809	#line 196 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	197	809		jmp __NXC_Label_591
-0	196	811	#line 196 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	197	811	#line 197 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	198	811		jmp __NXC_Label_591
-0	197	813	#line 197 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	199	813	#line 199 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	199	813	#line 199 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	200	813		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
-0	199	815	#line 199 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	199	815	#line 199 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	200	815		set __D0main, 1
-0	199	818	#line 199 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	200	818		cmp 4, __zfmain, __signed_stack_001main, __D0main
-0	199	822	#line 199 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	200	822		mov __D0main, __zfmain
-0	199	824	#line 199 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	200	824		brtst 5, __NXC_Label_677, __zfmain
-0	199	827	#line 199 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	200	827		mov __signed_stack_001main, __D0main
-0	199	829	#line 199 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	200	829		mov __signed_stack_002main, __main_7qG2_csr_7qG2_000.ColorValue
-0	199	831	#line 199 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	200	831	#line 200 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	201	831		set __D0main, 6
-0	200	834	#line 200 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	201	834		cmp 4, __zfmain, __signed_stack_002main, __D0main
-0	200	838	#line 200 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	200	838	#line 200 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	201	838		or __D0main, __signed_stack_001main, __zfmain
-0	201	842	#line 201 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	202	842		tst 5, __zfmain, __D0main
-0	201	845	#line 201 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	202	845		brtst 4, __NXC_Label_680, __zfmain
-0	201	848	#line 201 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	202	848		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 70
-0	201	851	#line 201 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	202	851	#line 202 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	203	851		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
-0	202	853	#line 202 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	202	853	#line 202 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	203	853		set __Wait_7qG2_ms_7qG2_000_inline_main, 150
-0	202	856	#line 202 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	7921	856	#line 7921 "NXCDefs.h"
-0	7922	856		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	859	#line 7921 "NXCDefs.h"
-0	203	859	#line 203 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	206	859	#line 206 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	207	859		jmp __NXC_Label_685
-0	206	861	#line 206 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	207	861		set __diagonalInferiorDer_7qG2_v_7qG2_000, 75
-0	206	864	#line 206 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	207	864	#line 207 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	208	864		subcall diagonalInferiorDer, __diagonalInferiorDer_return
-0	207	866	#line 207 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	208	866	#line 208 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	209	866	#line 209 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	210	866		jmp __NXC_Label_591
-0	209	868	#line 209 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	211	868	#line 211 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	211	868	#line 211 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	212	868		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
-0	211	870	#line 211 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	211	870	#line 211 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	212	870		set __D0main, 1
-0	211	873	#line 211 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	212	873		cmp 4, __zfmain, __signed_stack_001main, __D0main
-0	211	877	#line 211 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	212	877		mov __D0main, __zfmain
-0	211	879	#line 211 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	212	879		brtst 5, __NXC_Label_689, __zfmain
-0	211	882	#line 211 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	212	882		mov __signed_stack_001main, __D0main
-0	211	884	#line 211 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	212	884		mov __signed_stack_002main, __main_7qG2_csr_7qG2_000.ColorValue
-0	211	886	#line 211 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	212	886	#line 212 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	213	886		set __D0main, 6
-0	212	889	#line 212 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	213	889		cmp 4, __zfmain, __signed_stack_002main, __D0main
-0	212	893	#line 212 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	212	893	#line 212 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	213	893		or __D0main, __signed_stack_001main, __zfmain
-0	213	897	#line 213 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	214	897		tst 5, __zfmain, __D0main
-0	213	900	#line 213 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	214	900		brtst 4, __NXC_Label_692, __zfmain
-0	213	903	#line 213 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	214	903		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 70
-0	213	906	#line 213 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	214	906	#line 214 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	215	906		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
-0	214	908	#line 214 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	214	908	#line 214 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	215	908		set __Wait_7qG2_ms_7qG2_000_inline_main, 150
-0	214	911	#line 214 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	7921	911	#line 7921 "NXCDefs.h"
-0	7922	911		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	914	#line 7921 "NXCDefs.h"
-0	215	914	#line 215 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	219	914	#line 219 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	220	914		jmp __NXC_Label_697
-0	219	916	#line 219 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	220	916		set __diagonalInferiorDer_7qG2_v_7qG2_000, 75
-0	219	919	#line 219 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	220	919	#line 220 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	221	919		subcall diagonalInferiorDer, __diagonalInferiorDer_return
-0	220	921	#line 220 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	221	921	#line 221 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	222	921	#line 222 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	223	921		jmp __NXC_Label_591
-0	222	923	#line 222 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	223	923	#line 223 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	223	923	#line 223 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	224	923		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
-0	223	925	#line 223 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	223	925	#line 223 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	224	925		set __D0main, 1
-0	223	928	#line 223 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	224	928		cmp 4, __zfmain, __signed_stack_001main, __D0main
-0	223	932	#line 223 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	224	932		mov __D0main, __zfmain
-0	223	934	#line 223 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	224	934		brtst 5, __NXC_Label_701, __zfmain
-0	223	937	#line 223 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	224	937		mov __signed_stack_001main, __D0main
-0	223	939	#line 223 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	224	939		mov __signed_stack_002main, __main_7qG2_csr_7qG2_000.ColorValue
-0	223	941	#line 223 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	224	941	#line 224 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	225	941		set __D0main, 6
-0	224	944	#line 224 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	225	944		cmp 4, __zfmain, __signed_stack_002main, __D0main
-0	224	948	#line 224 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	224	948	#line 224 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	225	948		or __D0main, __signed_stack_001main, __zfmain
-0	225	952	#line 225 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	226	952		tst 5, __zfmain, __D0main
-0	225	955	#line 225 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	226	955		brtst 4, __NXC_Label_704, __zfmain
-0	225	958	#line 225 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	226	958		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 70
-0	225	961	#line 225 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	226	961	#line 226 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	227	961		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
-0	226	963	#line 226 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	226	963	#line 226 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	227	963		set __Wait_7qG2_ms_7qG2_000_inline_main, 150
-0	226	966	#line 226 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	7921	966	#line 7921 "NXCDefs.h"
-0	7922	966		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	969	#line 7921 "NXCDefs.h"
-0	227	969	#line 227 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	231	969	#line 231 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	232	969		jmp __NXC_Label_709
-0	231	971	#line 231 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	232	971		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 70
-0	231	974	#line 231 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	232	974	#line 232 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	233	974		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
-0	232	976	#line 232 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	233	976	#line 233 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	234	976	#line 234 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	234	976	#line 234 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	236	976	#line 236 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	237	976	#line 237 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	238	976	#line 238 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	240	976	#line 240 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	241	976		jmp __NXC_Label_712
-0	241	978	#line 241 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	242	978	#pragma macro 7
-0	242	978		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5507	1001	#line 5507 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	241	1001	#line 241 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	242	1001	#line 242 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	243	1001		set __main_7qG2_puntoNeutro_7qG2_000, 1
-0	242	1004	#line 242 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	242	1004	#line 242 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	244	1004	#line 244 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	246	1004	#line 246 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	247	1004		jmp __NXC_Label_540
-0	246	1006	#line 246 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-0	247	1006		exit -1, -1
+0	110	428	#line 110 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	111	428	#line 111 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	112	428		set __D0main, 1
+0	111	431	#line 111 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	112	431		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	111	435	#line 111 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	112	435		mov __D0main, __zfmain
+0	112	437	#line 112 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	113	437		brtst 4, __NXC_Label_595, __zfmain
+0	112	440	#line 112 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	113	440		set __diagonalInferiorDer_7qG2_v_7qG2_000, 90
+0	112	443	#line 112 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	113	443	#line 113 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	114	443		subcall diagonalInferiorDer, __diagonalInferiorDer_return
+0	113	445	#line 113 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	113	445	#line 113 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	114	445		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
+0	113	448	#line 113 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7921	448	#line 7921 "NXCDefs.h"
+0	7922	448		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	451	#line 7921 "NXCDefs.h"
+0	114	451	#line 114 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	115	451	#line 115 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	116	451		jmp __NXC_Label_600
+0	115	453	#line 115 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	116	453		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
+0	115	455	#line 115 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	116	455	#line 116 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	117	455		set __D0main, 6
+0	116	458	#line 116 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	117	458		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	116	462	#line 116 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	117	462		mov __D0main, __zfmain
+0	117	464	#line 117 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	118	464		brtst 4, __NXC_Label_603, __zfmain
+0	117	467	#line 117 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	118	467		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 90
+0	117	470	#line 117 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	118	470	#line 118 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	119	470		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
+0	118	472	#line 118 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	118	472	#line 118 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	119	472		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
+0	118	475	#line 118 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7921	475	#line 7921 "NXCDefs.h"
+0	7922	475		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	478	#line 7921 "NXCDefs.h"
+0	119	478	#line 119 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	122	478	#line 122 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	123	478		jmp __NXC_Label_608
+0	122	480	#line 122 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	123	480		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 70
+0	122	483	#line 122 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	123	483	#line 123 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	124	483		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
+0	123	485	#line 123 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	124	485	#line 124 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	124	485	#line 124 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	126	485	#line 126 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	127	485		jmp __NXC_Label_591
+0	126	487	#line 126 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	127	487	#line 127 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	127	487	#line 127 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	128	487		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
+0	127	489	#line 127 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	128	489	#line 128 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	129	489		set __D0main, 1
+0	128	492	#line 128 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	129	492		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	128	496	#line 128 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	129	496		mov __D0main, __zfmain
+0	129	498	#line 129 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	130	498		brtst 4, __NXC_Label_614, __zfmain
+0	129	501	#line 129 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	130	501		set __diagonalInferiorDer_7qG2_v_7qG2_000, 90
+0	129	504	#line 129 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	130	504	#line 130 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	131	504		subcall diagonalInferiorDer, __diagonalInferiorDer_return
+0	130	506	#line 130 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	130	506	#line 130 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	131	506		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
+0	130	509	#line 130 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7921	509	#line 7921 "NXCDefs.h"
+0	7922	509		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	512	#line 7921 "NXCDefs.h"
+0	131	512	#line 131 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	132	512	#line 132 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	133	512		jmp __NXC_Label_619
+0	132	514	#line 132 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	133	514		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
+0	132	516	#line 132 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	133	516	#line 133 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	134	516		set __D0main, 6
+0	133	519	#line 133 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	134	519		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	133	523	#line 133 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	134	523		mov __D0main, __zfmain
+0	134	525	#line 134 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	135	525		brtst 4, __NXC_Label_622, __zfmain
+0	134	528	#line 134 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	135	528		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 90
+0	134	531	#line 134 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	135	531	#line 135 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	136	531		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
+0	135	533	#line 135 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	135	533	#line 135 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	136	533		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
+0	135	536	#line 135 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7921	536	#line 7921 "NXCDefs.h"
+0	7922	536		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	539	#line 7921 "NXCDefs.h"
+0	136	539	#line 136 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	139	539	#line 139 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	140	539		jmp __NXC_Label_627
+0	139	541	#line 139 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	140	541		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 70
+0	139	544	#line 139 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	140	544	#line 140 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	141	544		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
+0	140	546	#line 140 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	141	546	#line 141 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	141	546	#line 141 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	145	546	#line 145 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	146	546		jmp __NXC_Label_591
+0	145	548	#line 145 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	146	548	#line 146 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	146	548	#line 146 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	147	548		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
+0	146	550	#line 146 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	146	550	#line 146 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	147	550		set __D0main, 1
+0	146	553	#line 146 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	147	553		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	146	557	#line 146 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	147	557		mov __D0main, __zfmain
+0	146	559	#line 146 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	147	559		brtst 5, __NXC_Label_631, __zfmain
+0	146	562	#line 146 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	147	562		mov __signed_stack_001main, __D0main
+0	146	564	#line 146 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	147	564		mov __signed_stack_002main, __main_7qG2_csr_7qG2_000.ColorValue
+0	146	566	#line 146 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	147	566	#line 147 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	148	566		set __D0main, 6
+0	147	569	#line 147 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	148	569		cmp 4, __zfmain, __signed_stack_002main, __D0main
+0	147	573	#line 147 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	147	573	#line 147 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	148	573		or __D0main, __signed_stack_001main, __zfmain
+0	148	577	#line 148 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	149	577		tst 5, __zfmain, __D0main
+0	148	580	#line 148 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	149	580		brtst 4, __NXC_Label_634, __zfmain
+0	148	583	#line 148 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	149	583		set __diagonalInferiorDer_7qG2_v_7qG2_000, 90
+0	148	586	#line 148 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	149	586	#line 149 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	150	586		subcall diagonalInferiorDer, __diagonalInferiorDer_return
+0	149	588	#line 149 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	149	588	#line 149 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	150	588		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
+0	149	591	#line 149 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7921	591	#line 7921 "NXCDefs.h"
+0	7922	591		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	594	#line 7921 "NXCDefs.h"
+0	150	594	#line 150 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	153	594	#line 153 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	154	594		jmp __NXC_Label_639
+0	153	596	#line 153 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	154	596		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 85
+0	153	599	#line 153 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	155	599	#line 155 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	156	599		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
+0	155	601	#line 155 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	157	601	#line 157 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	158	601	#line 158 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	159	601		jmp __NXC_Label_591
+0	158	603	#line 158 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	159	603	#line 159 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	159	603	#line 159 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	160	603		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
+0	159	605	#line 159 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	159	605	#line 159 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	160	605		set __D0main, 1
+0	159	608	#line 159 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	160	608		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	159	612	#line 159 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	160	612		mov __D0main, __zfmain
+0	159	614	#line 159 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	160	614		brtst 5, __NXC_Label_643, __zfmain
+0	159	617	#line 159 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	160	617		mov __signed_stack_001main, __D0main
+0	159	619	#line 159 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	160	619		mov __signed_stack_002main, __main_7qG2_csr_7qG2_000.ColorValue
+0	159	621	#line 159 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	160	621	#line 160 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	161	621		set __D0main, 6
+0	160	624	#line 160 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	161	624		cmp 4, __zfmain, __signed_stack_002main, __D0main
+0	160	628	#line 160 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	160	628	#line 160 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	161	628		or __D0main, __signed_stack_001main, __zfmain
+0	161	632	#line 161 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	162	632		tst 5, __zfmain, __D0main
+0	161	635	#line 161 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	162	635		brtst 4, __NXC_Label_646, __zfmain
+0	161	638	#line 161 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	162	638		set __diagonalInferiorDer_7qG2_v_7qG2_000, 90
+0	161	641	#line 161 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	162	641	#line 162 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	163	641		subcall diagonalInferiorDer, __diagonalInferiorDer_return
+0	162	643	#line 162 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	162	643	#line 162 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	163	643		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
+0	162	646	#line 162 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7921	646	#line 7921 "NXCDefs.h"
+0	7922	646		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	649	#line 7921 "NXCDefs.h"
+0	163	649	#line 163 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	166	649	#line 166 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	167	649		jmp __NXC_Label_651
+0	166	651	#line 166 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	167	651		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 80
+0	166	654	#line 166 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	168	654	#line 168 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	169	654		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
+0	168	656	#line 168 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	170	656	#line 170 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	171	656	#line 171 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	172	656		jmp __NXC_Label_591
+0	171	658	#line 171 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	172	658	#line 172 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	172	658	#line 172 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	173	658		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
+0	172	660	#line 172 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	172	660	#line 172 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	173	660		set __D0main, 1
+0	172	663	#line 172 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	173	663		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	172	667	#line 172 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	173	667		mov __D0main, __zfmain
+0	172	669	#line 172 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	173	669		brtst 5, __NXC_Label_655, __zfmain
+0	172	672	#line 172 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	173	672		mov __signed_stack_001main, __D0main
+0	172	674	#line 172 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	173	674		mov __signed_stack_002main, __main_7qG2_csr_7qG2_000.ColorValue
+0	172	676	#line 172 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	173	676	#line 173 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	174	676		set __D0main, 6
+0	173	679	#line 173 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	174	679		cmp 4, __zfmain, __signed_stack_002main, __D0main
+0	173	683	#line 173 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	173	683	#line 173 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	174	683		or __D0main, __signed_stack_001main, __zfmain
+0	175	687	#line 175 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	176	687		tst 5, __zfmain, __D0main
+0	175	690	#line 175 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	176	690		brtst 4, __NXC_Label_658, __zfmain
+0	175	693	#line 175 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	176	693		set __atras_7qG2_v_7qG2_000, 90
+0	175	696	#line 175 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	176	696	#line 176 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	177	696		subcall atras, __atras_return
+0	176	698	#line 176 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	176	698	#line 176 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	177	698		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
+0	176	701	#line 176 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7921	701	#line 7921 "NXCDefs.h"
+0	7922	701		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	704	#line 7921 "NXCDefs.h"
+0	177	704	#line 177 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	180	704	#line 180 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	181	704		jmp __NXC_Label_663
+0	180	706	#line 180 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	181	706		set __adelante_7qG2_v_7qG2_000, 65
+0	180	709	#line 180 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	181	709	#line 181 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	182	709		subcall adelante, __adelante_return
+0	181	711	#line 181 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	182	711	#line 182 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	183	711	#line 183 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	184	711		jmp __NXC_Label_591
+0	183	713	#line 183 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	184	713	#line 184 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	184	713	#line 184 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	185	713		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
+0	184	715	#line 184 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	184	715	#line 184 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	185	715		set __D0main, 1
+0	184	718	#line 184 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	185	718		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	184	722	#line 184 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	185	722		mov __D0main, __zfmain
+0	184	724	#line 184 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	185	724		brtst 5, __NXC_Label_667, __zfmain
+0	184	727	#line 184 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	185	727		mov __signed_stack_001main, __D0main
+0	184	729	#line 184 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	185	729		mov __signed_stack_002main, __main_7qG2_csr_7qG2_000.ColorValue
+0	184	731	#line 184 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	185	731	#line 185 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	186	731		set __D0main, 6
+0	185	734	#line 185 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	186	734		cmp 4, __zfmain, __signed_stack_002main, __D0main
+0	185	738	#line 185 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	185	738	#line 185 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	186	738		or __D0main, __signed_stack_001main, __zfmain
+0	187	742	#line 187 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	188	742		tst 5, __zfmain, __D0main
+0	187	745	#line 187 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	188	745		brtst 4, __NXC_Label_670, __zfmain
+0	187	748	#line 187 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	188	748		set __atras_7qG2_v_7qG2_000, 90
+0	187	751	#line 187 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	188	751	#line 188 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	189	751		subcall atras, __atras_return
+0	188	753	#line 188 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	188	753	#line 188 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	189	753		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
+0	188	756	#line 188 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7921	756	#line 7921 "NXCDefs.h"
+0	7922	756		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	759	#line 7921 "NXCDefs.h"
+0	189	759	#line 189 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	192	759	#line 192 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	193	759		jmp __NXC_Label_675
+0	192	761	#line 192 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	193	761		set __adelante_7qG2_v_7qG2_000, 65
+0	192	764	#line 192 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	193	764	#line 193 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	194	764		subcall adelante, __adelante_return
+0	193	766	#line 193 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	194	766	#line 194 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	195	766	#line 195 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	196	766		jmp __NXC_Label_591
+0	195	768	#line 195 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	196	768	#line 196 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	196	768	#line 196 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	197	768		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
+0	196	770	#line 196 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	196	770	#line 196 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	197	770		set __D0main, 1
+0	196	773	#line 196 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	197	773		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	196	777	#line 196 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	197	777		mov __D0main, __zfmain
+0	196	779	#line 196 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	197	779		brtst 5, __NXC_Label_679, __zfmain
+0	196	782	#line 196 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	197	782		mov __signed_stack_001main, __D0main
+0	196	784	#line 196 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	197	784		mov __signed_stack_002main, __main_7qG2_csr_7qG2_000.ColorValue
+0	196	786	#line 196 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	197	786	#line 197 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	198	786		set __D0main, 6
+0	197	789	#line 197 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	198	789		cmp 4, __zfmain, __signed_stack_002main, __D0main
+0	197	793	#line 197 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	197	793	#line 197 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	198	793		or __D0main, __signed_stack_001main, __zfmain
+0	198	797	#line 198 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	199	797		tst 5, __zfmain, __D0main
+0	198	800	#line 198 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	199	800		brtst 4, __NXC_Label_682, __zfmain
+0	198	803	#line 198 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	199	803		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 90
+0	198	806	#line 198 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	199	806	#line 199 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	200	806		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
+0	199	808	#line 199 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	199	808	#line 199 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	200	808		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
+0	199	811	#line 199 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7921	811	#line 7921 "NXCDefs.h"
+0	7922	811		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	814	#line 7921 "NXCDefs.h"
+0	200	814	#line 200 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	203	814	#line 203 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	204	814		jmp __NXC_Label_687
+0	203	816	#line 203 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	204	816		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 85
+0	203	819	#line 203 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	204	819	#line 204 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	205	819		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
+0	204	821	#line 204 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	207	821	#line 207 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	208	821	#line 208 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	209	821		jmp __NXC_Label_591
+0	208	823	#line 208 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	209	823	#line 209 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	209	823	#line 209 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	210	823		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
+0	209	825	#line 209 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	210	825	#line 210 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	211	825		set __D0main, 1
+0	210	828	#line 210 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	211	828		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	210	832	#line 210 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	211	832		mov __D0main, __zfmain
+0	211	834	#line 211 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	212	834		brtst 4, __NXC_Label_693, __zfmain
+0	211	837	#line 211 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	212	837		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 90
+0	211	840	#line 211 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	212	840	#line 212 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	213	840		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
+0	212	842	#line 212 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	212	842	#line 212 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	213	842		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
+0	212	845	#line 212 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7921	845	#line 7921 "NXCDefs.h"
+0	7922	845		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	848	#line 7921 "NXCDefs.h"
+0	213	848	#line 213 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	214	848	#line 214 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	215	848		jmp __NXC_Label_698
+0	214	850	#line 214 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	215	850		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
+0	214	852	#line 214 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	215	852	#line 215 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	216	852		set __D0main, 6
+0	215	855	#line 215 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	216	855		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	215	859	#line 215 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	216	859		mov __D0main, __zfmain
+0	216	861	#line 216 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	217	861		brtst 4, __NXC_Label_701, __zfmain
+0	216	864	#line 216 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	217	864		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 90
+0	216	867	#line 216 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	217	867	#line 217 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	218	867		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
+0	217	869	#line 217 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	217	869	#line 217 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	218	869		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
+0	217	872	#line 217 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7921	872	#line 7921 "NXCDefs.h"
+0	7922	872		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	875	#line 7921 "NXCDefs.h"
+0	218	875	#line 218 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	222	875	#line 222 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	223	875		jmp __NXC_Label_706
+0	222	877	#line 222 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	223	877		set __diagonalInferiorDer_7qG2_v_7qG2_000, 90
+0	222	880	#line 222 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	223	880	#line 223 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	224	880		subcall diagonalInferiorDer, __diagonalInferiorDer_return
+0	223	882	#line 223 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	224	882	#line 224 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	224	882	#line 224 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	227	882	#line 227 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	228	882		jmp __NXC_Label_591
+0	227	884	#line 227 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	229	884	#line 229 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	229	884	#line 229 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	230	884		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
+0	229	886	#line 229 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	230	886	#line 230 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	231	886		set __D0main, 1
+0	230	889	#line 230 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	231	889		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	230	893	#line 230 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	231	893		mov __D0main, __zfmain
+0	231	895	#line 231 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	232	895		brtst 4, __NXC_Label_712, __zfmain
+0	231	898	#line 231 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	232	898		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 90
+0	231	901	#line 231 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	232	901	#line 232 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	233	901		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
+0	232	903	#line 232 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	232	903	#line 232 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	233	903		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
+0	232	906	#line 232 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7921	906	#line 7921 "NXCDefs.h"
+0	7922	906		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	909	#line 7921 "NXCDefs.h"
+0	233	909	#line 233 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	234	909	#line 234 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	235	909		jmp __NXC_Label_717
+0	234	911	#line 234 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	235	911		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
+0	234	913	#line 234 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	235	913	#line 235 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	236	913		set __D0main, 6
+0	235	916	#line 235 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	236	916		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	235	920	#line 235 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	236	920		mov __D0main, __zfmain
+0	236	922	#line 236 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	237	922		brtst 4, __NXC_Label_720, __zfmain
+0	236	925	#line 236 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	237	925		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 90
+0	236	928	#line 236 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	237	928	#line 237 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	238	928		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
+0	237	930	#line 237 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	237	930	#line 237 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	238	930		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
+0	237	933	#line 237 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7921	933	#line 7921 "NXCDefs.h"
+0	7922	933		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	936	#line 7921 "NXCDefs.h"
+0	238	936	#line 238 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	242	936	#line 242 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	243	936		jmp __NXC_Label_725
+0	242	938	#line 242 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	243	938		set __diagonalInferiorDer_7qG2_v_7qG2_000, 90
+0	242	941	#line 242 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	243	941	#line 243 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	244	941		subcall diagonalInferiorDer, __diagonalInferiorDer_return
+0	243	943	#line 243 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	244	943	#line 244 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	244	943	#line 244 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	245	943	#line 245 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	246	943		jmp __NXC_Label_591
+0	245	945	#line 245 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	246	945	#line 246 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	246	945	#line 246 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	247	945		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
+0	246	947	#line 246 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	247	947	#line 247 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	248	947		set __D0main, 1
+0	247	950	#line 247 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	248	950		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	247	954	#line 247 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	248	954		mov __D0main, __zfmain
+0	248	956	#line 248 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	249	956		brtst 4, __NXC_Label_731, __zfmain
+0	248	959	#line 248 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	249	959		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 90
+0	248	962	#line 248 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	249	962	#line 249 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	250	962		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
+0	249	964	#line 249 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	249	964	#line 249 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	250	964		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
+0	249	967	#line 249 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7921	967	#line 7921 "NXCDefs.h"
+0	7922	967		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	970	#line 7921 "NXCDefs.h"
+0	250	970	#line 250 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	251	970	#line 251 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	252	970		jmp __NXC_Label_736
+0	251	972	#line 251 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	252	972		mov __signed_stack_001main, __main_7qG2_csr_7qG2_000.ColorValue
+0	251	974	#line 251 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	252	974	#line 252 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	253	974		set __D0main, 6
+0	252	977	#line 252 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	253	977		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	252	981	#line 252 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	253	981		mov __D0main, __zfmain
+0	253	983	#line 253 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	254	983		brtst 4, __NXC_Label_739, __zfmain
+0	253	986	#line 253 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	254	986		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 90
+0	253	989	#line 253 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	254	989	#line 254 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	255	989		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
+0	254	991	#line 254 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	254	991	#line 254 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	255	991		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
+0	254	994	#line 254 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	7921	994	#line 7921 "NXCDefs.h"
+0	7922	994		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	997	#line 7921 "NXCDefs.h"
+0	255	997	#line 255 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	259	997	#line 259 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	260	997		jmp __NXC_Label_744
+0	259	999	#line 259 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	260	999		set __diagonalInferiorDer_7qG2_v_7qG2_000, 90
+0	259	1002	#line 259 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	260	1002	#line 260 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	261	1002		subcall diagonalInferiorDer, __diagonalInferiorDer_return
+0	260	1004	#line 260 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	261	1004	#line 261 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	261	1004	#line 261 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	262	1004	#line 262 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	262	1004	#line 262 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	264	1004	#line 264 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	265	1004	#line 265 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	266	1004	#line 266 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	268	1004	#line 268 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	269	1004		jmp __NXC_Label_747
+0	269	1006	#line 269 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	270	1006	#pragma macro 7
+0	270	1006		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5599	1029	#line 5599 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	269	1029	#line 269 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	270	1029	#line 270 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	271	1029		set __main_7qG2_puntoNeutro_7qG2_000, 1
+0	270	1032	#line 270 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	270	1032	#line 270 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	272	1032	#line 272 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	274	1032	#line 274 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	275	1032		jmp __NXC_Label_540
+0	274	1034	#line 274 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+0	275	1034		exit -1, -1
 1	4885	0		setin __constVal1, __ResetSensorPort, 5
 1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
@@ -1153,195 +1205,195 @@ Clump	Line	PC	Source
 3	5768	78		mov __RLSReadBuf2, __RLSLastGoodRead2
 3	5770	80		arrsize __RLSBytesCount2, __RLSReadBuf2
 3	5772	83		subret ____ReadLSBytes2_return
-4	15	0	#line 15 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+4	15	0	#line 15 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 4	16	0	#pragma macro 7
 4	16	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-4	4028	23	#line 4028 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-4	15	23	#line 15 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-4	15	23	#line 15 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+4	4028	23	#line 4028 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+4	15	23	#line 15 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+4	15	23	#line 15 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 4	16	23		mov __D0diagonalSuperiorIzq, __diagonalSuperiorIzq_7qG2_v_7qG2_000
-4	16	25	#line 16 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+4	16	25	#line 16 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 4	17	25	#pragma macro 7
 4	17	25		setout __constVal0, 2, __D0diagonalSuperiorIzq, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-4	4035	48	#line 4035 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-4	16	48	#line 16 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-4	16	48	#line 16 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+4	4035	48	#line 4035 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+4	16	48	#line 16 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+4	16	48	#line 16 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 4	17	48		mov __D0diagonalSuperiorIzq, __diagonalSuperiorIzq_7qG2_v_7qG2_000
-4	17	50	#line 17 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+4	17	50	#line 17 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 4	18	50	#pragma macro 10
 4	18	50		acquire __OnRevMutex
 4	18	51		neg __OnRev_Tmp, __D0diagonalSuperiorIzq
 4	18	54		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
 4	18	77		release __OnRevMutex
-4	4042	78	#line 4042 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-4	17	78	#line 17 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-4	18	78	#line 18 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+4	4042	78	#line 4042 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+4	17	78	#line 17 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+4	18	78	#line 18 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 4	19	78		subret __diagonalSuperiorIzq_return
-5	20	0	#line 20 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+5	20	0	#line 20 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 5	21	0	#pragma macro 7
 5	21	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-5	4054	23	#line 4054 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-5	20	23	#line 20 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-5	20	23	#line 20 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+5	4054	23	#line 4054 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+5	20	23	#line 20 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+5	20	23	#line 20 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 5	21	23		mov __D0diagonalSuperiorDer, __diagonalSuperiorDer_7qG2_v_7qG2_000
-5	21	25	#line 21 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+5	21	25	#line 21 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 5	22	25	#pragma macro 7
 5	22	25		setout __constVal2, 2, __D0diagonalSuperiorDer, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-5	4061	48	#line 4061 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-5	21	48	#line 21 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-5	21	48	#line 21 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+5	4061	48	#line 4061 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+5	21	48	#line 21 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+5	21	48	#line 21 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 5	22	48		mov __D0diagonalSuperiorDer, __diagonalSuperiorDer_7qG2_v_7qG2_000
-5	22	50	#line 22 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+5	22	50	#line 22 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 5	23	50	#pragma macro 10
 5	23	50		acquire __OnRevMutex
 5	23	51		neg __OnRev_Tmp, __D0diagonalSuperiorDer
 5	23	54		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
 5	23	77		release __OnRevMutex
-5	4068	78	#line 4068 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-5	22	78	#line 22 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-5	23	78	#line 23 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+5	4068	78	#line 4068 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+5	22	78	#line 22 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+5	23	78	#line 23 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 5	24	78		subret __diagonalSuperiorDer_return
-6	25	0	#line 25 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+6	25	0	#line 25 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 6	26	0	#pragma macro 7
 6	26	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-6	4080	23	#line 4080 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-6	25	23	#line 25 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-6	25	23	#line 25 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+6	4080	23	#line 4080 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+6	25	23	#line 25 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+6	25	23	#line 25 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 6	26	23		mov __D0adelante, __adelante_7qG2_v_7qG2_000
-6	26	25	#line 26 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+6	26	25	#line 26 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 6	27	25	#pragma macro 7
 6	27	25		setout __constVal0, 2, __D0adelante, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-6	4087	48	#line 4087 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-6	26	48	#line 26 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-6	26	48	#line 26 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+6	4087	48	#line 4087 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+6	26	48	#line 26 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+6	26	48	#line 26 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 6	27	48		mov __D0adelante, __adelante_7qG2_v_7qG2_000
-6	27	50	#line 27 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+6	27	50	#line 27 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 6	28	50	#pragma macro 10
 6	28	50		acquire __OnRevMutex
 6	28	51		neg __OnRev_Tmp, __D0adelante
 6	28	54		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
 6	28	77		release __OnRevMutex
-6	4094	78	#line 4094 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-6	27	78	#line 27 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-6	28	78	#line 28 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+6	4094	78	#line 4094 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+6	27	78	#line 27 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+6	28	78	#line 28 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 6	29	78		subret __adelante_return
-7	30	0	#line 30 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+7	30	0	#line 30 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 7	31	0	#pragma macro 7
 7	31	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-7	4106	23	#line 4106 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-7	30	23	#line 30 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-7	30	23	#line 30 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+7	4106	23	#line 4106 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+7	30	23	#line 30 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+7	30	23	#line 30 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 7	31	23		mov __D0diagonalInferiorIzq, __diagonalInferiorIzq_7qG2_v_7qG2_000
-7	31	25	#line 31 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+7	31	25	#line 31 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 7	32	25	#pragma macro 7
 7	32	25		setout __constVal1, 2, __D0diagonalInferiorIzq, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-7	4113	48	#line 4113 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-7	31	48	#line 31 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-7	31	48	#line 31 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+7	4113	48	#line 4113 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+7	31	48	#line 31 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+7	31	48	#line 31 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 7	32	48		mov __D0diagonalInferiorIzq, __diagonalInferiorIzq_7qG2_v_7qG2_000
-7	32	50	#line 32 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+7	32	50	#line 32 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 7	33	50	#pragma macro 10
 7	33	50		acquire __OnRevMutex
 7	33	51		neg __OnRev_Tmp, __D0diagonalInferiorIzq
 7	33	54		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
 7	33	77		release __OnRevMutex
-7	4120	78	#line 4120 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-7	32	78	#line 32 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-7	33	78	#line 33 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+7	4120	78	#line 4120 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+7	32	78	#line 32 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+7	33	78	#line 33 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 7	34	78		subret __diagonalInferiorIzq_return
-8	35	0	#line 35 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+8	35	0	#line 35 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 8	36	0	#pragma macro 7
 8	36	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-8	4132	23	#line 4132 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-8	35	23	#line 35 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-8	35	23	#line 35 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+8	4132	23	#line 4132 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+8	35	23	#line 35 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+8	35	23	#line 35 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 8	36	23		mov __D0diagonalInferiorDer, __diagonalInferiorDer_7qG2_v_7qG2_000
-8	36	25	#line 36 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+8	36	25	#line 36 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 8	37	25	#pragma macro 7
 8	37	25		setout __constVal2, 2, __D0diagonalInferiorDer, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-8	4139	48	#line 4139 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-8	36	48	#line 36 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-8	36	48	#line 36 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+8	4139	48	#line 4139 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+8	36	48	#line 36 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+8	36	48	#line 36 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 8	37	48		mov __D0diagonalInferiorDer, __diagonalInferiorDer_7qG2_v_7qG2_000
-8	37	50	#line 37 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+8	37	50	#line 37 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 8	38	50	#pragma macro 10
 8	38	50		acquire __OnRevMutex
 8	38	51		neg __OnRev_Tmp, __D0diagonalInferiorDer
 8	38	54		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
 8	38	77		release __OnRevMutex
-8	4146	78	#line 4146 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-8	37	78	#line 37 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-8	38	78	#line 38 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+8	4146	78	#line 4146 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+8	37	78	#line 37 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+8	38	78	#line 38 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 8	39	78		subret __diagonalInferiorDer_return
-9	40	0	#line 40 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+9	40	0	#line 40 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 9	41	0	#pragma macro 7
 9	41	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-9	4158	23	#line 4158 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-9	40	23	#line 40 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-9	40	23	#line 40 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+9	4158	23	#line 4158 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+9	40	23	#line 40 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+9	40	23	#line 40 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 9	41	23		mov __D0atras, __atras_7qG2_v_7qG2_000
-9	41	25	#line 41 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+9	41	25	#line 41 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 9	42	25	#pragma macro 7
 9	42	25		setout __constVal1, 2, __D0atras, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-9	4165	48	#line 4165 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-9	41	48	#line 41 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-9	41	48	#line 41 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+9	4165	48	#line 4165 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+9	41	48	#line 41 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+9	41	48	#line 41 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 9	42	48		mov __D0atras, __atras_7qG2_v_7qG2_000
-9	43	50	#line 43 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+9	43	50	#line 43 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 9	44	50	#pragma macro 10
 9	44	50		acquire __OnRevMutex
 9	44	51		neg __OnRev_Tmp, __D0atras
 9	44	54		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
 9	44	77		release __OnRevMutex
-9	4172	78	#line 4172 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-9	43	78	#line 43 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-9	45	78	#line 45 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+9	4172	78	#line 4172 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+9	43	78	#line 43 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+9	45	78	#line 45 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 9	46	78		subret __atras_return
-10	47	0	#line 47 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+10	47	0	#line 47 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 10	48	0	#pragma macro 7
 10	48	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-10	4184	23	#line 4184 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-10	47	23	#line 47 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-10	47	23	#line 47 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+10	4184	23	#line 4184 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+10	47	23	#line 47 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+10	47	23	#line 47 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 10	48	23		mov __D0alinearIzq, __alinearIzq_7qG2_v_7qG2_000
-10	48	25	#line 48 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+10	48	25	#line 48 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 10	49	25	#pragma macro 7
 10	49	25		setout __OUT_ABC, 2, __D0alinearIzq, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-10	4191	48	#line 4191 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-10	48	48	#line 48 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-10	49	48	#line 49 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+10	4191	48	#line 4191 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+10	48	48	#line 48 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+10	49	48	#line 49 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 10	50	48		subret __alinearIzq_return
-11	51	0	#line 51 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+11	51	0	#line 51 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 11	52	0	#pragma macro 7
 11	52	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-11	4203	23	#line 4203 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-11	51	23	#line 51 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-11	51	23	#line 51 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+11	4203	23	#line 4203 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+11	51	23	#line 51 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+11	51	23	#line 51 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 11	52	23		mov __D0alinearDer, __alinearDer_7qG2_v_7qG2_000
-11	52	25	#line 52 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+11	52	25	#line 52 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 11	53	25	#pragma macro 10
 11	53	25		acquire __OnRevMutex
 11	53	26		neg __OnRev_Tmp, __D0alinearDer
 11	53	29		setout __OUT_ABC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
 11	53	52		release __OnRevMutex
-11	4210	53	#line 4210 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-11	52	53	#line 52 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-11	55	53	#line 55 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+11	4210	53	#line 4210 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+11	52	53	#line 52 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+11	55	53	#line 55 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
 11	56	53		subret __alinearDer_return
-12	247	0	#line 247 "C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
-12	248	0		subret ____initialize_global_data_return
+12	275	0	#line 275 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc"
+12	276	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc
-1	__ResetSensorSubroutine	1009	NXTDefs.h
-2	__ReadLSBytes0	1022	NXTDefs.h
-3	__ReadLSBytes2	1107	NXTDefs.h
-4	diagonalSuperiorIzq	1192	C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc
-5	diagonalSuperiorDer	1272	C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc
-6	adelante	1352	C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc
-7	diagonalInferiorIzq	1432	C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc
-8	diagonalInferiorDer	1512	C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc
-9	atras	1592	C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc
-10	alinearIzq	1672	C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc
-11	alinearDer	1722	C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc
-12	__initialize_global_data	1777	C:\Users\PC\Documents\Soccer-Java\Yolo python\Defensa\Defensa.nxc
+0	main	0	C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc
+1	__ResetSensorSubroutine	1037	NXTDefs.h
+2	__ReadLSBytes0	1050	NXTDefs.h
+3	__ReadLSBytes2	1135	NXTDefs.h
+4	diagonalSuperiorIzq	1220	C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc
+5	diagonalSuperiorDer	1300	C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc
+6	adelante	1380	C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc
+7	diagonalInferiorIzq	1460	C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc
+8	diagonalInferiorDer	1540	C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc
+9	atras	1620	C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc
+10	alinearIzq	1700	C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc
+11	alinearDer	1750	C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc
+12	__initialize_global_data	1805	C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Defensa\Defensa.nxc
