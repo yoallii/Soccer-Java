@@ -97,8 +97,7 @@ void alinearDer(int v){
           //dependiendo del caso que detecte el infrarrojo
             switch(ir){
               case 1:
-
-                   if(Sensor(S4) > luz)
+                      if(Sensor(S4) > luz)
                    {
                      diagonalSuperiorDer(90);
                      Wait(300);
@@ -108,6 +107,7 @@ void alinearDer(int v){
                      diagonalInferiorIzq(95);
                    }
                    break;
+
                case 2:
                      if(Sensor(S4) > luz)
                    {
@@ -136,7 +136,7 @@ void alinearDer(int v){
 
                     break;
                case 4:
-                     if(Sensor(S4) > luz)
+                if(Sensor(S4) > luz)
                    {
 
                         atras(90);
@@ -147,7 +147,7 @@ void alinearDer(int v){
                         adelante(90);
                       }
 
-                   break;
+                    break;
                case 5:
                     if(Sensor(S4) > luz)
                    {
@@ -213,15 +213,15 @@ void alinearDer(int v){
                    }
                    break;
                case 0:
-                    if(Sensor(S4) > luz)
+                  if(Sensor(S4) > luz)
                    {
-                     diagonalSuperiorDer(90);
+                     diagonalSuperiorIzq(90);
                      Wait(300);
                    }
                    else
                    {
 
-                     diagonalInferiorIzq(90);
+                     diagonalInferiorDer(95);
                    }
                    break;
           }

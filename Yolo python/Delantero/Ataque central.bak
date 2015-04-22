@@ -55,25 +55,23 @@ void alinearDer(int v){
 //MAIN....................................................
  task main()
   {
-
+     //VARIABLE DE LUZ
+     int luz=40;       //VALOR DE LUZ SE NECESITA CALIBRAR
      //VARIABLES DE SENSOR IR
      int ir,s1,s2,s3,s4,s5;
      //VARIABLES DE COMPAS
      int cinicio,cactual,ba;
-     bool puntoNeutro=false;
+
      SetSensorLowspeed(IN_1); //Sensor infrarrojo
      SetSensorLowspeed(IN_3); //Sensor de compas
-     SetSensorColorFull(S4);
-     ColorSensorReadType csr;
-     csr.Port = S4;
+     SetSensorLight(IN_4);  //Sensor de luz
      SetSensorTouch(IN_2);   //Sensor de tacto
      //guardamos valor de compas al inicio
      cinicio=SensorHTCompass(IN_3);
 
      //inicia ciclo
      while(true) {
-       SysColorSensorRead(csr);    //leemos sensor de color
-      //leemos datos de ir
+       //leemos datos de ir
        ReadSensorHTIRSeeker2AC(IN_1,ir,s1,s2,s3,s4,s5);
        cactual=SensorHTCompass(IN_3);  //detectamos el valor actual de compas
        ba=brujula(cinicio,cactual);  //ba ahora vale un angulo respecto a como empieza
@@ -96,150 +94,144 @@ void alinearDer(int v){
          //Si esta acomodado entonces.................................
          else
          {
-           if(puntoNeutro==true)
-           {
-            atras(100);
-             Wait(800);
-               puntoNeutro=false;
-           }
-           else
-           {
-           //dependiendo del caso que detecte el infrarrojo
+          //dependiendo del caso que detecte el infrarrojo
             switch(ir){
               case 1:
 
-                   if(csr.ColorValue==1 || csr.ColorValue==6)
+                    if(Sensor(S4) > luz)
                    {
-                     diagonalSuperiorDer(70);
+                     adelante(90);
                      Wait(300);
                    }
                    else
                    {
-                     diagonalInferiorIzq(75);
+
+                     atras(90);
                    }
+                   break;
                    break;
                case 2:
-
-                   if(csr.ColorValue==1 || csr.ColorValue==6)
+                     if(Sensor(S4) > luz)
                    {
-                     diagonalSuperiorDer(70);
+                     diagonalSuperiorDer(90);
                      Wait(300);
                    }
                    else
                    {
-                     diagonalInferiorIzq(75);
+                     diagonalInferiorIzq(95);
                    }
                    break;
+
+
+
                case 3:
-                     if(csr.ColorValue==1 || csr.ColorValue==6)
+                     if(Sensor(S4) > luz)
                    {
-                        diagonalInferiorDer(70);          // borde negro o blanco
-                        Wait(700);
+                        diagonalInferiorDer(90);
+                        Wait(300);
                     }
                       else
                       {
-                        diagonalSuperiorIzq(75);          //normal
+                        diagonalSuperiorIzq(85);
 
                       }
 
                     break;
                case 4:
-                    if(csr.ColorValue==1 || csr.ColorValue==6)
+                     if(Sensor(S4) > luz)
                    {
-                        diagonalInferiorDer(70);          // borde negro o blanco
-                        Wait(700);
-                    }
+
+                        atras(90);
+                         Wait(300);
+                     }
                       else
                       {
-                        diagonalSuperiorIzq(75);          //normal
-
+                        adelante(90);
                       }
 
                    break;
                case 5:
-                    if(csr.ColorValue==1 || csr.ColorValue==6)
+                    if(Sensor(S4) > luz)
                    {
 
-                        atras(80);
-                         Wait(700);
+                        atras(90);
+                         Wait(300);
                      }
                       else
                       {
-                        adelante(60);
+                        adelante(90);
                       }
                    break;
                case 6:
-                         if(csr.ColorValue==1 || csr.ColorValue==6)
+                if(Sensor(S4) > luz)
                    {
 
-                        atras(80);
-                         Wait(700);
+                        atras(90);
+                         Wait(300);
                      }
                       else
                       {
-                        adelante(60);
+                        adelante(90);
                       }
                    break;
                case  7:
-                        if(csr.ColorValue==1 || csr.ColorValue==6)
+                     if(Sensor(S4) > luz)
                    {
-
-                        atras(80);
-                         Wait(700);
-                     }
-                      else
-                      {
-                        adelante(60);
-                      }
-                   break;
+                          diagonalInferiorIzq(90);
+                         Wait(300);
+                    }
+                   else
+                   {
+                        diagonalSuperiorDer(85);
+                    }
 
 
                    break;
                case 8:
-
-                    if(csr.ColorValue==1 || csr.ColorValue==6)
+                 if(Sensor(S4) > luz)
                    {
-                     diagonalSuperiorIzq(70);
+                     diagonalSuperiorIzq(90);
                      Wait(300);
                    }
                    else
                    {
-                      diagonalInferiorDer(75);
+
+                     diagonalInferiorDer(95);
                    }
                    break;
+
+
                case 9:
 
-                    if(csr.ColorValue==1 || csr.ColorValue==6)
+                    if(Sensor(S4) > luz)
                    {
-                     diagonalSuperiorIzq(70);
+                     adelante(90);
                      Wait(300);
                    }
                    else
                    {
 
-                     diagonalInferiorDer(75);
+                     atras(90);
                    }
                    break;
                case 0:
-                    if(csr.ColorValue==1 || csr.ColorValue==6)
+                  if(Sensor(S4) > luz)
                    {
-                     diagonalSuperiorDer(70);
-                     Wait(150);
+                     diagonalSuperiorIzq(90);
+                     Wait(300);
                    }
                    else
                    {
 
-                     diagonalInferiorIzq(70);
+                     diagonalInferiorDer(95);
                    }
                    break;
           }
-         }
         }
        }
        else
        {
          Off(OUT_ABC);
-         puntoNeutro=true;
        }
      }
   }
