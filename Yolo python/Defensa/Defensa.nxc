@@ -3,64 +3,99 @@
 //FUNCION QUE DEVUELVE ENTERO QUE HACE QUE EL COMPAS TE DE EL VALOR COMO APUNTASTE AL PRINCIPIO
 inline int brujula(int compas,int compasactual)
 {
+    
     int b;
-    b=compasactual-compas;
-    if(b<0){
+    b = compasactual-compas;
+    
+    if (b < 0)
+    {
+    
         b+=360;
+    
     }
+    
     return b;
 }
 //FUNCIONES DE LOS 6 MOVIMIENTOS DEL ROBOT...............................
-void diagonalSuperiorIzq(int v){
+void diagonalSuperiorIzq(int v)
+{
+
   Off(OUT_ABC);
   OnFwd(OUT_A,v);
   OnRev(OUT_C,v);
+
 }
-void diagonalSuperiorDer(int v){
+
+void diagonalSuperiorDer(int v)
+{
+
   Off(OUT_ABC);
   OnFwd(OUT_C,v);
   OnRev(OUT_B,v);
+
 }
-void adelante(int v){
+
+void adelante(int v)
+{
+
   Off(OUT_ABC);
   OnFwd(OUT_A,v);
   OnRev(OUT_B,v);
+
 }
-void diagonalInferiorIzq(int v){
+
+void diagonalInferiorIzq(int v)
+{
+ 
   Off(OUT_ABC);
   OnFwd(OUT_B,v);
   OnRev(OUT_C,v);
+
 }
-void diagonalInferiorDer(int v){
+
+void diagonalInferiorDer(int v)
+{
+
   Off(OUT_ABC);
   OnFwd(OUT_C,v);
   OnRev(OUT_A,v);
+
 }
-void atras(int v){
+
+void atras(int v)
+{
+
   Off(OUT_ABC);
   OnFwd(OUT_B,v);
   OnRev(OUT_A,v);
 
 }
 //ALINEACIONES DEL ROBOT....................................
-void alinearIzq(int v){
+void alinearIzq(int v)
+{
+
   Off(OUT_ABC);
   OnFwd(OUT_ABC,v);
+
 }
-void alinearDer(int v){
+
+void alinearDer(int v)
+{
+
   Off(OUT_ABC);
   OnRev(OUT_ABC,v);
+
 }
 
 //MAIN....................................................
  task main()
-  {
+ {
 
      //VARIABLES DE SENSOR IR
      int ir,s1,s2,s3,s4,s5;
      //VARIABLES DE COMPAS
      int cinicio,cactual,ba;
-     bool puntoNeutro=false;
+     bool puntoNeutro = false;
      SetSensorLowspeed(IN_1); //Sensor infrarrojo
      SetSensorLowspeed(IN_3); //Sensor de compas
      SetSensorColorFull(S4);
@@ -71,203 +106,294 @@ void alinearDer(int v){
      cinicio=SensorHTCompass(IN_3);
 
      //inicia ciclo
-     while(true) {
+     while(true) 
+     {
+     
        SysColorSensorRead(csr);    //leemos sensor de color
-      //leemos datos de ir
+       //leemos datos de ir
        ReadSensorHTIRSeeker2AC(IN_1,ir,s1,s2,s3,s4,s5);
-       cactual=SensorHTCompass(IN_3);  //detectamos el valor actual de compas
-       ba=brujula(cinicio,cactual);  //ba ahora vale un angulo respecto a como empieza
-       if(Sensor(IN_2) == 0)
+       cactual = SensorHTCompass(IN_3);  //detectamos el valor actual de compas
+       ba = brujula(cinicio,cactual);  //ba ahora vale un angulo respecto a como empieza
+       
+       if (Sensor(IN_2) == 0)
        {
-            //Alineamos el robot si esta chueco.................
-          if(ba>=20 && ba<=340)
+          //Alineamos el robot si esta chueco.................
+          if (ba >= 20 && ba <= 340)
           {
-          	 if(ba >= 180)
+          	 
+             if(ba >= 180)
 					   {
+                 
                  alinearIzq(70);
                  until(ba<350);
-              }
-					    else
-              {
+            
+             }
+					   
+             else
+             {
+             
                    alinearDer(70);
 				           until(ba > 5);
-              }
+             
+             }
            }
-         //Si esta acomodado entonces.................................
-         else
-         {
-           if(puntoNeutro==true)
+          //Si esta acomodado entonces.................................
+          else
+          {
+          
+           if(puntoNeutro == true)
            {
-            atras(100);
+             
+             atras(100);
              Wait(600);
-             puntoNeutro=false;
+             puntoNeutro = false;
+           
            }
+           
            else
            {
            //dependiendo del caso que detecte el infrarrojo
-            switch(ir){
+            switch(ir)
+            {
               //csr.ColorValue==1 || csr.ColorValue==6
                 case 1:
-                      if(csr.ColorValue==1)
+                   
+                   if(csr.ColorValue == 1)
                    {
+                   
                      diagonalInferiorDer(90);
                      Wait(400);
+                   
                    }
-                    else if(csr.ColorValue==6)
+                   
+                   else if(csr.ColorValue == 6)
                    {
+                     
                      diagonalSuperiorDer(90);
                      Wait(400);
+                   
                    }
+                   
                    else
                    {
+                   
                      diagonalInferiorIzq(70);
+                   
                    }
+                   
                    break;
 
-               case 2:
-                       if(csr.ColorValue==1)
-                   {
+                case 2:
+                
+                    if(csr.ColorValue==1)
+                    {
+                    
                      diagonalInferiorDer(90);
                      Wait(400);
-                   }
+                    
+                    }
+                    
                     else if(csr.ColorValue==6)
-                   {
+                    {
+                    
                      diagonalSuperiorDer(90);
                      Wait(400);
-                   }
-                   else
-                   {
+                    
+                    }
+                   
+                    else
+                    {
+                    
                      diagonalInferiorIzq(70);
-                   }
-                   break;
+                    
+                    }
+                    
+                    break;
 
-
-
-               case 3:
+                case 3:
+                
                      if(csr.ColorValue==1 || csr.ColorValue==6)
-                   {
+                     {
+                     
                         diagonalInferiorDer(90);
                         Wait(400);
-                    }
-                      else
-                      {
+                    
+                     }
+                     
+                     else
+                     {
+                     
                         diagonalSuperiorIzq(85);
 
-                      }
+                     }
 
                     break;
-               case 4:
-                  if(csr.ColorValue==1 || csr.ColorValue==6)
-                   {
+
+                case 4:
+                
+                    if(csr.ColorValue==1 || csr.ColorValue==6)
+                    {
+                    
                         diagonalInferiorDer(90);
                         Wait(400);
+                    
                     }
-                      else
-                      {
+                    
+                    else
+                    {
+                    
                         diagonalSuperiorIzq(80);
 
-                      }
+                    }
 
                     break;
-               case 5:
+               
+                case 5:
+                
                     if(csr.ColorValue==1 || csr.ColorValue==6)
-                   {
+                    {
 
                         atras(90);
                          Wait(400);
-                     }
-                      else
-                      {
-                        adelante(65);
-                      }
-                   break;
-               case 6:
-                 if(csr.ColorValue==1 || csr.ColorValue==6 )
-                   {
-
-                        atras(90);
-                         Wait(400);
-                     }
-                      else
-                      {
-                        adelante(65);
-                      }
-                   break;
-               case  7:
-                     if(csr.ColorValue==1 || csr.ColorValue==6)
-                   {
-                          diagonalInferiorIzq(90);
-                         Wait(400);
+                    
                     }
-                   else
-                   {
+                    
+                    else
+                    {
+                    
+                        adelante(65);
+                    }
+                    
+                    break;
+               
+                case 6:
+                
+                    if(csr.ColorValue==1 || csr.ColorValue==6 )
+                    {
+
+                        atras(90);
+                        Wait(400);
+                  
+                    }
+                   
+                    else
+                    {
+                    
+                        adelante(65);
+                    
+                    }
+                    
+                    break;
+               
+                case  7:
+                
+                    if(csr.ColorValue==1 || csr.ColorValue==6)
+                    {
+                    
+                         diagonalInferiorIzq(90);
+                         Wait(400);
+                    
+                    }
+                   
+                    else
+                    {
+                    
                         diagonalSuperiorDer(85);
+                    
                     }
 
-
-                   break;
-               case 8:
-                 if(csr.ColorValue==1)
-                   {
+                    break;
+               
+                case 8:
+                
+                    if(csr.ColorValue==1)
+                    {
+                    
                      diagonalInferiorIzq(90);
                      Wait(400);
-                   }
+                   
+                    }
+                    
                     else if(csr.ColorValue==6)
-                   {
+                    {
+                    
                      diagonalSuperiorIzq(90);
                      Wait(400);
-                   }
-                   else
-                   {
+                   
+                    }
+                   
+                    else
+                    {
 
                      diagonalInferiorDer(90);
-                   }
+                   
+                    }
+                   
                    break;
 
-
-               case 9:
+                case 9:
 
                    if(csr.ColorValue==1)
                    {
+                
                      diagonalInferiorIzq(90);
                      Wait(400);
+                
                    }
-                    else if(csr.ColorValue==6)
+                
+                   else if(csr.ColorValue==6)
                    {
+                     
                      diagonalSuperiorIzq(90);
                      Wait(400);
+                   
                    }
+                   
                    else
                    {
 
                      diagonalInferiorDer(90);
+                   
                    }
+                   
                    break;
-               case 0:
+               
+                case 0:
+                
                    if(csr.ColorValue==1)
                    {
+                
                      diagonalInferiorIzq(90);
                      Wait(400);
+                
                    }
-                    else if(csr.ColorValue==6)
+                
+                   else if(csr.ColorValue==6)
                    {
+                
                      diagonalSuperiorIzq(90);
                      Wait(400);
+                
                    }
+                
                    else
                    {
 
                      diagonalInferiorDer(90);
+                
                    }
+                
                    break;
+              }
+            }
           }
-         }
         }
-       }
-       else
-       {
+        else
+        {
+        
          Off(OUT_ABC);
          puntoNeutro=true;
-       }
+       
+        }
      }
   }
