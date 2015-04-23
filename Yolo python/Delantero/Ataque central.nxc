@@ -1,4 +1,4 @@
-                                      //CREADO POR YOALLI Y PYTHON
+//CREADO POR YOALLI Y PYTHON
 
 //FUNCION QUE DEVUELVE ENTERO QUE HACE QUE EL COMPAS TE DE EL VALOR COMO APUNTASTE AL PRINCIPIO
 inline int brujula(int compas,int compasactual)
